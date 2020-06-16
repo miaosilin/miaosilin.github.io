@@ -336,6 +336,7 @@ links_settings:
 
 links:
   OBHRM: http:/www.obhrm.net/index.php/首页
+  NBER: https://www.nber.org/papers.html
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
