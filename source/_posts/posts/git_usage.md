@@ -1,4 +1,7 @@
-ways to upload
+title: ways to upload
+url: ways to upload_url
+tags: tips
+Categories: Articles
 
 
 
