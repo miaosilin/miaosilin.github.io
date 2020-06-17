@@ -2,6 +2,7 @@
 title: hello world
 url: hello_url
 tags: tips
-Categories: Articles
+categories: Articles
 ---
 
+hello world!

@@ -1,8 +1,8 @@
 ---
-title: git_useage
+title: git_usage
 url: git_useage_url
 tags: tips
-Categories: Articles
+categories: tips
 ---
 
 git add .
