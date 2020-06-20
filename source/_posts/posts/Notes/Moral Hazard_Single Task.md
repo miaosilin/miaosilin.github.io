@@ -57,14 +57,9 @@ $$
 ### Proposition : 
 
 		1. If P is risk neutral and A is risk averse, P should offer A constant wage provide full insurance;
-  		2. If A is risk neutral and P is risk averse, P should sell his firm to A at a certain price;
-    		3. If both P and A are risk neutral, P should sell his firm to A;
-      		4. If both P and A are risk averse, they  share risk according to a certain proportion. Proposition 1-3 are special case of proposition 4.
-
-
-
-
-
+	 	2. If A is risk neutral and P is risk averse, P should sell his firm to A at a certain price;
+	    3. If both P and A are risk neutral, P should sell his firm to A;
+	    4. If both P and A are risk averse, they  share risk according to a certain proportion. Proposition 1-3 are special case of proposition 4.
 ## 2.1.2 Standard model: asymmetric information
 
 $a \in\left\{a^{H}, a^{L}\right\}, c\left(a^{H}\right)>c\left(a^{L}\right)$
@@ -72,12 +67,10 @@ $a \in\left\{a^{H}, a^{L}\right\}, c\left(a^{H}\right)>c\left(a^{L}\right)$
  $$ for all the $k=1,2, \ldots, n-1$  
 
 $$
-
-$$
 \sum_{i=1}^{k} p_{i}^{H}<\sum_{i=1}^{k} p_{i}^{L} \\
 \sum_{i=1}^{n} p_{i}^{H}=\sum_{i=1}^{n} p_{i}^{L}=1
 $$
- 代理人A的激励相容约束（IC)
+代理人A的激励相容约束（IC)
 $$
 \sum_{i=1}^{n} p_{i}^{H} u\left(w\left(x_{i}\right)\right)-c\left(a^{H}\right) \geq \sum_{i=1}^{n} p_{i}^{L} u\left(w\left(x_{i}\right)\right)-c\left(a^{L}\right)  \\
 \Rightarrow \sum_{i=1}^{n}\left(p_{i}^{H}-p_{i}^{L}\right) u\left(w\left(x_{i}\right)\right) \geq c\left(a^{H}\right)-c\left(a^{L}\right)
@@ -88,7 +81,7 @@ $$
 \text {s.t. }(\mathrm{IR}) \sum_{i=1}^{n} p_{i}^{H}(a) u\left(w\left(x_{i}\right)\right)-c\left(a^{H}\right) \geq \underline{U}\\
 (\mathrm{IC}) \sum_{i=1}^{n}\left(p_{i}^{H}-p_{i}^{L}\right) u\left(w\left(x_{i}\right)\right) \geq c\left(a^{H}\right)-c\left(a^{L}\right)
 $$
-According to concave program's rule 
+According to concave program's rule
 $$
 \frac{v^{\prime}\left(x_{i}-w\left(x_{i}\right)\right)}{u^{\prime}\left(w\left(x_{i}\right)\right)}=\lambda+\mu\left(1-\frac{p_{i}^{L}}{p_{i}^{H}}\right)
 $$
@@ -96,5 +89,7 @@ $$
 $$
 \beta=\frac{1}{1+r b \sigma^{2}}
 $$
+
+
 $\beta$：提成比例； r：风险规避程度； b努力的边际成本（b越大表明能力越低）；  $\sigma^2$产出的方差
 
