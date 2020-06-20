@@ -2,7 +2,7 @@
 title: The Theory of Corporate Finance
 url: The Theory of Corporate Finance_url
 tags: Corporate Economics
-categories: Book Review
+categories: Book Reviews
 ---
 
 # The Theory of Corporate Finance by Jean Tirole
@@ -14,6 +14,8 @@ categories: Book Review
 阿罗德布鲁模型下，饼的大小和如何分饼是无关的。但在不对称信息背景下就不是这样。由于信息不对称，管理者是很难被监督的，我们难以选出管理者（逆向选择），难以监督管理者（道德风险)。
 
 公司的管理水平取决于内部的治理结构和外部的竞争环境。
+
+Tirole defines corporate governance as “the design of institutions that induce management to internalize the welfare of stakeholders.
 
 ## 常见的公司治理问题
 
