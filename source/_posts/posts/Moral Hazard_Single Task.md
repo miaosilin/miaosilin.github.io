@@ -3,6 +3,7 @@ title: Moral Hazard_Single Task
 url: Moral Hazard_Single Task_url
 tags: Contract Theory
 categories: Models
+date:   2020-06-20 17:08:00
 ---
 
 # Moral Hazard_Single Task
@@ -57,8 +58,8 @@ $$
 
 		1. If P is risk neutral and A is risk averse, P should offer A constant wage provide full insurance;
   		2. If A is risk neutral and P is risk averse, P should sell his firm to A at a certain price;
-  		3. If both P and A are risk neutral, P should sell his firm to A;
-  		4. If both P and A are risk averse, they  share risk according to a certain proportion. Proposition 1-3 are special case of proposition 4.
+    		3. If both P and A are risk neutral, P should sell his firm to A;
+      		4. If both P and A are risk averse, they  share risk according to a certain proportion. Proposition 1-3 are special case of proposition 4.
 
 
 
@@ -70,7 +71,8 @@ $a \in\left\{a^{H}, a^{L}\right\}, c\left(a^{H}\right)>c\left(a^{L}\right)$
 
  $$ for all the $k=1,2, \ldots, n-1$  
 
- $$ 
+$$
+
 $$
 \sum_{i=1}^{k} p_{i}^{H}<\sum_{i=1}^{k} p_{i}^{L} \\
 \sum_{i=1}^{n} p_{i}^{H}=\sum_{i=1}^{n} p_{i}^{L}=1

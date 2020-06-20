@@ -3,6 +3,7 @@ title: The Theory of Corporate Finance
 url: The Theory of Corporate Finance_url
 tags: Corporate Economics
 categories: Book Reviews
+date:   2020-06-18 
 ---
 
 # The Theory of Corporate Finance by Jean Tirole

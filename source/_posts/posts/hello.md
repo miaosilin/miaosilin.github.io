@@ -3,6 +3,7 @@ title: hello world
 url: hello_url
 tags: tips
 categories: Articles
+date:   2020-06-17 17:08:00
 ---
 
 第一、作为一个专业人士，一定要在自己的专业上认真钻研，争取做到最好
