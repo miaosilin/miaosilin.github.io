@@ -3,6 +3,7 @@ title: The Theory of Corporate Finance
 url: The Theory of Corporate Finance_url
 tags: Corporate Economics
 categories: Paper Reviews
+date:   2020-06-20 
 ---
 
 # Corporate Governance in China: a Survey

@@ -3,6 +3,7 @@ title: Causal Inference
 url: Causal Inference_url
 tags: Econometrics
 categories: Articles
+date:   2020-06-20
 ---
 
 因果关系的不一致——可能出现混淆因果
