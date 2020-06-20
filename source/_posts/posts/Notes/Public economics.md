@@ -6,10 +6,10 @@ categories: Notes
 ---
 
 # Public economics focuses on two types of questions 
-	1. How do government policies affect the economy?
-	2. How should policies be designed to maximize welfare
+1. How do government policies affect the economy?
+2. How should policies be designed to maximize welfare
 
-## 
+
 
  	1. Pratical relevance
           	a. Interest in improving econimic welfare: interest in pubilc economics
