@@ -1,6 +1,6 @@
 ---
-title: Moral Hazard_Single Task
-url: Moral Hazard_Single Task_url
+title: Notes on Contract Theory_1.1Moral Hazard_Single Task
+url: Notes on Contract Theory_1.1Moral Hazard_Single Task_url
 tags: Contract Theory
 categories: Models
 date:   2020-06-20 17:08:00
