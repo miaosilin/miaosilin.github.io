@@ -55,3 +55,36 @@ Tirole defines corporate governance as “the design of institutions that induce
 ### 董事会
 
 董事会应该按时开会，监督管理人员，应保证没有一人有不受约束的权力，董事会中应该有相对强而独立的董事，事会应确保控制权与方向牢牢掌握在自己手中。面临合谋的董事会，解决的办法可能只有靠资本市场的压力来倒逼董事会改革
+
+
+
+
+
+## 公司金融
+
+公司金融理论的目标之一是在公司生命周期的不同阶段，对于证券和支出政策方面的问题给出预测或者建议。本书签掉了信息和激励所起的关键作用，更明确的说是资本、流动性、抵押品价值以及外部监督所起的作用
+
+债券和股权作为索取权，分别具有凹的和凸的收益结构。
+
+<div  align="center">     <img src="https://cdn.mathpix.com/snip/images/D0qZO2TxuZoQVG22rD9mGLp3jZnpNh_is8-zFefWiUo.original.fullsize.png" width="250px" "height:100px">  </div>
+
+$$
+\begin{array}{ccccc}
+\hline \text { Common } & \text { Preferred } & \text { Subordinated } & \text { Ordinary } & \text { Secured } & \text { Priority } \\
+\text { stock } & \text { stock } & \text { debt } & \text { debt } & \text { debt } &
+\end{array}
+$$
+
+索取权的优先顺序。
+
+债权人可以通过可转换期权波阿虎自己，如果债权人可以将他们的索取权转换成股权，那么，以损害债权人利益为代价而使股东获利的行为就不会发生了。
+
+资产的抵押在很大程度上会使贷款更容易获得，虽然也带来了一些交易成本与其他成本。
+
+证券化：让索取权可交易； 决定索取侵权能否在二级市场上方便交易的关键因素，就是投资者之间对索取权价值的信息的对称性，若索取权拥有这的信息更多，就会出现“柠檬效应”。在美国，公募债券的流动性相当好，而银行贷款和私募债务的违约可能性相当高。（存在严重的信息不对称）
+
+一般来说公司都愿意获得长期授信，因为短期授信要求它们必须不断地向银行或者信用市场还款以获得新的资金，相当于向借款人施加了更多的约束，不过长期负债协议比短期原为复杂。
+
+
+
+只要存在信息不对称，就一定会被信息优势的一方滥用，所以要学习知识
