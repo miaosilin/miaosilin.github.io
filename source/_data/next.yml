@@ -337,6 +337,15 @@ links_settings:
 links:
   OBHRM: http:/www.obhrm.net/index.php/首页
   NBER: https://www.nber.org/papers.html
+  AER: https://www.aeaweb.org/journals/aer
+  Google Scholar: https://scholar.google.com/
+  Google Books: https://books.google.com/bkshp?hl=zh-CN&tab=pp0
+  Google Drive: https://drive.google.com/drive/my-drive
+  Sci-Hub: http://www.sci-hub.ren/
+  Research Gate: https://www.researchgate.net/
+  Simon: https://ielts-simon.com/
+  Jia RX: https://www.ruixuejia.com/
+  NIE HH: http://www.niehuihua.com/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
