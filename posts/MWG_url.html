@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/config/favicon-32x32-next.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/config/favicon-16x16-next.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Consolas:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"miaosilin.github.io","root":"/","scheme":"Muse","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="偏好与选择定义 1.B.1：若偏好关系$\succsim$具有下列两个性质，则它是理性的:  完备性（completeness）:对于所有 $x, y \in X,$ 都有 $x \succsim y$ 或 $y \succsim x$ （或二者都成立）。  传递性（transitivity）：对于所有 $x, y, z \in X,$ 若 $x \succsim y$ 且 $y \succsim">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MWG">
+<meta property="og:url" content="http://miaosilin.github.io/posts/MWG_url.html">
+<meta property="og:site_name" content="Miao Silin">
+<meta property="og:description" content="偏好与选择定义 1.B.1：若偏好关系$\succsim$具有下列两个性质，则它是理性的:  完备性（completeness）:对于所有 $x, y \in X,$ 都有 $x \succsim y$ 或 $y \succsim x$ （或二者都成立）。  传递性（transitivity）：对于所有 $x, y, z \in X,$ 若 $x \succsim y$ 且 $y \succsim">
+<meta property="article:published_time" content="2020-06-17T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-06-29T14:34:09.675Z">
+<meta property="article:author" content="Miao Silin">
+<meta property="article:tag" content="Mathemetical Economics">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://miaosilin.github.io/posts/MWG_url.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
+
+  <title>MWG | Miao Silin</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/rss.xml" title="Miao Silin" type="application/rss+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Miao Silin</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <h1 class="site-subtitle" itemprop="description">Open, Find, Understand</h1>
+      
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags<span class="badge">12</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories<span class="badge">6</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives<span class="badge">23</span></a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/miaosilin" class="github-corner" title="我的Github" aria-label="我的Github" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="default">
+    <link itemprop="mainEntityOfPage" href="http://miaosilin.github.io/posts/MWG_url.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/config/avatar.jpg">
+      <meta itemprop="name" content="Miao Silin">
+      <meta itemprop="description" content="miaosilin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Miao Silin">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          MWG<a href="https://github.com/miaosilin/miaosilin.github.io/blob/source/source/_posts/_posts/posts/Book%20Reviews/MWG.md" class="post-edit-link" title="Edit this post" rel="noopener" target="_blank"><i class="fa fa-pencil"></i></a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-06-18 00:00:00" itemprop="dateCreated datePublished" datetime="2020-06-18T00:00:00+08:00">2020-06-18</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Notes/" itemprop="url" rel="index"><span itemprop="name">Notes</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>6.4k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>13 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="偏好与选择"><a href="#偏好与选择" class="headerlink" title="偏好与选择"></a>偏好与选择</h1><p><code>定义 1.B.1</code>：若偏好关系$\succsim$具有下列两个性质，则它是理性的:</p>
+<ol>
+<li><p><strong><em>完备性</em></strong>（completeness）:对于所有 $x, y \in X,$ 都有 $x \succsim y$ 或 $y \succsim x$ （或二者都成立）。</p>
+</li>
+<li><p><strong><em>传递性</em></strong>（transitivity）：对于所有 $x, y, z \in X,$ 若 $x \succsim y$ 且 $y \succsim z,$ 则 $x \succsim z$（非传递性：孔多塞悖论）</p>
+</li>
+</ol>
+<p><code>命题 1.B.1</code>：如果天是理性的，则:</p>
+<ul>
+<li>$\succ$为<strong><em>非反身</em></strong>的（irreflexive）[ $x \succ x$ 不成立]和传递的（若 $x \succ y$ 和 $y \succ z,$ 则 $x \succ z$ )。</li>
+<li>$\succ$ 是<strong><em>反身</em></strong>的（reflexive）[对于所有 $x, x \sim x]$ 、传递的 $(\text {若 } x \sim y \text { 和 } y \sim z, \text { 则 } x \sim z)$和对称的（symmetric）[若 $x \sim y, \text { 则 } y \sim x]$</li>
+<li>若 $x \succ y \succsim z,$ 则 $x \succ z$</li>
+</ul>
+<p><code>命题 1.B.2</code>：只有理性的偏好关系义才能用效用函数表示。</p>
+<p><code>定义 1.C.1</code>: 若选择结构($\mathscr{B}$, C(・))具有下列性质:<br>若对于满足 $x, y \in B$ 的 $B \in \mathscr{B}$ 我们有 $x \in C(B),$ 则对于满足 $x, y \in B^{\prime}$ 和 $y \in C\left(B^{\prime}\right)$ 的任何 $B^{\prime} \in \mathscr{B}_{\text {参 }}$ 我们也必有 $x \in C\left(B^{\prime}\right)$<br>那么，我们说该选择结构 ($\mathscr{B}$,C(・) 满足<strong><em>显示偏好弱公理</em></strong>（weak axiom of revealed preference）,这个假设反映了我们期望个人的可观测到的选择满足一定程度的<strong><em>一致性</em></strong>（定义：若x 被显示至少与y 一样好，则y不可能被显示比x 更受偏好。）</p>
+<p><code>定义 1.D.1</code>：给定一个选择结构 $(\mathscr{B}, C(\cdot)),$ 我们说理性偏好关系亚将 $\mathscr{B}$ 上的 $C(\cdot)$ <strong><em>理性化</em></strong>（rationalize），如果对于所有 $B \in \mathscr{S}$ 都有<br>$$<br>C(B)=C^{*}(B, \succsim)<br>$$</p>
+<p>也就是说如果义生成了选择结构 $(\mathscr{B}, C(\cdot))$</p>
+<h1 id="消费者选择"><a href="#消费者选择" class="headerlink" title="消费者选择"></a>消费者选择</h1><p><code>定义 2.D.1</code>：瓦尔拉斯预算集或说竞争性预算集 $B_{p, w}=\left{x \in \mathbb{R}_{+}^{L}: p \cdot x \leq w\right},$ 是由消费者在 面对市场价格 $p$ 和财富 w 时的所有可行消费束组成的集合。</p>
+<p>瓦尔拉斯需求两个假设</p>
+<p><code>定义 2.E.1</code>：瓦尔拉斯需求对应 $x(p, w)$ 是<strong><em>零次齐次</em></strong>的，若对于任何 $p, w$ 和 $\alpha&gt;0,$ 都有$x(\alpha p, \alpha w)=x(p, w)$（零次齐次是说，如果所有商品的价格和消费者的财富都变动相同的比例，那么他的消费选择不会变动）</p>
+<p><code>定义 2.E.2</code>: 瓦尔拉斯需求对应 $x(p, w)$ 满足<strong><em>瓦尔拉斯法则</em></strong>，若对于每个 $p \gg 0$, 和 ，$w&gt;0$我们有 $p \cdot x=w$ 对所有 $x \in x(p, w)$ 成立。（瓦尔拉斯法则是说消费者花光了他的财富）</p>
+<p><code>定义 2.F.1</code>：瓦尔拉斯需求函数 $x(p, w)$ 满足<strong><em>显示偏好弱公理</em></strong>（weak axiom of revealedp reference, WA），如果对于任何两个价格财富状况 ( $p, w$ ) 和 $\left(p^{\prime}, w^{\prime}\right),$ 下列性质都成立:<br>$$<br>\text { 若 } p \cdot x\left(p^{\prime}, w^{\prime}\right) \leq w \text { 和 } x\left(p^{\prime}, w^{\prime}\right) \neq x(p, w), \text { 则 } p^{\prime} \cdot x(p, w)&gt;w^{\prime}<br>$$<br><strong>替代效应非正</strong>：<br><code>命题 2.F.2</code>：若可微的瓦尔拉斯需求函数 $x(p, w)$ 满足瓦尔拉斯法则、零次齐次性以及弱公理，则在任何 $(p, w)$ 处，斯勒茨基矩阵 $S(p, w)$ 对于任何 $v \in \mathbb{R}^{L}$ 都满足 $v \cdot S(p, w) v \leq 0$</p>
+<h1 id="经典需求理论"><a href="#经典需求理论" class="headerlink" title="经典需求理论"></a>经典需求理论</h1><p><code>定义 3.B.1</code>: $\quad X$ 上的偏好关系狀 如果具有下列两个性质，则该偏好关系是理性的:<br>(i) 完备性: 对于所有 $x, y \in X,$ 都有 $x \succsim y$ 或 $y \succsim x$ (或二者都成立)。<br>(ii) 传递性: 对于所有 $x, y, z \in X,$ 若 $x \succsim y$ 且 $y \succsim z,$ 则 $x \succsim z$</p>
+<p><code>定义 3.B.2</code>: 对于 X 上的偏好关系$\succsim$，若 $x \in X$ 和 $y \gg x$ 意味着 $y \succ x,$ 则称$\succsim$是是弱单调的（weakly monotone）或簡称单调的。若 $y \geq x$ 且 $y \neq x$ 意味着 $y \succ x,$ 则它是强单调的(strongly monotone) </p>
+<p><code>定义 3.B.3</code>: 对于 X 上的偏好关系来说，如果对于任何 $x \in X$ 和任何 $\varepsilon&gt;0$, 都存在 $y \in X$ 使得 $|y-x| \leq \varepsilon$ 且 $y \succ x,$ 则称该偏好关系是局部非饱和的（locally nonsatiated）</p>
+<p><strong>位似偏好</strong></p>
+<p><code>定义 3.B.6</code>: $\left.\quad X=\mathbb{R}_{+}^{L} \text { 上的偏好关系天 是位似的（homothetic }\right),$ 若所有无差异集都可以通过沿着任何射线等比例地扩展而联系在一起; 也就是说，若 $x \sim y$ 则 $\alpha x \sim \alpha y,$ 其中 $\alpha \geq 0$ 是任意的。</p>
+<p><strong>拟线性偏好</strong></p>
+<p><code>定义 3.B.7</code>: $\quad X=(-\infty, \infty) \times \mathbb{R}<em>{+}^{L-1}$ 上的偏好关系亚 关于商品 $1 （$ 在这种情形下商品 1 称为计价物商品（numeraire commodity））是拟线性的（quasilinear），如果：<br>（i）所有无差异集彼此之间可以通过沿着商品 1 的坐标轴平行位移而得到。也就是说， 若 $x \sim y,$ 则对于 $e</em>{1}=(1,0, \ldots, 0)$ 和任何 $\alpha \in \mathbb{R},$ 都有 $\left(x+\alpha e_{1}\right) \sim\left(y+\alpha e_{2}\right)$<br>（ii）商品 1 是<strong><em>合意的</em></strong>（消费者所想要的）; 也就是说，对于所有 $x$ 和 $\alpha&gt;0,$ 都有 $x+\alpha e_{1} \succ x$</p>
+<p><code>例 3.C.1</code>: <strong><em>字典序偏好关系</em></strong>。为简单起见，假设 $X=\mathbb{R}<em>{+}^{2}$ 。将 $x \succsim y$ 定义为: 要么“ $x</em>{1}&gt;y_{1} “$ 或要么“ $x_{1}=y_{1}$ 和 $x_{2} \geq y_{2} “$ 。这样的偏好关系称为字典序的偏好关系 ( lexicographic</p>
+<p><code>定义 3.C.1</code>: $X$ 上的偏好关系止 是<strong><em>连续的</em></strong>（continuous），若天在极限运算之下仍能保留。也就是说，对于任何数对序列 $\left{\left(x^{n}, y^{n}\right)\right}_{n=1}^{\infty},$ 若 $x^{n} \succsim y^{n}$ 对于所有的 $n$ 都成立， 且$x=\lim _{n \rightarrow \infty} x^{n}$ 和 $y=\lim _{n \rightarrow \infty} y^{n},$ 则 $x \succsim y$</p>
+<p><code>命题 3.D.2</code>：假设定义在消费集 $X=\mathbb{R}<em>{+}^{L}$ 上的局部非饱和的偏好关系$\succsim$，可用连续效用函数$u(\cdot)$ 表示。则瓦尔拉斯需求对应 $x(p, w)$ 具有下列性质:<br>（i）关于 $(p, w)$ 是<strong><em>零次齐次</em></strong>的: $\quad x(\alpha p, a w)=x(p, w)$ 对于任何 $p, w$ 和实数 $\alpha&gt;0$ 都成$\dot{\vec{N}}</em>{0}$<br>（ii）<strong><em>瓦尔拉斯法则</em></strong>： $\quad p \cdot x=w$ 对于所有 $x \in x(p, w)$ 都成立。<br>（iii）<strong><em>凸性/唯一性</em></strong>：若$\succsim$是凸的，从而 $u(\cdot)$ 是拟凹的，则 $x(p, w)$ 是个凸集。而且，若 $\succsim$为严格凸，从而 $u(\cdot)$ 是严格拟凹的，则 $x(p, w)$ 只有唯一一个元素。</p>
+<p><strong>间接效用函数</strong>：</p>
+<p><code>命题 3.D.3</code>：假设定义在消费集 $X=\mathbb{R}<em>{+}^{L}$ 上的偏好关系亚 是局部非饱和的，该偏好关系能用连续的效用函数 $u(\cdot)$ 表示。间接效用函数 $v(p, w):$<br>(i) 是零次齐次的。<br>（ii）关于 w严格递增和关于任何商品 $l$ 的价格 $p</em>{l}$ 非递增。<br>（iii）拟召的; 也就是说，集合 ${(p, w): v(p, w) \leq \bar{v}}$ 对于任何 $\bar{v}$ 都是句的 $^{(+\rightarrow)}$<br>（iv）关于 $p$ 和 $w$ 连续。</p>
+<p>斯勒茨基方程</p>
+<p>命题 3.G.3:（斯勒茨基方程）假设定义在消费集 $X=\mathbb{R}<em>{+}^{L}$ 上的局部非饱和且严格四的偏好关系$\succsim$，可用连续效用函数 $u(\cdot)$ 表示。那么对于所有 $(p, w)$ 和 $u=v(p, w),$ 我们有<br>$$<br>\frac{\partial h</em>{l}(p, u)}{\partial p_{k}}=\frac{\partial x_{l}(p, w)}{\partial p_{k}}+\frac{\partial x_{l}(p, w)}{\partial w} x_{k}(p, w) \quad 对于所有 l, k 成立<br>$$<br>以矩阵符号表示为，<br>$$<br>D_{p} h(p, u)=D_{p} x(p, w)+D_{w} x(p, w) x(p, w)^{\mathrm{T}}<br>$$</p>
+<h1 id="期望效用理论"><a href="#期望效用理论" class="headerlink" title="期望效用理论"></a>期望效用理论</h1><p><code>定义 6.B.5</code>：效用函数U：? $\rightarrow \mathbb{R}$ 具有期望效用形式，如果可以对 N 个结果指定一组数 $\left(u_{1}, \ldots, u_{N}\right)$ 使得对于每个简单彩票$L=\left(p_{1}, \ldots, p_{N}\right) \in \mathscr{E}$ 我们有<br>$$<br>U(L)=u_{1} p_{1}+\cdots+u_{N} p_{N}<br>$$</p>
+<p>具有期望效用形式的效用函数U：\mathscr $\rightarrow \mathbb{R}$ 称为社:诺依曼一摩根斯坦期望效用函数（von Neumann-Morgenstern expected utility function $)$</p>
+<p><code>定义6.C.1</code>:如果对于某个决策者来说,对于任何彩票 $F(\cdot),$ 他认为能确定产生金额 $\int x d F(x)$ 的退化彩票至少与彩票 $F(\cdot)$ 本身一样好，我们说该决策者是个风险厌恶者或者说他是风险厌恶的（risk aversion）。如果决策者在这两个彩票之间总是[即对于任何 F() J无差异的，我们说他是风险中性的（risk neutral）。最后，如果仅当这两个彩票是相同的[即当 $F(\cdot)$ 是退化 的时，决策者才认为这两个彩票无差异，那么我们说他是严格厌恶风险的（strictly risk averse）</p>
+<p><code>命题 6.C.1</code>: 假设某个决策者是期望效用最大化者，他在货币量上的效用函数是伯努利效用 函数 $u(\cdot) \bullet$ 那么下列性质是等价的:<br>（i）决策者是厌恶风险的。<br>(ii) $u(\cdot)$ 是凹的。<br>(iii) $c(F, u) \leq \int x d F(x)$ 对于所有 $F(\cdot)$ 都成立。<br>(iv) $\pi(x, \varepsilon, u) \geq 0$ 对于所有 $x$ 和 $\varepsilon&gt;0$ 都成立。</p>
+<h1 id="市场均衡"><a href="#市场均衡" class="headerlink" title="市场均衡"></a>市场均衡</h1><p><strong><em>第一基本福利定理</em></strong>。如果每种相关的商品在市场中以公开价格交易[即如果存在一组完全市场（complete markets）]，而且家庭和企业的行为是完全竞争 的（即都是价格接受者），那么市场结果是帕累托最优的。也就是说，当市场 是完全的，任何意争均衡必定是帕累托最优的。<br><strong><em>第二基本福利定理</em></strong>。如果家庭的偏好和企业的生产集都是兄的，而且存在着 一组完全市场（商品以公开价格交易，每个个体都是价格接受者），那么：如果可对财富进行定额转移（lump-sum transfers），任何帕累托最优结果都是竞争均衡。</p>
+<p><code>定义 10.B.1</code>: 一个经济配置（economic allocation） $\left(x_{1}, \ldots, x_{I}, y_{1}, \ldots, y_{J}\right)$ 对每个消费者<br>$i=1, \ldots, I$ 指定了一个消费向量 $x_{i} \in X_{i},$ 对每个企业 $j=1, \ldots, J$ 指定了一个生产向量 $y_{j} \in Y_{k} \circ$ 对于配置 $\left(x_{1}, \ldots, x_{I}, y_{1}, \ldots, y_{J}\right),$ 如果<br>$\sum_{i=1}^{I} x_{l i} \leq \omega_{l}+\sum_{j=1}^{J} y_{l j}$ 对于 $l=1, \ldots, L$ 都成立<br>那么我们说该配置是可行的（feasible）因此，在某个经济配置中，如果每种商品的总消费量不大于该商品的初始亭赋和生产量之和，那么该配置是可行的。</p>
+<p><code>定义 10.B.3</code>: 配置 $\left(x_{1}^{<em>}, \ldots, x_{I}^{</em>}, y_{1}^{<em>}, \ldots, y_{J}^{</em>}\right)$ 和价格向量 $p^{<em>} \in \mathbb{R}^{L}$ 构成了一个竟争均衡或称瓦尔拉<br>斯均衡，如果它们能满足下列条件:<br>(i) 利润最大化: 对于每个企业 $j, \quad y_{j}^{</em>}$ 是下列最大化问题的解<br>$$<br>\operatorname{Max}<em>{y</em>{j} \in Y_{j}} p^{*} \cdot y_{j}<br>$$</p>
+<p>（ii）效用最大化: 对于每个消费者 $i, \quad x_{i}^{<em>}$ 是下列最大化问题的解<br>$$<br>\begin{array}{l}<br>\underset{x_{i} \in X_{i}}{\operatorname{Max}} u_{i}\left(x_{i}\right) \<br>\quad \text { s.t. } \quad p^{</em>} \cdot x_{i} \leq p^{<em>} \cdot \omega_{i}+\sum_{j=1}^{J} \theta_{i j}\left(p^{</em>} \cdot y_{j}^{*}\right)<br>\end{array}<br>$$</p>
+<p>（iii）市场出清: 对于每种商品 $l=1, \ldots, L$<br>$$<br>\sum_{i=1}^{I} x_{l i}^{<em>}=\omega_{l}+\sum_{j=1}^{J} y_{l j}^{</em>}<br>$$<br>均衡配置和价格独立于禀赋和产权份额的分配。</p>
+<p><code>命题 10.D.1</code>:（福利经济学第一基本定理）如果价格 $p^{<em>}$ 和配置 $\left(x_{1}^{</em>}, \ldots, x_{I}^{<em>}, q_{1}^{</em>}, \ldots, q_{J}^{<em>}\right)$ 构成了一 个竞争均衡，那么 $\left(x_{1}^{</em>}, \ldots, x_{I}^{<em>}, q_{1}^{</em>}, \ldots, q_{J}^{*}\right)$ 这个配置是帕累托最优的。</p>
+<h1 id="外部性与公共物品"><a href="#外部性与公共物品" class="headerlink" title="外部性与公共物品"></a>外部性与公共物品</h1><p>一般来说，如果存在外部效应，竞争均衡不是帕累托最优的。</p>
+<h1 id="市场势力"><a href="#市场势力" class="headerlink" title="市场势力"></a>市场势力</h1>
+    </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">Related Posts</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/posts/Optimization_url.html" rel="bookmark">Optimization</a></div>
+    </li>
+  </ul>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>Miao Silin
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://miaosilin.github.io/posts/MWG_url.html" title="MWG">http://miaosilin.github.io/posts/MWG_url.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Mathemetical-Economics/" rel="tag"># Mathemetical Economics</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/Notes%20on%20Contract%20Theory_5.2%20incomplete%20contract%20theory_url.html" rel="prev" title="Notes on Contract Theory_5.2 incomplete contract theory">
+      <i class="fa fa-chevron-left"></i> Notes on Contract Theory_5.2 incomplete contract theory
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/Game%20theory_url.html" rel="next" title="Game Theory">
+      Game Theory <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#偏好与选择"><span class="nav-number">1.</span> <span class="nav-text">偏好与选择</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#消费者选择"><span class="nav-number">2.</span> <span class="nav-text">消费者选择</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#经典需求理论"><span class="nav-number">3.</span> <span class="nav-text">经典需求理论</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#期望效用理论"><span class="nav-number">4.</span> <span class="nav-text">期望效用理论</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#市场均衡"><span class="nav-number">5.</span> <span class="nav-text">市场均衡</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#外部性与公共物品"><span class="nav-number">6.</span> <span class="nav-text">外部性与公共物品</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#市场势力"><span class="nav-number">7.</span> <span class="nav-text">市场势力</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Miao Silin"
+      src="/images/config/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Miao Silin</p>
+  <div class="site-description" itemprop="description">miaosilin</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/miaosilin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;miaosilin" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/miaosilin@ruc.edu.cn" title="E-Mail → miaosilin@ruc.edu.cn"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://www.obhrm.net/index.php/%E9%A6%96%E9%A1%B5" title="http:&#x2F;www.obhrm.net&#x2F;index.php&#x2F;首页" rel="noopener" target="_blank">OBHRM</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.nber.org/papers.html" title="https:&#x2F;&#x2F;www.nber.org&#x2F;papers.html" rel="noopener" target="_blank">NBER</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.aeaweb.org/journals/aer" title="https:&#x2F;&#x2F;www.aeaweb.org&#x2F;journals&#x2F;aer" rel="noopener" target="_blank">AER</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://scholar.google.com/" title="https:&#x2F;&#x2F;scholar.google.com&#x2F;" rel="noopener" target="_blank">Google Scholar</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://books.google.com/bkshp?hl=zh-CN&tab=pp0" title="https:&#x2F;&#x2F;books.google.com&#x2F;bkshp?hl&#x3D;zh-CN&amp;tab&#x3D;pp0" rel="noopener" target="_blank">Google Books</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://drive.google.com/drive/my-drive" title="https:&#x2F;&#x2F;drive.google.com&#x2F;drive&#x2F;my-drive" rel="noopener" target="_blank">Google Drive</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.sci-hub.ren/" title="http:&#x2F;&#x2F;www.sci-hub.ren&#x2F;" rel="noopener" target="_blank">Sci-Hub</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.researchgate.net/" title="https:&#x2F;&#x2F;www.researchgate.net&#x2F;" rel="noopener" target="_blank">Research Gate</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://ielts-simon.com/" title="https:&#x2F;&#x2F;ielts-simon.com&#x2F;" rel="noopener" target="_blank">Simon</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.ruixuejia.com/" title="https:&#x2F;&#x2F;www.ruixuejia.com&#x2F;" rel="noopener" target="_blank">Jia RX</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.niehuihua.com/" title="http:&#x2F;&#x2F;www.niehuihua.com&#x2F;" rel="noopener" target="_blank">NIE HH</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Miao Silin</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    <span title="Symbols count total">55k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    <span title="Reading time total">1:51</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.1
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.7.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('div.pdf').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js', () => {
+    document.querySelectorAll('div.pdf').forEach(element => {
+      PDFObject.embed(element.getAttribute('target'), element, {
+        pdfOpenParams: {
+          navpanes : 0,
+          toolbar  : 0,
+          statusbar: 0,
+          pagemode : 'thumbs',
+          view     : 'FitH'
+        },
+        PDFJS_URL: '/lib/pdf/web/viewer.html',
+        height   : element.getAttribute('height') || '500px'
+      });
+    });
+  }, window.PDFObject);
+}
+</script>
+
+
+
+
+  
+
+  
+
+  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri == 'http://miaosilin.github.io/posts/MWG_url.html',]
+      });
+      });
+  </script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1.2,"jsonPath":"https://cdn.jsdelivr.net/npm/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"react":{"opacity":0.7},"log":false});</script></body>
+</html>

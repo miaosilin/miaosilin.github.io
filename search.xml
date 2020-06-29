@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Causal Inference</title>
+    <url>/posts/Causal%20Inference_url.html</url>
+    <content><![CDATA[<p><em>Miao Silin</em></p>
+<p><em>Labour Economics</em></p>
+<p><em>School of Public Administration and Policy</em></p>
+<p><em>Renmin University of China</em> </p>
+<p><em><a href="mailto:miaosilin@ruc.edu.cn">miaosilin@ruc.edu.cn</a></em></p>
+<h1 id="公共政策评估回顾"><a href="#公共政策评估回顾" class="headerlink" title="公共政策评估回顾"></a>公共政策评估回顾</h1><h2 id="实验和准实验评估："><a href="#实验和准实验评估：" class="headerlink" title="实验和准实验评估："></a>实验和准实验评估：</h2><p>实验与准实验关注变量之间的因果关系。随机实验方法的有效性值得肯定，但其作用是有限的，因为凡是涉及到实验，无法尽善尽美。</p>
+<p>对于实验与准实验，我们需要因果推断，但反对将随机实验作为因果推理的唯一方法。</p>
+<p>核心观点是：因果研究的黄金标准不是是否采用随机试验，而是是否排除了合理怀疑，只要达到上述效果，可以采用任何科学的评估方法。关键在于设计。</p>
+<h3 id="对因果推断的一点思考"><a href="#对因果推断的一点思考" class="headerlink" title="对因果推断的一点思考"></a><em>对因果推断的一点思考</em></h3><p>统计推断：使用样本数据来推测总体，因果推断：用总体数据回答是否存在因果的问题，现在这一点变为可能。因果关系比相关更“硬”，发展也最为迅速。</p>
+<p>我们现在做研究，多是哪里找到显著，哪里就能够写出论文（人或有一死，或死于内生性，或死于不显著）。这种学术论文追求方法上的完美，可能并没有考虑多元的评估理念，可能会导致“精致的平庸”</p>
+<p>因果推断是一个需要先验知识和主观判断的方法，对决策有用的东西不等于因果关系明确，并且存在一因多果、一果多因、混淆因果的现象，会出现“遗漏之罪(sins of omission)”。（大数据因果推断?）</p>
+<p>因果关系本身是否需要一个理论机制，用一个一般均衡的思想来阐述成本与收益？比如：高房价抑制科研？减少班级规模是否提升教学质量？只要认真学习，就一定会进步吗？如果解决不了这个问题，除了模仿，可能就很难做出有把握的改进。</p>
+<h2 id="CIPP评估"><a href="#CIPP评估" class="headerlink" title="CIPP评估"></a>CIPP评估</h2><p>强调评估过程的公平合理，并强调了评估的全程意义、过程意义和反馈意义。全面但缺乏价值判断，适合准备长期开展并希望获得可持续性改进的项目。</p>
+<h2 id="回应式评估"><a href="#回应式评估" class="headerlink" title="回应式评估"></a>回应式评估</h2><p>全面描述，关注利益相关者，由于不存在统一的价值观，而强调了主观信息的重要性。强调适应性，可接受性。</p>
+<h2 id="以利用为中心的评估"><a href="#以利用为中心的评估" class="headerlink" title="以利用为中心的评估"></a>以利用为中心的评估</h2><p>实用主义，重点关注主要利用者。强调评估的实用性。</p>
+<h2 id="消费者导向的评估"><a href="#消费者导向的评估" class="headerlink" title="消费者导向的评估"></a>消费者导向的评估</h2><p>不先入为主，而是以消费者需求为评估好坏的判断标准，强调评估的消费者导向，自下而上的评估。</p>
+<h3 id="对不同评估模型理念的反思"><a href="#对不同评估模型理念的反思" class="headerlink" title="对不同评估模型理念的反思"></a><em>对不同评估模型理念的反思</em></h3><p>政策评估,究其本质而言是对某一政策或政策执行效果的一种综合评定，也是对政策的一种责任。</p>
+<p>政策评估中有许多制约因素，有些是属于客观条件的限制，有些是评估主体的限制，有些是评估客体的限制。需要注重评估的需求分析。例如对硕士项目的评估，CIPP评估与回应性评估都有涉及，个人感觉其他评估也可行，是否需要结合不同的评估理念，甚至不同的评估的理念有可能是矛盾的？个人感觉要回到出发点，比如谁是主要的利益相关者？</p>
+<p>评估者是成功的关键：沟通技巧，访谈技巧，反应能力，归纳能力等，对评估者的要求较强。这就导致一个问题：谁来设计评估？是否具有过多的主观随意性？在实践操作中，有立场问题和道德风险问题（谁来评估评估者？），还有评估的成本与收益问题，这也涉及到评价评估的标准，是否有对于评估的统一评价标准？内部有效性、建构有效性、外部有效性、统计结论，权重如何确定？在这方面的比较也存在困难。</p>
+]]></content>
+      <categories>
+        <category>Articles</category>
+      </categories>
+      <tags>
+        <tag>Econometrics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Performance Management</title>
+    <url>/posts/Performance%20Management_url.html</url>
+    <content><![CDATA[<h1 id="Performance-Management"><a href="#Performance-Management" class="headerlink" title="Performance Management"></a>Performance Management</h1>]]></content>
+      <categories>
+        <category>Articles</category>
+      </categories>
+      <tags>
+        <tag>HR</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Optimization</title>
+    <url>/posts/Optimization_url.html</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Mathemetical Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PBE</title>
+    <url>/posts/PBE_url.html</url>
+    <content><![CDATA[<h1 id="PBE"><a href="#PBE" class="headerlink" title="PBE"></a>PBE</h1><h2 id="贝叶斯扩展博弈"><a href="#贝叶斯扩展博弈" class="headerlink" title="贝叶斯扩展博弈"></a>贝叶斯扩展博弈</h2><p>Definition 231.1: A Bayesian extensive game with observable actions is a tuple $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ where(<strong><em>贝叶斯扩展型博弈</em></strong>)</p>
+<ul>
+<li>$\Gamma=\langle N, H, P\rangle$ is an extensive game form with perfect information and simultaneous moves and for each player $i \in N$ （<strong><em>贝叶斯扩展型博弈由若干个完美信息博弈组合而成</em></strong>）</li>
+<li>$\Theta_{i}$ is a finite set (the set of possible types of player $i$ ); we write $\Theta=x_{i \in N} \Theta_{i}$（类型空间）</li>
+<li>$p_{i}$ is a probability measure on $\Theta_{i}$ for which $p_{i}\left(\theta_{i}\right)&gt;0$ for all $\theta_{i} \in \Theta_{i},$ and the measures $p_{i}$ are stochastically independent $\left(p_{i}\left(\theta_{i}\right) \text { is the prob. that player } i \text { is selected to be of type } \theta_{i}\right)$ （类型空间对应的概率空间）</li>
+<li>$u_{i}: \Theta \times Z \rightarrow \mathbb{R}$ is a von Neumann-Morgenstern utility function （效用空间组合）</li>
+</ul>
+<h2 id="PBE-1"><a href="#PBE-1" class="headerlink" title="PBE"></a>PBE</h2><p>Definition 232.1: Let $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ be a Bayesian extensive game <strong><em>with observable actions</em></strong>（PBE针对可观测行动博弈）, where $\Gamma=\langle N, H, P\rangle .$ A pair $\left(\left(\sigma_{i}\right),\left(\mu_{i}\right)\right)=\left(\left(\sigma_{i}\left(\theta_{i}\right)\right)<em>{i \in N, \theta</em>{i} \in \Theta_{i}},\left(\mu_{i}(h)\right)<em>{i \in N, h \in H \backslash Z}\right)$where $\sigma</em>{i}\left(\theta_{i}\right)$ is a behavioral strategy of player $i$ in $\Gamma$ and $\mu_{i}(h)$ is a prob. measure on $\Theta_{i}$ is a perfect Bayesian equilibrium of the game if the following conditions are satisfied:</p>
+<p>（PBE的条件）</p>
+<ul>
+<li><strong><em>Sequential rationality</em></strong>(序贯理性）: For every nonterminal history $h \in H/Z$,every player $i \in P(h),$ and every $\theta_{i} \in \Theta_{i}$ the prob. measure $O\left(\sigma_{-i}, \sigma_{i}\left(\theta_{i}\right), \mu_{-i} \mid h\right)$ is at least as good for type $\theta_{i}$ as $O\left(\sigma_{-i}, s_{i}\right.\left.\mu_{-i} \mid h\right)$ for any strategy $s_{i}$ of player $i$ in $\Gamma$；（<em>序贯理性</em>是指每个参与人在其每一个行动时点上都将重新优化自己的选择，并且会把自己将来会重新优化其选择这一点也纳入当前的优化选择当中。）</li>
+<li><strong><em>Correct initial beliefs</em></strong>: $\mu_{i}(\emptyset)=p_{i}$ for each $i \in N$ （最开始时，后验概率分布与先验概率分布相同）</li>
+<li><strong><em>Action-determined beliefs</em></strong>: If $i \in P(h)$ and $a \in A(h)$ then</li>
+</ul>
+<p>$$<br>\mu_{i}(h, a)=\mu_{i}(h) ; \text { if } i \in P(h), a \in A(h), a^{\prime} \in A(h), \text { and } a_{i}=a_{i}^{\prime}<br>$$</p>
+<p>​        then $\mu_{i}(h, a)=\mu_{i}\left(h, a_{i}^{\prime}\right)$</p>
+<ul>
+<li><strong><em>Bayesian updating</em></strong>: If $i \in P(h)$ and $a_{i}$ is in the support of $\sigma_{i}\left(\theta_{i}\right)(h)$ for some $\theta_{i}$ in the support of $\mu_{i}(h)$ then for any $\theta_{i}^{\prime} \in$ $\Theta_{i}$ we have（根据新信息不停地修正原来的概率分布，在结点h根据行动a猜测是类型i的概率——贝叶斯公式）</li>
+</ul>
+<p>$$<br>\mu_{i}(h, a)\left(\theta_{i}^{\prime}\right)=\frac{\sigma_{i}\left(\theta_{i}^{\prime}\right)(h)\left(a_{i}\right) \cdot \mu_{i}(h)\left(\theta_{i}^{\prime}\right)（在这个类型采取行动a_i的概率）}{\Sigma_{\theta_{i} \in \Theta_{i}} \sigma_{i}\left(\theta_{i}\right)(h)\left(a_{i}\right) \cdot \mu_{i}(h)\left(\theta_{i}\right)（所有类型采取行动a_i的概率）}<br>$$</p>
+<h2 id="Signaling-Game"><a href="#Signaling-Game" class="headerlink" title="Signaling Game"></a>Signaling Game</h2><ul>
+<li>$A$ <strong>signaling game</strong> is a Bayesian extensive game with observable actions with two players, a “sender” and a “receiver”. The sender is informed of the value of an uncertain parameter $\theta_{1}$ and then chooses an action $m$ (referred to as a <strong>message</strong>, though it may be payoff-relevant). The receiver observes the message (but not the value of $\theta_{1}$ ) and takes an action $a$. Each Player’s payoffs depends upon the value of $\theta_{1}$, the message $m$ sent by the sender, and the action $a$ taken by the receiver.</li>
+<li>Formally, a signaling game is a Bayesian extensive game with observable actions $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ in which $\Gamma$ is a two-player game form in which first player 1 takes an action then player 2 takes an action, and $\Theta_{2}$ is a <strong>singleton</strong>(不关心参与人2的类型）. </li>
+<li>The tension in such a game arises from the fact that the receiver controls the action while the sender controls the information. The receiver has an incentive to try to deduce the sender’s type from the sender’s message, and the sender may have an incentive to mislead the receiver.</li>
+</ul>
+<p><strong>(Spence’s model of education):</strong> A worker (the sender) knows her talent $\theta_{1}$ while her employer (the receiver) does not. The value of the worker to the employer is the expectation of $\theta_{1} ;$ we assume that the employer pays the worker a wage $w$ that is equal to this expectation. (The economic story that underlies this assumption is that there are many employers who compete for the worker, so that her wage is driven up to the expectation of $\theta_{1}$.) To model this behavioral assumption we assume that the payoff of the employer is $-(w-$ $\left.\theta_{1}\right)^{2}\left(\text { the expectation of which is maximized when } w=\mathrm{E}\left(\theta_{1}\right)\right)$ The worker’s message is the amount $e$ of education that she obtains and her payoff is $w-e / \theta$ (reflecting the assumption that the larger is $\theta$ the easier it is for a worker to acquire education). Assume that the worker’s talent is either $\theta_{1}^{L}$ or $\theta_{1}^{H}$ $&gt;\theta_{1}^{L},$ and denote the prob.’s of these values by $p^{L}$ and $p^{H}=1-p^{L} .$Restrict attention to pure strategy equilibria and denote the choices (messages) of the two types by $e^{L}$ and $e^{H}$</p>
+<h2 id="Modelling-Reputation"><a href="#Modelling-Reputation" class="headerlink" title="Modelling Reputation"></a>Modelling Reputation</h2><p>道德高尚不是天生的，而是其想建立自己的声誉。有时对名声一点也不在乎也是一种对自己有利的策略选择</p>
+<p>博弈论中不存在性格，只存在策略——只关心你表现出怎么样的形象，什么声誉。</p>
+<p>所以影响先天的心理学是重要的，但是工业心理学就不一定了。</p>
+<p>如果你从来没有采取某行动，每个人对你类型的猜测应该是不变的。</p>
+]]></content>
+      <categories>
+        <category>Book Reviews</category>
+      </categories>
+      <tags>
+        <tag>Game Theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Personnel Economics in Imperfect Labour markets</title>
+    <url>/posts/Personnel%20Economics%20in%20Imperfect%20Labour%20markets%20_url.html</url>
+    <content><![CDATA[<p> @Author: Miao Silin </p>
+<p> * @Date: 2020-06-15 13:44:53 </p>
+<p> * @Last Modified by:  Miao Silin </p>
+<p> * @Last Modified time: 2020-06-15 13:44:53 </p>
+<h1 id="Notes-on-Personnel-Economics-in-Imperfect-Labour-markets"><a href="#Notes-on-Personnel-Economics-in-Imperfect-Labour-markets" class="headerlink" title="Notes on Personnel Economics in Imperfect Labour markets"></a>Notes on Personnel Economics in Imperfect Labour markets</h1><h2 id="Personnel-economics-and-internal-labour-market"><a href="#Personnel-economics-and-internal-labour-market" class="headerlink" title="Personnel economics and internal labour market"></a>Personnel economics and internal labour market</h2><p>​        人事管理经济学研究公司内部的人力资源问题，涉及到内部劳动力市场。内部劳动力市场并不那么自由，第一，工资的设定受外部环境影响，第二，雇佣的中止受到就业保护的影响。</p>
+<p>​        当劳动力市场不完美时，工作岗位就变成了市场抽租的方式，一份工作使得工人和公司的状况都得到改善，如何将该租金分配给工人和公司，是工资决定问题，是关键问题。</p>
+<h2 id="绝对薪酬："><a href="#绝对薪酬：" class="headerlink" title="绝对薪酬："></a>绝对薪酬：</h2><p>​        数据表明，新员工的生产力比老员工普遍要高。工资必须考虑到激励与保险的权衡。一旦将薪酬与绩效挂钩（绩效可衡量可证实，并且能够排除噪音）时，就会出现激励效应（好员工生产力提高）和选择效应（好员工进入公司），总的平均生产力会提高。</p>
+<h2 id="相对薪酬："><a href="#相对薪酬：" class="headerlink" title="相对薪酬："></a>相对薪酬：</h2><p>​        选择了一个行业、职位后，工资就很有可能有被平均化的压力（wage compression），工人在生产过程中相互依赖的技术情况下存在最佳技能比率，但在工资平均化的背景下，就有可能出现过度教育，技能比率被拉高。</p>
+<p>​        管理层之所以能够一步一步晋升，不是因为绝对业绩有多高，而是因为相对业绩比他人高。并且层级之间的差距必须很大，才能够激励员工一步一步往上爬。赢多少不重要，关键是赢。这种输赢差距越大，努力越大（古代皇子为了争夺皇位你死我活）。锦标赛机制也不是万能药，能力高的员工可能采取保守策略，而能力低的员工更可能采取冒险策略。因此，可以给能力高的员工增加难度。</p>
+<h2 id="培训："><a href="#培训：" class="headerlink" title="培训："></a>培训：</h2><p>​        在工资压缩的情况下，企业从受过更好培训的工人那里获得更大的利润，并有动力提高员工的技能。一般均衡情况下，企业赞助的一般技能的培训根本就不是一个均衡，因为一般技能培训中，员工拥有培训的剩余索取权。但在不完美市场下，比如学徒制则利用工资压缩来进行一般技能培训。</p>
+<p>​        在专用性技能培训情况下，要解决的问题是员工的培训动机。公司与员工要共同分担成本与收益。从这个角度可以延伸到家庭经济学——孩子就是父母的专有性投资，从这个角度看，有孩子的父母往往会跟健康，寿命会更长。</p>
+<h2 id="招募与甄选："><a href="#招募与甄选：" class="headerlink" title="招募与甄选："></a>招募与甄选：</h2><p>​        试用期可以减少逆向选择问题，但是在试用期，努力和能力可能成为替代品。很有可能一旦他们获得工作之后就不努力了，只有在试用技术足够完善的情况下，才能保证不用错员工。</p>
+<p>​        信号发射理论一定要注意理论的前提假设：1.信号基于人们的信念 2、获得信号的过程与能力无关</p>
+<h2 id="裁员："><a href="#裁员：" class="headerlink" title="裁员："></a>裁员：</h2><p>劳动力囤积的原因，一个是就业保护立法的存在使得解雇成本很高（体制内），另一个是不确定性，或者工作过剩。</p>
+<h2 id="团队生产："><a href="#团队生产：" class="headerlink" title="团队生产："></a>团队生产：</h2><p>​        团队问题最重要的是搭便车现象，需要团队有三个主要原因:(i)在工人之间的生产互补方面取得可能的收获;通过允许工人积累特定任务的人力资本，促进专门化的收益;鼓励从知识转让中获益。</p>
+<p>​        高能力员工加入团队，可以分为两方面原因:(i)生产力的提高可能来自多种技能的能力;(ii)团队内部的社会化可以在收入方面补偿高能力员工。最早成立的团队的绩效提高越高，高品质员工不仅倾向于先加入团队，而且在加入团队后也不会离开公司。当平均能力保持不变时，异质性越大的团队效率越高。 </p>
+<p>​        总的来说，这些论点表明，即使有些工人在加入团队后工资较低，企业通过引进团队生产来减少营业额和增加产量也是可行的。</p>
+]]></content>
+      <categories>
+        <category>Book Reviews</category>
+      </categories>
+      <tags>
+        <tag>Personnel Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>The Theory of Corporate Finance</title>
+    <url>/posts/The%20Theory%20of%20Corporate%20Finance_url.html</url>
+    <content><![CDATA[<h1 id="The-Theory-of-Corporate-Finance-by-Jean-Tirole"><a href="#The-Theory-of-Corporate-Finance-by-Jean-Tirole" class="headerlink" title="The Theory of Corporate Finance by Jean Tirole"></a>The Theory of Corporate Finance by Jean Tirole</h1><h2 id="公司治理"><a href="#公司治理" class="headerlink" title="公司治理"></a>公司治理</h2><p>经济学意义上的公司治理，就是使公司投资者得到投资回报的机制。这个机制能够得到投资者的信任，并且不断吸引投资。</p>
+<p>阿罗德布鲁模型下，饼的大小和如何分饼是无关的。但在不对称信息背景下就不是这样。由于信息不对称，管理者是很难被监督的，我们难以选出管理者（逆向选择），难以监督管理者（道德风险)。</p>
+<p>公司的管理水平取决于内部的治理结构和外部的竞争环境。</p>
+<p>Tirole defines corporate governance as “the design of institutions that induce management to internalize the welfare of stakeholders.</p>
+<h2 id="常见的公司治理问题"><a href="#常见的公司治理问题" class="headerlink" title="常见的公司治理问题"></a>常见的公司治理问题</h2><p>道德风险会导致许多问题，比如自私裁决、努力不足（没有动力改革、降成本）、额外投资（奢侈消费）、保守战略。</p>
+<p>管理层缺乏透明，被管理者根本不知道有钱人的快乐。绩效和薪酬的联系不紧密，绩效本身也不明确，易被管理者操纵。</p>
+<p>管理者经常利用报酬制度套利，管理者经常在业绩不好时能够独善其身，管理者能够及时抽身，留下烂摊子，管理者有金色降落伞。</p>
+<p>老板，管理者都好大喜功，并且将损失归结于外部因素。垄断企业的老板能够想办法使自己过得很好，因此看企业好不好，老板是个很关键的因素。</p>
+<p>董事会往往是非独立的，是自己人，并且对公司的关注也不足够。独立董事有时也说不上话，也没有足够的激励产生有效监管，并且独立董事也不愿意闹不愉快。大多数情况下，董事会和CEO会形成合谋，双方又互相的利益交换，各取所需。</p>
+<p>没钱又干得不好的员工最容易离职。</p>
+<h2 id="公司治理机制"><a href="#公司治理机制" class="headerlink" title="公司治理机制"></a>公司治理机制</h2><p>公司的管理水平取决于内部的治理结构和外部的竞争环境。外部竞争环境是重要的，竞争对手为你提供了管理的标准。如果是垄断企业，道德风险问题就很很严重。但外部的竞争环境不会影响治理结构，这一点对公司治理与国家治理同时适用。</p>
+<p>控制权的集中在东亚国家很常见，但是在央格鲁撒克逊国家明显小很多。公司控制权的市场最受争议——兼并和收购市场，收购：中国香港，中国台湾的兼并，可能会扭亏为盈。为了保证收入，控制权不一定要完全给最想要他的人，因为他有可能会过度乐观导致冒险。资本在什么时候进入是比较重要的。</p>
+<h3 id="激励计划"><a href="#激励计划" class="headerlink" title="激励计划"></a>激励计划</h3><p>经济学关注使管理者在没有奖金和监督的前提下，激发人们为了公司剩余而努力，奖金激励短期利益，股票和期权激励长期利益。融资的啄序理论:留存收益到债务，到证券最后到股权。债务在一定程度上成了激励经理人的辫子。期权更符合风险厌恶，但有可能会失效（期望理论），显性激励与隐性激励是替代的，生存都有问题，谈钱就少了。相对绩效评估不常使用，因为没有可参照的对象。有信心的人愿意接受更高的绩效奖金。</p>
+<h3 id="吹哨人"><a href="#吹哨人" class="headerlink" title="吹哨人"></a>吹哨人</h3><p>吹哨人机制的弱点：  1.吹哨人是领导选拔出来的，有逆向选择问题  2.吹哨人一吹哨，可能把自己的career吹没了</p>
+<h3 id="社会责任"><a href="#社会责任" class="headerlink" title="社会责任"></a>社会责任</h3><p>社会责任的企业牺牲短期利益换取长期利益，企业社会责任另一角度说也是控制企业的一种手段，可以使得社会向企业收“税”。当公司足以生存时，就应该弘扬社会正能量，尽到社会责任，这也是可以取代政府的方面。</p>
+<h3 id="董事会"><a href="#董事会" class="headerlink" title="董事会"></a>董事会</h3><p>董事会应该按时开会，监督管理人员，应保证没有一人有不受约束的权力，董事会中应该有相对强而独立的董事，事会应确保控制权与方向牢牢掌握在自己手中。面临合谋的董事会，解决的办法可能只有靠资本市场的压力来倒逼董事会改革</p>
+<h2 id="公司金融"><a href="#公司金融" class="headerlink" title="公司金融"></a>公司金融</h2><p>公司金融理论的目标之一是在公司生命周期的不同阶段，对于证券和支出政策方面的问题给出预测或者建议。本书签掉了信息和激励所起的关键作用，更明确的说是资本、流动性、抵押品价值以及外部监督所起的作用</p>
+<p>债券和股权作为索取权，分别具有凹的和凸的收益结构。</p>
+<div  align="center">     <img data-src="https://cdn.mathpix.com/snip/images/D0qZO2TxuZoQVG22rD9mGLp3jZnpNh_is8-zFefWiUo.original.fullsize.png" width="250px" "height:100px">  </div>
+
+<p>$$<br>\begin{array}{ccccc}<br>\hline \text { Common } &amp; \text { Preferred } &amp; \text { Subordinated } &amp; \text { Ordinary } &amp; \text { Secured } &amp; \text { Priority } \<br>\text { stock } &amp; \text { stock } &amp; \text { debt } &amp; \text { debt } &amp; \text { debt } &amp;<br>\end{array}<br>$$</p>
+<p>索取权的优先顺序。</p>
+<p>债权人可以通过可转换期权波阿虎自己，如果债权人可以将他们的索取权转换成股权，那么，以损害债权人利益为代价而使股东获利的行为就不会发生了。</p>
+<p>资产的抵押在很大程度上会使贷款更容易获得，虽然也带来了一些交易成本与其他成本。</p>
+<p>证券化：让索取权可交易； 决定索取侵权能否在二级市场上方便交易的关键因素，就是投资者之间对索取权价值的信息的对称性，若索取权拥有这的信息更多，就会出现“柠檬效应”。在美国，公募债券的流动性相当好，而银行贷款和私募债务的违约可能性相当高。（存在严重的信息不对称）</p>
+<p>一般来说公司都愿意获得长期授信，因为短期授信要求它们必须不断地向银行或者信用市场还款以获得新的资金，相当于向借款人施加了更多的约束，不过长期负债协议比短期原为复杂。</p>
+<p>只要存在信息不对称，就一定会被信息优势的一方滥用，所以要学习知识</p>
+]]></content>
+      <categories>
+        <category>Book Reviews</category>
+      </categories>
+      <tags>
+        <tag>Corporate Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Notes on Contract Theory_3.3 signaling</title>
+    <url>/posts/Notes%20on%20Contract%20Theory_3.3%20signaling_url.html</url>
+    <content><![CDATA[<ul>
+<li>@Author: Miao Silin </li>
+<li>@Date: 2020-06-15 17:38:05 </li>
+<li>@Last Modified by:   Miao Silin </li>
+<li>@Last Modified time: 2020-06-15 17:38:05 </li>
+</ul>
+<h1 id="信号发射模型"><a href="#信号发射模型" class="headerlink" title="信号发射模型"></a>信号发射模型</h1><h2 id="关键假设："><a href="#关键假设：" class="headerlink" title="关键假设："></a>关键假设：</h2><p>1、信念是重要的   </p>
+<p>2、发射信号的过程不会影响个人能力（这个假设比较弱）。</p>
+<h2 id="该不该发射信号？"><a href="#该不该发射信号？" class="headerlink" title="该不该发射信号？"></a>该不该发射信号？</h2><p>许多情况下，代理人自己不甘于被动选择，会发射信号和别人区别开来。信号发射是一个必然的过程，高等教育普及化导致信号价值降低。只要教育具有信号价值，则所有人都不能够减负。代理人该不该发射信号？ 一个考虑是就业市场看不看重该信号，另一考虑是代理人发射信号的成本。要显示你的类型同时别人无法模仿。在一个竞争激烈的社会，如何向别人证明自己？社会上有两类人：一类人为了证明自己，另一类人为了做自己想做的事情。如果能够做自己想做的事情，才叫活成了一个人样。才有下半场，直接不玩这个game了，才是主动的人生。不然是被动的人生。</p>
+<p>很重要的误区是没有考虑到信号的成本，信号的成本不能太高，否则高类型的人都不干了。并且，信号成本如果相对过高，可能当一个低类型的人比当一个高类型的人的收益反而更多。例如，早读书，早毕业，早买房；可能比晚读书，晚毕业，晚买房好得多，这是一个事实。</p>
+<h2 id="如何发射信号？"><a href="#如何发射信号？" class="headerlink" title="如何发射信号？"></a>如何发射信号？</h2><p>信号发射还应该考虑到信念，信念和策略是同等重要的，如果市场不接受你的信号，你的信号就没有用了。如果市场的信念对于偏离是不好的，就不应该偏离而应该混同。有很多老板其实认为：男的看长得帅不帅，女的看长得漂不漂亮，与市场信念有很大关系，这事你也不应该搞错而盲目发射信号。</p>
+<p>大学是分离均衡（985、211一查就能查到，而这个壁垒天然存在。上不上大学收入差20%，而上高中没什么用。），研究生是杂交均衡（有些有用比如学硕，有些没用，MBA没啥用），博士生是混同均衡。越往上，选拔考生的难度越来越小。博士的一半在官场。国内的博士学位基本上在官场。博士（非在职）还有一点价值。在中国，永远找不到一个平行的领导，大家都通过不同的信号互相区别。</p>
+<h2 id="应用："><a href="#应用：" class="headerlink" title="应用："></a>应用：</h2><p>1、定价：KMRW 模型：垄断企业制定价格较低是为了发射信号，告诉别人不要来</p>
+<p>2、融资的啄序理论：敢发债说明不怕破产，说明项目质量好。法律对债务的保护是比较严格的，因为债券在一定情况可以行使控制权</p>
+<p>3、失业：领了救济金就给别人释放信号说明你能力不行：有困难轻易不要接受施舍，</p>
+<p>4、cheap talk：不需要花钱，告诉别人你是什么类型，接不接受由你决定。每一个人对应一个最优类型（你没有撒谎的激励），则不会撒谎。——然而，下属向领导建议，领导很多时候不会听的。</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Contract theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Organizational theory_4 Organizational Politics</title>
+    <url>/posts/Organizational%20Politics_url.html</url>
+    <content><![CDATA[<h1 id="第四讲-组织政治学"><a href="#第四讲-组织政治学" class="headerlink" title="第四讲 组织政治学"></a>第四讲 组织政治学</h1><h2 id="政治是什么？"><a href="#政治是什么？" class="headerlink" title="政治是什么？"></a>政治是什么？</h2><p>政治在不同语境下的含义也是不同的，我们主要从西方人的观点理解政治。</p>
+<p>西方人：政治是权力的形成、分配与运用，是妥协的艺术，哪里有权力，哪里就有政治，其中国家权力涉及到公共政治。</p>
+<p>power：国家所垄断的权力；可以对社会价值做出权威性分配；（再分配）</p>
+<p>authority： 被认同的，有合法性的power；</p>
+<p>regulation：政府单方面进行的零和博弈行为。</p>
+<p>传统中国人认为：政治基本上就是君主的治国之道。尚书有言：“道洽政治，泽润民生”。中国政治被赋予了道德的意涵，是和合政治，是道德的实践的活动。乾卦：自强不息；坤卦：厚德载物。后现代主义认为当前社会阳性太强而阴性不足。</p>
+<h2 id="政治的特点"><a href="#政治的特点" class="headerlink" title="政治的特点"></a>政治的特点</h2><p>政治是很感性的，管理是很理性的。对于政治理性来说，对人事的第一要求是忠诚；管理理性要的是效率。</p>
+<p>道德也只是一个历史范畴。</p>
+<p>政治和行政分离，完全是管理国家形成的产物，避免职业文官收到政党政治弊端的影响。我们如果希望发展一套没有政治的管理，就比较难办。可以分为政治的轨道、管理的轨道和法律的轨道，这三种截然不同。</p>
+<p>政治的主体是人，人是政治的动物，<strong>政治权力源于经济权力，也是实现经济利益的手段，可以维护既存的利益，提升经济权利</strong></p>
+<p>信念影响心智，心智诉诸行为</p>
+<p>在撰写文章时，政治家通常是立场，观点，方法</p>
+<p>科学家首先想到的是证据，政治家首先想到的是立场。</p>
+<h2 id="组织政治"><a href="#组织政治" class="headerlink" title="组织政治"></a>组织政治</h2><p>组织政治即当组织面临不确定或者不一致选择时，去争取、发展并使用与其他资源获取有利于自己偏好的活动</p>
+<p>组织政治的assumption不一样。也是一种猜测。</p>
+<p>组织的政治模型与理性模型</p>
+<table>
+<thead>
+<tr>
+<th align="center">组织特征</th>
+<th align="center">理性模型</th>
+<th align="center">政治模型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">目标</td>
+<td align="center">一致性</td>
+<td align="center">多元、非一致（政治目标从未一致）</td>
+</tr>
+<tr>
+<td align="center">权力与控制</td>
+<td align="center">集权</td>
+<td align="center">横向纵向分化、联盟（西方国家没有权力中心）</td>
+</tr>
+<tr>
+<td align="center">决策过程</td>
+<td align="center">理性逻辑</td>
+<td align="center">无秩序的、利益推动</td>
+</tr>
+<tr>
+<td align="center">法规与规范</td>
+<td align="center">最大化的规范（可预测）</td>
+<td align="center">市场因素（规范在竞争因素中产生）、冲突（平权法案的设立是社会冲突的结果）</td>
+</tr>
+<tr>
+<td align="center">信息</td>
+<td align="center">广泛、系统、正确</td>
+<td align="center">暧昧、策略性运用</td>
+</tr>
+<tr>
+<td align="center">因果关系</td>
+<td align="center">已知</td>
+<td align="center">因果关系不一致（因果关系可能被他人利用）</td>
+</tr>
+<tr>
+<td align="center">决策</td>
+<td align="center">结果为基础</td>
+<td align="center">利益交换</td>
+</tr>
+<tr>
+<td align="center">意识形态</td>
+<td align="center">效率效益</td>
+<td align="center">冲突、斗争、胜利者与失败者</td>
+</tr>
+</tbody></table>
+<h2 id="组织权力与权威的基础与来源"><a href="#组织权力与权威的基础与来源" class="headerlink" title="组织权力与权威的基础与来源"></a>组织权力与权威的基础与来源</h2><p>构成权力的基础仍然是经济的力量。知识是权力是因为知识能够带来财富——不能忽视生产资料的所有问题。</p>
+<h3 id="权力基础"><a href="#权力基础" class="headerlink" title="权力基础"></a>权力基础</h3><p>强制的权力；报酬的权力；正当的权力； 参与的权力； 专家的权力； 代表的权力</p>
+<h3 id="权威"><a href="#权威" class="headerlink" title="权威"></a>权威</h3><p>神魅的权威； 传统的权威； 法律的权威</p>
+<h3 id="高层的权力基础"><a href="#高层的权力基础" class="headerlink" title="高层的权力基础"></a>高层的权力基础</h3><p>正式职位； 资源（高层资源积累较多）； 控制决策前提（丰富的经验）；工作经验</p>
+<h3 id="低层人员的权力基础"><a href="#低层人员的权力基础" class="headerlink" title="低层人员的权力基础"></a>低层人员的权力基础</h3><p>专业知识； 工作努力； 说服与操纵；权力动机</p>
+<h3 id="平行阶层的权力基础"><a href="#平行阶层的权力基础" class="headerlink" title="平行阶层的权力基础"></a>平行阶层的权力基础</h3><p>依赖性； 财务资源； 集中性； 可替代性； 因应不确定性</p>
+<h2 id="组织的政治过程"><a href="#组织的政治过程" class="headerlink" title="组织的政治过程"></a>组织的政治过程</h2><p>结构的变迁；人事的变迁；资源的分配； 部门之间的协调；组织战略的决定</p>
+<h2 id="组织的政治技巧"><a href="#组织的政治技巧" class="headerlink" title="组织的政治技巧"></a>组织的政治技巧</h2><ol>
+<li>联盟；（美国单打独斗、中国是否要搞新亚洲主义？）</li>
+<li>吸纳：吸纳反对者；同情者（美国羞辱中国，不谦虚；中国建立广泛统一战线）</li>
+<li>影响决策过程：信息扭曲；选择性提出客观标准；控制议程；利用外部专家；贬值仪式</li>
+<li>公布偏好 隐藏权力</li>
+<li>试探政治反应</li>
+</ol>
+<p>is it science or art?</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Organizational theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Personnel Economics Class</title>
+    <url>/posts/Personnel%20Economics%20Class_url.html</url>
+    <content><![CDATA[<p>At the end of this lecture you understand:<br>The definition and characteristics of personnel economics<br>How different HR practices reflect economic decisions<br>The limits of personnel economics</p>
+<p>All HR does is cost money? （好的制度设计是对人力资源管理是不花成本而事半功倍的）</p>
+<p><strong>Economic theories / principles = Efficiency/Effectiveness</strong></p>
+<ul>
+<li>Contraints imposed by financial markets and labor markets</li>
+<li>Market equilibrium</li>
+<li>Homo economicus / rational agents</li>
+<li>Supply and demand</li>
+</ul>
+<p><strong>HR problems = Employment relationship</strong></p>
+<ul>
+<li>Who should we hire? Where should we look and how long? (attraction/selection/recruitment)</li>
+<li>How much should we pay? Should we pay fixed wage or commission wage? (motivate/engage)</li>
+<li>How can we induce cooperation among employees? (motivate/engage)</li>
+<li>Is should we invest in a new coffee machine? (motivate/engage)</li>
+<li>Should we invest in training employees? What are the risks/costs? (train/develop)</li>
+<li>Who should we promote and on what basis? (train/develop)</li>
+<li>Should we keep or retrain an underperforming employee? What are the risks/costs? (deploy/exit)</li>
+</ul>
+<p>“traditional production theory provides no answer on how wages should be structured to motivate employees” (Lazear, 1995 )</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Psychology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Psychology by LY</title>
+    <url>/posts/Psychology%20by%20LY_url.html</url>
+    <content><![CDATA[<p>人力资源管理关键是要观察得仔细</p>
+<p>认知能力，行为，态度，情绪都可以改变。</p>
+<p>领导支持就像空气一样，十分重要</p>
+<p>先做简单的，再做难的</p>
+<p>蓝色和白色的搭配是让人感觉最舒服的</p>
+<p>目标设置：S=Specific、M=Measurable、A=Attainable、R=Relevant、T=Time-bound</p>
+<p>人很重要的是归纳演绎的能力，归纳素质，演绎出定义，这是非常考验技巧的——对意思的表达</p>
+<p>分析能力强，判断能力强，决策做得准就是有智慧。</p>
+<p>人高兴，两眼会放光</p>
+<p>说话不能不负责任，不分场合</p>
+<p>新入职的以一年半年都是非常糟糕的，许多人一开始都是一个很差的新员工</p>
+<p>培养自己的责任心和工作主动性——这是关键——通用素质。</p>
+<p>​    1. 责任心：老师不催你，你自己都能够做好</p>
+<p>​    2. 工作主动性：发现有什么可以改进的地方，主动和老师提</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Psychology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Public Economics</title>
+    <url>/posts/Public%20Economics_url.html</url>
+    <content><![CDATA[<h1 id="Public-economics-focuses-on-two-types-of-questions"><a href="#Public-economics-focuses-on-two-types-of-questions" class="headerlink" title="Public economics focuses on two types of questions"></a>Public economics focuses on two types of questions</h1><ol>
+<li>How do government policies affect the economy?</li>
+<li>How should policies be designed to maximize welfare</li>
+</ol>
+<pre><code>1. Pratical relevance
+         a. Interest in improving econimic welfare: interest in pubilc economics
+         b. Almost every economic intervention occurs through  government policy (i.e. invloves  pubic economics) via two channels:
+             i. Price intervention: taxes, welfare, social insurance, public goods
+             ii. Regulation: min wages, FDA regulations(25% of products consumed), zoning, labor laws, min eduction laws, environment
+         c. Government directly employs on sixth of U.S. workforce
+         d. Stakes are extremely large because of broad scope of policies
+             i. Ex. Tax reforms immediately affect millions
+         e. Contentious debate on the appropriate role of government in society
+         f. Only one of these views can be correct
+             i. Injecting science into these debates has great practical value
+2. Academic interest
+   a. Public economics is typically the end point for many other subfields
+   b. Macro, development, labor, and corporate finance questions often ultimately motivated by a public economics question
+       i. Ex 1: macro studies on costs of business cyclts and intertemporal models of household behavior
+       ii. Ex 2: labor studies on employment effects of the minimum wage
+   c. Natural to combine public finance with another field
+   d. Understanding public finance can help ensure that you work on relevant topics </code></pre><ol start="3">
+<li><p>Methodology<br> a. At the frontier of a methodological transformation in applied microeconomics<br> b. Data-driven approach to answering improtant policy questions.</p>
+</li>
+<li><p>First welfare theorem<br> a. Private market provvides a pareto efficient outcome under three conditions</p>
+<pre><code>i. No externalities
+    1) Markets may be imcomplete due to lack of prices (e.g. pollution)
+    2) This is why government funds public goods (highways, education, defense)
+    3) Questions: what public goods to provide and how to correct externalities?
+ii. Perfect information
+    1) Adverse selection in health insurance
+        a) Mandated coverage could make everyone better off
+    2) Capital markets (credit constraints) and subsides for education
+    3) Markets for intergenerational goods
+        a) Future generation&apos;s interests may not be fully reflected in market outcomes
+iii. Perfect competition
+    1) When markets are not competitive, there is a role for government regulation</code></pre></li>
+<li><p>Individual failures<br> a. If agents do not optimize, government intervention (e.g. by forcing saving via social security) may be disirable<br> b. Conceptual challenge: how to avoid paternalism critique</p>
+<pre><code>i. Why does govt. know better what&apos;s desirable for you （e.g. wearing a seatbelt, not smoking, saving more)</code></pre><p> c. Difficult but central issues</p>
+</li>
+<li><p>Redistributional concerns<br> a. Even when the private market outcome is efficient, may not have good distributional properties<br> b. Efficient markets generally seem to deliver very large rewards to small set of people (top incomes)<br> c. Governmenr can redistribute income through tax and transfer system</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Public Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>The Theory of Corporate Finance</title>
+    <url>/posts/The%20Theory%20of%20Corporate%20Finance_url.html</url>
+    <content><![CDATA[<h1 id="Corporate-Governance-in-China-a-Survey"><a href="#Corporate-Governance-in-China-a-Survey" class="headerlink" title="Corporate Governance in China: a Survey"></a>Corporate Governance in China: a Survey</h1><h2 id="1-做了什么"><a href="#1-做了什么" class="headerlink" title="1.做了什么"></a><strong>1.做了什么</strong></h2><p>This paper surveys corporate governance in China</p>
+<h2 id="2-为什么重要"><a href="#2-为什么重要" class="headerlink" title="2. 为什么重要"></a>2. 为什么重要</h2><h2 id="3-什么贡献"><a href="#3-什么贡献" class="headerlink" title="3.什么贡献"></a>3.什么贡献</h2><h2 id="4-理论逻辑"><a href="#4-理论逻辑" class="headerlink" title="4.理论逻辑"></a>4.理论逻辑</h2><h2 id="5-什么数据"><a href="#5-什么数据" class="headerlink" title="5.什么数据"></a>5.什么数据</h2><h2 id="6-什么方法"><a href="#6-什么方法" class="headerlink" title="6.什么方法"></a>6.什么方法</h2><h2 id="7-什么结论"><a href="#7-什么结论" class="headerlink" title="7.什么结论"></a>7.什么结论</h2><p>西方经典的垂直代理（董事和CEO）问题不同，我国的主导代理问题是集中的股权结构导致的控股股东与小股东之间的横向代理冲突</p>
+<p>在中国，控制公司的是控股股东，而不是管理者,控制股东具有有效监督管理者的激励和权力;因此，经理人的征用在中国不太可能成为一个严重的问题。然而，大控股股东很可能会利用他们的权力从小股东那里征收财富。因此，我国的首要代理问题是控股股东与小股东之间的利益冲突，而垂直代理问题在很大程度上由于控股股东对管理者的有效约束而得到缓解。虽然管理者可能仍有自己的私人利益，但他们可能会为了控股股东的利益而对小股东进行掠夺，从而加剧横向代理冲突。</p>
+<p>投资者权利的法律保护是公司治理的一个基本要素。鉴于占主导地位的控股股东的存在，法律保护似乎是解决中国代理问题最重要的办法，尽管并不完美。当控股股东完全控制公司董事会和管理团队时，公司内部治理很难有效运作，美国也是如此，管理者主导公司决策，降低公司内部治理的有效性(Allen和Gale, 2000)。同时，外部公司治理机制，如收购威胁，这在美国很流行在中国，由于所有权结构过于集中，收购交易很少发生。2因此，中国的公司治理还剩下另一种外部机制，即法律和制度。在过去的30年里，自上世纪90年代初中国证券交易所启动以来，中国的法律保护有了显著的改善。</p>
+<p>国有企业的重要性和独特性值得单独讨论。国有企业与非国有企业在公司治理方面存在显著差异。由于政府有义务维护社会稳定。由于国有股东不积极监督日常运营，管理人员可能会以牺牲国有股东和少数股东利益为代价，从事自利行为。因此，中国国有企业面临着与美国等许多发达国家类似的垂直代理冲突。国有企业主要有两个目标:盈利和执行国家政策，家族企业只有利润目标。</p>
+<p>由于控股股东持有大量股权，或者是国家控股，外部投资者或董事会不能因为业绩不佳而解雇内部人，也不可能有一个有效的企业控制市场(外部投资者不能获得足够的股份来控制公司，他们也不能控制一家国有企业)，在中国解决代理问题的途径是有限的。</p>
+<p>我国公司治理问题的根源在于股权结构集中和法律法规不完善。在这种典型的股权结构下，我国代理问题的主要表现是控股股东与小股东之间的利益冲突</p>
+<h2 id="8-可改进之处"><a href="#8-可改进之处" class="headerlink" title="8.可改进之处"></a>8.可改进之处</h2><h2 id="9-借鉴意义"><a href="#9-借鉴意义" class="headerlink" title="9.借鉴意义"></a>9.借鉴意义</h2><p>未来方向：</p>
+<p>第一，强调政治制度的作用。资本主义国家有效的公司治理机制可能与中国不同。中国的政治制度是典型的社会主义制度，在新的政治领导层领导下，国有企业受到国家更严格的控制。新领导层的大规模反腐运动提出了这样一个问题:一个更清廉的政府是否会减少国企的腐败?Shleifer和Vishny(1997)指出，在塑造公司治理体系方面，政治压力与经济压力同样重要。Roe(2003)认为，在塑造美国公司法方面，政治发挥了比经济效率更大的作用。当前的政治领导目标对中国公司治理有什么影响?这些影响背后的机制是否与西方国家不同?回答这些问题，或许有助于建立一种新的公司治理模式(比如中国模式)，与当前的英美模式和德日模式并存。</p>
+<p>其次，应重视控股股东的异质性。国有企业约占中国市场总资本的三分之二，在许多方面，包括主要任务(Lin, Cai, Li, 1998;、融资与投资(Liu and Siu, 2011)和业绩(Jiang, Jiang, and Kim, 2017)。因此，正如我们在第4节中所解释的，国有企业的公司治理与非国有企业有很大的不同。然而，许多研究只是在回归模型中加入了一个虚拟变量来指定国有企业与非国有企业。一个更合适的策略是在进行分析时将这两种类型的公司作为子样本分开。例如，要研究政治联系的作用，我们应该关注非国有企业，因为所有的国有企业都具有自然的政治联系;而要研究政府干预的效果，必须认识到在国有企业和非国有企业中，政府是国有企业的控股股东，而在非国有企业中，政府是局外人，两者所使用的机制是完全不同的。因此，分别对这两类公司进行分析，可以更清晰地了解中国的公司治理。</p>
+<p>第三，对机构投资者的研究需要考虑投资者异质性。Firth、Lin和Zou(2010)发现，在中国，共同基金是无效的监管机构，但Wind数据库发现了其他11种类型的机构投资者，包括私募股权、保险公司、信托公司、金融公司、非金融上市公司、国有资产管理公司等。有监控公司吗?利用成本效益框架和美国数据，Chen, Harford和Li(2007)发现具有长期投资的独立机构确实进行了监测。对于中国，我们甚至不知道哪些机构是长期投资者，更不用说它们是否进行监管以及如何进行监管。在今天的中国，机构投资者或许很难影响公司，但随着他们的规模越来越大，研究应该重新审视他们的投资和监督行为(例如，几个大型机构投资者合作监督公司)。</p>
+<p>第四，进一步了解法律保护在公司治理中的作用。长期以来，中国一直被批评其投资者保护不力(Allen, Qian, and Qian, 2005)，尽管法律保护是解决中国代理问题最重要的方法之一。然而，近年来，法律、制度和法规有了显著的改善，极大地增加了违法成本。而以往的研究证明了某些特定的法规在公司治理中发挥了有效作用(Berkowitz, Lin, and Ma, 2015;陈、柯、杨，2013年;(Lennox, Wu, and Zhang, 2014)，一个更广泛的问题是违规成本如何影响或塑造中国的公司治理。关于法律和金融的论文很少讨论惩罚，这似乎是一个明显的遗漏。一项针对白领犯罪的不同惩罚方式的时间序列研究，或者跨省研究，甚至是跨国家研究，可能会让我们洞察到，一根大棒是否能阻止内部控制人员从事损害外部投资者利益的自私行为。</p>
+<p>第五，考察公司治理与股票市场之间的互动关系很重要。中国现在是第二大股票市场，在世界500强企业中所占比例最高。因此，这为研究公司治理如何影响股票市场以及如何受到股票市场的影响提供了一个很好的机会。</p>
+<p>第六，可以进一步探索公司控制权市场。由于所有权集中，中国的这个市场一直处于休眠状态，但随着中国企业越来越多地收购非上市公司和外国公司，中国的并购规模一直在增长。Jiang, Jiang和Kim(2017)报告称，最近，每年都有超过三分之一的上市公司收购另一家公司。虽然这些被收购的公司不是在中国上市的公司，但并购活动(一种普遍的活动，尤其是外国收购)的增多，最终会改变收购公司的治理实践吗?这些变化最终会波及到其他上市公司吗?更重要的是，业绩不佳会增加被收购的可能性吗?收购能创造价值吗?</p>
+]]></content>
+      <categories>
+        <category>Paper Reviews</category>
+      </categories>
+      <tags>
+        <tag>Corporate Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Expectations, Wage Hikes, and Worker Voice Evidence from a Field Experiment</title>
+    <url>/posts/Expectations,%20Wage%20Hikes,%20and%20Worker%20Voice%20Evidence%20from%20a%20Field%20Experiment_url.html</url>
+    <content><![CDATA[<p>Hirschman(1970)的开创性论文认为，让工人有发言权可以防止他们退出雇佣关系，这在劳动经济学中发挥了基础性作用。我们通过在印度服装厂进行的随机对照试验，在现实环境中首次对这一假设进行了实验检验。就在令人失望的加薪之后，员工被随机抽选参加一项匿名调查，要求他们对工作条件、主管表现和整体工作满意度做出反馈。以这种方式发声减少了员工离职率和旷工率，尤其是对那些最失望的员工。</p>
+]]></content>
+      <categories>
+        <category>Paper Reviews</category>
+      </categories>
+      <tags>
+        <tag>Personnel Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Information Design</title>
+    <url>/posts/Information%20Design_url.html</url>
+    <content><![CDATA[<p>政府如何以“最优”的水平向大众披露信息（可以表现为以一定的概率撒谎），才是对社会福利最好的？</p>
+<p>（关键假设是民众要对政府足够信任）</p>
+<p>假设官员隐瞒疫情，是避免“过度恐慌”，“好心办坏事”，严惩相关人员也恰恰是让他们知道什么是正确的做法</p>
+<p>而另一方面，作为不明真相的群众，现在最理性的选择就是暂时不要批评和追究责任，先解决问题再说。</p>
+<p>思考：许多人坚守某种道德准则，也造成了information rigidity</p>
+]]></content>
+      <categories>
+        <category>Paper Reviews</category>
+      </categories>
+      <tags>
+        <tag>Game theory，Information design</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Public Sector Personnel Economics</title>
+    <url>/posts/hello_url.html</url>
+    <content><![CDATA[<h1 id="Public-Sector-Personnel-Economics"><a href="#Public-Sector-Personnel-Economics" class="headerlink" title="Public Sector Personnel Economics"></a>Public Sector Personnel Economics</h1><h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h3><p>Wages and promotion standards can partially offset a fundamental contracting problem: <strong>the inability of public sector workers to contract on performance, and the inability of political masters to contract on forbearance from meddling</strong>.</p>
+<p>Despite the <strong>dual contracting problem</strong>, properly constructed personnel policies can encourage intrinsically motivated public sector employees to invest in expertise, seek promotion, remain in the public sector, and develop policy projects. However, doing so <strong>requires internal personnel policies that sort “slackers” from “zealots.”</strong> Finally, even with well-designed personnel policies, there remains an <strong>inescapable trade-off between political control and expertise acquisition</strong>.</p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>The bases of the two contracting problems in public agencies.</p>
+<p>​        First, performance contracting in public agencies is frequently problematic.</p>
+<p>​        Second, political meddling in public agencies is pervasive and unavoidable.</p>
+]]></content>
+      <categories>
+        <category>Paper Reviews</category>
+      </categories>
+      <tags>
+        <tag>Personnel Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Stata usage</title>
+    <url>/posts/Stata%20usage_url.html</url>
+    <content><![CDATA[<p>改变变量测量单位：使结果更容易解读，不改变显著性水平和拟合优度。</p>
+<p>对数变换：削弱极端值影响，不适用于零值和负值</p>
+<p>将连续变量转换为分类变量：提升理论意义，减少缺失值，提高拟合优度</p>
+<h2 id="解释回归方程"><a href="#解释回归方程" class="headerlink" title="解释回归方程"></a>解释回归方程</h2><p>weight = 33length+b  长度每增加1英寸，重量增加33磅</p>
+<p>log𝑤𝑎𝑔𝑒=0.584+0.083𝑒𝑑𝑢𝑐               多接受一年教育，工资有 8.3% 的提高<br>log𝑠𝑎𝑙𝑎𝑟𝑦=4.822+0.257log(𝑠𝑎𝑙𝑒𝑠)    公司销售额增加 10% ，薪水 增加 2.57 %<br>𝑤𝑎𝑔𝑒=9530+3245log(𝑠𝑎𝑙𝑒𝑠)              公司销售增加 1% ，工资增加 32.45 元<br>log𝑔ⅈ𝑣ⅈ𝑛𝑔=3.863+1.142𝑐𝑜𝑙𝑙𝑒𝑔𝑒          有大学历的人捐赠数额是没三倍 （e的1.142次幂为3.13）</p>
+<h3 id="二次项的解释"><a href="#二次项的解释" class="headerlink" title="二次项的解释"></a>二次项的解释</h3><p>𝑤𝑎𝑔𝑒=3.73+0.298𝑒𝑥𝑝𝑒𝑟−0.006𝑒𝑥𝑝𝑒𝑟2<br>𝑒𝑥𝑝𝑒𝑟对𝑤𝑎𝑔𝑒的影响递减，工作经历的第一年约值每小时 30 美分 (0.298) ，工作经历 的第二年值 0.286 ，当工作经历从第 10 年变化到第 11 年时，预计工资提高0.176 ，或 17.6 美分</p>
+<h3 id="交互项"><a href="#交互项" class="headerlink" title="交互项"></a>交互项</h3><p>𝑙𝑜𝑔𝑒𝑎𝑟𝑛=7.081+0.018𝑒𝑥𝑝−0.156𝑠𝑒𝑥+0.140𝑠𝑒𝑛ⅈ𝑜𝑟+0.057𝑠𝑒𝑥∗𝑠𝑒𝑛ⅈ𝑜𝑟（sex为1是女性）<br>参照组：没有高中或以上学历的男性<br>男性获得高中或以上学历，收入增加 15% （1.15=ⅇ0.140）<br>女性获得高中或以上学历，收入增加 22% （1.22=ⅇ0.140+0.057=ⅇ0.197）<br>女性受教育的工资回报高于男性</p>
+]]></content>
+      <categories>
+        <category>tips</category>
+      </categories>
+      <tags>
+        <tag>tips</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git_usage</title>
+    <url>/posts/git_useage_url.html</url>
+    <content><![CDATA[<p>git add .</p>
+<p>git commit -m “first commit”</p>
+<p>git status </p>
+<p>git push</p>
+]]></content>
+      <categories>
+        <category>tips</category>
+      </categories>
+      <tags>
+        <tag>tips</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hello world</title>
+    <url>/posts/hello_url.html</url>
+    <content><![CDATA[<p>第一、作为一个专业人士，一定要在自己的专业上认真钻研，争取做到最好</p>
+<p>第二、要不介意去一些冷门的地方，或做一些冷门的话题，因为这些地方可能是你的社会贡献更大的地方</p>
+<p>第三、做好事不一定100%有好报，但在大概率上，是会有的，而且在100%意义上，是值得的</p>
+<p>第四、你在事业上投入最多，自认为最值得成功和别人认可的地方，最后不见得会成功，反而可能成为你最大的失败，但不要紧，你要知道这件事对你的价值，而且总会有别人知道你的价值。</p>
+<p>第五、人是一定会死的，站在死亡面前，名利真的是不重要的，重要的是你做的事，you are what you do </p>
+<p>第六、世界上最困难的不是面对挫折和困难，而是面对挫折和困难，却不失去对人间的爱。</p>
+]]></content>
+      <categories>
+        <category>Articles</category>
+      </categories>
+      <tags>
+        <tag>tips</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Game Theory</title>
+    <url>/posts/Game%20theory_url.html</url>
+    <content><![CDATA[<h2 id="概念界定"><a href="#概念界定" class="headerlink" title="概念界定"></a>概念界定</h2><p>一般意义上的博弈：<br>$$<br>\Gamma=\left(N, V, E, x^{0},\left(V_{i}\right)<em>{i \in N \cup{0}},\left(p</em>{x}\right)<em>{x \in V</em>{0}},\left(U_{i}^{J}\right)<em>{i \in N}^{j=1, \ldots, k</em>{i}}, O, u\right)<br>$$<br>N：参与人；  V：节点；  E：边； $x^0$初始节点； V：决策点； p：概率分布； U信息集； O:结果； u：效用函数</p>
+<h4 id="信息结构"><a href="#信息结构" class="headerlink" title="信息结构"></a>信息结构</h4><p>完美信息博弈（下棋）不完美（打牌）：每一个信息集都是单点集；确定信息：自然不参与行动；不完全信息：自然首先参与行动；</p>
+<p>完美记忆：行动人记得自己的行为；</p>
+<p>完美信息一定是完美记忆，完美记忆不一定是完美信息。</p>
+<h4 id="博弈、均衡分类"><a href="#博弈、均衡分类" class="headerlink" title="博弈、均衡分类"></a>博弈、均衡分类</h4><p>动态博弈的核心问题：可信任性</p>
+<p>完全信息静态博弈；不完全信息静态博弈； 完全信息动态博弈； 不完全信息动态博弈。</p>
+<p>子博弈的起点信息集是单点集；并且不能拆分任何一个信息集；静态博弈是特殊的动态博弈；合作博弈是特殊的非合作博弈；</p>
+<p>每一个信息集对应一个行动选择：$s_{i}: \mathcal{U}<em>{i} \rightarrow \bigcup</em>{j=1}^{k_{i}} A\left(U_{i}^{j}\right)$</p>
+<p>纯策略纳什均衡：$u_{i}\left(s^{<em>}\right) \geq u_{i}\left(s_{i}, s_{-i}^{</em>}\right)$（每个人的选择都是针对其他人的选择的最优反应。）</p>
+<p>混合策略：有限个参与人随机选择某个行动</p>
+<p>行为策略：参与者的行为策略是一个函数，它将他的每个信息集映射为在该信息集上可能采取的一系列行动的概率分布。</p>
+<p>均衡的精炼：把均衡变得更加完美</p>
+<p>逆向归纳法：looking forward， reasoning backward</p>
+<p>序贯理性：每个人在每一步中都追求条件期望效用最大化，并且是动态理性：不是一开始就想好的。</p>
+<p>共同知识：$\omega \in K_{i_{1}} K_{i_{2}} \ldots K_{i_{l-1}} K_{i_{l}} A$ 我知道你知道我知道你知道我知道我知道……</p>
+<p>同时博弈：一个信息集有多个参与人或者参与人不知道别的参与人的行动，也可看做同时博弈。</p>
+<h2 id="主要命题"><a href="#主要命题" class="headerlink" title="主要命题"></a>主要命题</h2><p>零和博弈中，每个人的极大极小值=极小极大值=纳什均衡。（鞍点：对于策略s1是极大值，对于策略s2是极小值）<br>$$<br>\underline{v}:=\max <em>{s</em>{1} \in S_{\mathrm{I}}} \min <em>{s</em>{\mathrm{I}} \in S_{\mathrm{II}}} u\left(s_{\mathrm{I}}, s_{\mathrm{II}}\right) \<br>\bar{v}:=\min <em>{s</em>{\mathrm{II}} \in S_{\mathrm{II}}} \max <em>{s</em>{\mathrm{I}} \in S_{\mathrm{I}}} u\left(s_{\mathrm{I}}, s_{\mathrm{II}}\right)<br>$$<br>库恩定理：完美记忆使得行为策略等价于混合策略</p>
+<p><strong><em>均衡的精炼： 纳什均衡——子博弈完美均衡——完美贝叶斯均衡——序贯均衡——完美（颤抖手）均衡——正恰均衡</em></strong></p>
+<p>子博弈完美均衡（SPE)：<strong><em>排除不可置信威胁</em></strong>，在子博弈中不愿偏离，在<strong><em>子博弈中也是纳什均衡</em></strong>：子博弈完美均衡的存在不需要完美信息，只需要完美记忆<br>$$<br>u_{i}\left(\sigma^{<em>} \mid x\right) \geq u_{i}\left(\sigma_{i}, \sigma_{-i}^{</em>} \mid x\right)<br>$$<br>但有些时候，子博弈完美均衡也是纳什均衡，会得到很荒唐的结果，因此需要再精炼。</p>
+<p><strong><em>完美贝叶斯均衡</em></strong>：只适用于可观测行动的博弈（不完全信息，但行动可观测，同时行动则不可观测），完美贝叶斯均衡可作为可观测行动的不完美信息动态博弈的标准解。</p>
+<p><strong><em>序贯均衡***</em></strong>：<strong>*（每一步，每一个人条件期望效用最大化）1.序贯理性；2. 信念与行为一致（行为是通过信念的</strong>贝叶斯法则**导出来的）</p>
+<p><strong><em>完美均衡：</em></strong> 任何有限博弈都存在一个<strong><em>完美（颤抖手）均衡</em></strong>，完美均衡一定不会被若占优。</p>
+<p><strong><em>奥曼-海萨尼教条</em></strong>：1共同先验信念假设：人的先验信念一致； 2后验信念通过贝叶斯修正先验信念；（批判：先验信念异质性：基因）</p>
+<p>（每个人都用后验概率利用贝叶斯修正先验概率，因为不完全信息，每个人都会过高估计世界的真实概率）</p>
+<p><strong><em>奥曼定理</em></strong>：people can not agree to disagree：不停地修正先验概率，后验概率一定会收敛。</p>
+<h2 id="合作博弈"><a href="#合作博弈" class="headerlink" title="合作博弈"></a>合作博弈</h2><p>在合作博弈中允许参与者互相协调，结盟以提高自身利益。合作博弈与非合作博弈的区别在于非合作博弈强调个体理性，而合作博弈强调集体理性。从另一个方面理解：存在具有约束力的合作协议的博弈就是合作博弈。</p>
+<p>合作博弈形成条件：</p>
+<p>1.联盟的整体收益大于每个个体单独经营收益之和</p>
+<p>2.每个参与者都能获得比不加入联盟更高的收益</p>
+<p>合作博弈的一般表示：<br>$[I, V]$ 是一个n人合作博亦， $I$ 表示n个参与者的集合, $\quad S$ 是 $I$ 的任意子集, 表示一个联盟,$V(S)$ 是这个n人合作博将的特征函数，描述了联盟的效益。</p>
+<p><code>定义 18.AA.3</code>：对于一个特征形博变 $(I, V)$ 和任何不相交的两个联盟 $S \subset I$ 和 $T \subset I$ (即,<br>$S \cap T=\varnothing$ )，如果我们有:<br>$$<br>\text { 若 } u^{S} \in V(S) \text { 和 } u^{T} \in V(T), \text { 则 }\left(u^{S}, u^{T}\right) \in V(S \cup T)<br>$$<br>那么，我们说这个特征形博变 (I,V) 是超可加的（superadditive）。<br>超可加性意味着，联盟 S 和 T 联合行动的结果至少与它们各自行动时的结果一样好。如果两个不相交联盟约定它们貌似仍然单独行动，那么超可加性成立。</p>
+<p><code>定义 18.AA.4</code>：一个可用特征形表示的效用可转移的（transferable utility）博奕（或称为 TU博亦）可用 $(I, v)$ 定义，其中: $I$ 是选手集 $; \quad v(\cdot)$ 是特征函数，该函数对每个非空联盟 $S \subset I$ 指定了一个数 $v(S), \quad v(S)$ 称为联盟 $S$ 的价值worth）。</p>
+<h3 id="大联盟合作博弈"><a href="#大联盟合作博弈" class="headerlink" title="大联盟合作博弈"></a>大联盟合作博弈</h3><p>大联盟结构是指合作博将的所有参与者在一个联盟内。n人合作博将 [I,V] 中，参与者i从n人大联盟 合作博亦所获得的收益 $\varphi_{i} \quad(V) \quad$ 应当满足三条基本原则：<br>(1) 对称性原则：参与者所获得的分配与其在集合中的排序位置无关。<br>(2) 有效性原则：若参与者对他所参与的任一合作都无贡献，则其分配应当为0; 所有的联盟收 入完全分配给其中的参与者。<br>(3) 可加性原则：n个人同时进行两项互不影响的合作，则两项合作的分配也应互不影响。</p>
+<h3 id="核"><a href="#核" class="headerlink" title="核"></a>核</h3><p>核试图描述的是，博弈的可能结果如何被联盟的竞争力量塑造出的</p>
+<p>所谓核，是指具有下列性质的可行效用结果集：任何联盟依靠自身力量都不可能改进它的所有成员的收益。空的核意味着我们模拟的环境是竞争性不稳定的。如果核非空而且较小，那么我们可以说，联盟自身的竞争就能导致一个夏普利确定结果。如果核非空但较大，那么联盟竞争本身不可能大幅度缩小可能的结果范围。</p>
+<p>定义 18.AA.5: 对于给定的特征形博卒 $(I, V)$ 和联盟 $S \subset I,$ 如果存在 $u^{\prime S} \in V(S)$ 使得对于 所有 $i \in S$ 都有 $u_{i}^{S}&lt;u_{i}^{\prime S},$ 那么我们说，联盟 $S$ 阻止了（或能够改进）效用结果 $u \in \mathbb{R}^{I}$。如果博将是 TU 博亦 $(I, v)$ 那么结果 $u=\left(u_{1}, \ldots, u_{I}\right)$ 被 $S$ 阻止当且仅当 </p>
+<p>$\sum_{i \in S} u_{i}&lt;v(S)$</p>
+<p>定义 18.AA.6：对于对最大联盟（全体参与人组成的联盟）可行的一个效用结果 $u=\left(u_{1}, \ldots, u_{I}\right)$ [即， $u \in V(I)$ ]来说，如果不存在能阻止 $u$ 的联盟，那么效用结果 $u$ 位于特征形博奕 $(I, V)$ 的核之中。</p>
+<h3 id="夏普利值"><a href="#夏普利值" class="headerlink" title="夏普利值"></a>夏普利值</h3><p>给定特征形博弈表示的策略性现实，如何划分合作收益才是合理的或“公平的”。</p>
+<p>对于 $S h_{i}(I, v),$ 有一种直接而有趣的计算方法。介绍如下。对于任何 $S \subset I$ 和 $i \notin S$, 令 $m(S, i)=v(S \cup{i})-v(S)$ 为个人 $i$ 对联盟 $S$ 的边际贡献。 $^{ \text {(三十- } )}$ 对于 $I$ 中选手的任何次序$\pi$ (在数学上， $\pi$ 是个从 $I$ 到 $I$ 的一对一的函数)，以 $S(\pi, i) \subset I$ 表示在次序 $\pi$ 中位于选手 $i$ 之前的选手集[在数学上， $S(\pi, i)={h: \pi(h)&lt;\pi(i)}$ 。注意到，对于任何给定的次序 $\pi,$ 如果我们考虑每个选手 $i$ 对于次序 $\pi$ 中位于 $i$ 之前的选手集的边际贡献, 那么这些边际贡献的和 必定正好等于 $v(I) ;$ 也就是 $, \sum_{i \in I} m(S(\pi, i), i)=v(I)$ 。于是 $, \operatorname{Sh}<em>{i}(I, v)$ 是选手 $i$ 对于位于 $i$ 之前的选手集的平均边际贡献（average marginal contribution），注意这里是对所有次序进行平均（而且每个次序的权重相等）。由于总次序数为 I!，选手 $i$ 平均边际贡献的表达式为<br>$$<br>\operatorname{Sh}</em>{i}(I, v)=\frac{1}{I !} \sum_{\pi} m(S(\pi, i), i)<br>$$</p>
+<p>其中，总和 $\sum_{\pi} m(S(\pi, i), i)$ 是加遍 $I$ 中选手的所有次序 $\pi$ 而得到的。</p>
+<p>夏普利价值的一些基本性质。<br>（a）效率性。 $\sum_{i} S h_{i}(I, v)=v(I) ;$ 也就是说，不存在效用被浪费的现象。<br>（b）对称性。如果博将 $(I, v)$ 和 $\left(I, v^{\prime}\right)$ 相同，唯一不同是选手 $i$ 和 $h$ 的角色置换了 $,$ (三那么 $\operatorname{Sh}<em>{i}(I, v)=\operatorname{Sh}</em>{h}\left(I, v^{\prime}\right)$ 。用文字表达: 夏普利价值不取决于我们如何标记选手 $;$ 真正要紧的是特征函数描述的选手在博将中的位置。<br>（c）线性。从（18.AA.3）或（18.AA.4）可知，夏普利价值线性地取决于数据，也就是说，取决于定义博将的系数 $v(S)$<br>（d）显公理（dummy axiom）。假设选手 $i$ 对博亦没有任何贡献; 也就是说，对于所有 $S \subset I$ 都有 $v(S \cup{i})-v(S)=0$ 。于是 $\operatorname{Sh}_{i}(I, v)=0$ 。这个重要性质可从（18.AA.3）式直接得到：选手 $i$ 对任何联盟的边际贡献都为零; 因此，它的平均边际贡献也为零。</p>
+]]></content>
+      <categories>
+        <category>Game Theory</category>
+      </categories>
+      <tags>
+        <tag>Game Theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MWG</title>
+    <url>/posts/MWG_url.html</url>
+    <content><![CDATA[<h1 id="偏好与选择"><a href="#偏好与选择" class="headerlink" title="偏好与选择"></a>偏好与选择</h1><p><code>定义 1.B.1</code>：若偏好关系$\succsim$具有下列两个性质，则它是理性的:</p>
+<ol>
+<li><p><strong><em>完备性</em></strong>（completeness）:对于所有 $x, y \in X,$ 都有 $x \succsim y$ 或 $y \succsim x$ （或二者都成立）。</p>
+</li>
+<li><p><strong><em>传递性</em></strong>（transitivity）：对于所有 $x, y, z \in X,$ 若 $x \succsim y$ 且 $y \succsim z,$ 则 $x \succsim z$（非传递性：孔多塞悖论）</p>
+</li>
+</ol>
+<p><code>命题 1.B.1</code>：如果天是理性的，则:</p>
+<ul>
+<li>$\succ$为<strong><em>非反身</em></strong>的（irreflexive）[ $x \succ x$ 不成立]和传递的（若 $x \succ y$ 和 $y \succ z,$ 则 $x \succ z$ )。</li>
+<li>$\succ$ 是<strong><em>反身</em></strong>的（reflexive）[对于所有 $x, x \sim x]$ 、传递的 $(\text {若 } x \sim y \text { 和 } y \sim z, \text { 则 } x \sim z)$和对称的（symmetric）[若 $x \sim y, \text { 则 } y \sim x]$</li>
+<li>若 $x \succ y \succsim z,$ 则 $x \succ z$</li>
+</ul>
+<p><code>命题 1.B.2</code>：只有理性的偏好关系义才能用效用函数表示。</p>
+<p><code>定义 1.C.1</code>: 若选择结构($\mathscr{B}$, C(・))具有下列性质:<br>若对于满足 $x, y \in B$ 的 $B \in \mathscr{B}$ 我们有 $x \in C(B),$ 则对于满足 $x, y \in B^{\prime}$ 和 $y \in C\left(B^{\prime}\right)$ 的任何 $B^{\prime} \in \mathscr{B}_{\text {参 }}$ 我们也必有 $x \in C\left(B^{\prime}\right)$<br>那么，我们说该选择结构 ($\mathscr{B}$,C(・) 满足<strong><em>显示偏好弱公理</em></strong>（weak axiom of revealed preference）,这个假设反映了我们期望个人的可观测到的选择满足一定程度的<strong><em>一致性</em></strong>（定义：若x 被显示至少与y 一样好，则y不可能被显示比x 更受偏好。）</p>
+<p><code>定义 1.D.1</code>：给定一个选择结构 $(\mathscr{B}, C(\cdot)),$ 我们说理性偏好关系亚将 $\mathscr{B}$ 上的 $C(\cdot)$ <strong><em>理性化</em></strong>（rationalize），如果对于所有 $B \in \mathscr{S}$ 都有<br>$$<br>C(B)=C^{*}(B, \succsim)<br>$$</p>
+<p>也就是说如果义生成了选择结构 $(\mathscr{B}, C(\cdot))$</p>
+<h1 id="消费者选择"><a href="#消费者选择" class="headerlink" title="消费者选择"></a>消费者选择</h1><p><code>定义 2.D.1</code>：瓦尔拉斯预算集或说竞争性预算集 $B_{p, w}=\left{x \in \mathbb{R}_{+}^{L}: p \cdot x \leq w\right},$ 是由消费者在 面对市场价格 $p$ 和财富 w 时的所有可行消费束组成的集合。</p>
+<p>瓦尔拉斯需求两个假设</p>
+<p><code>定义 2.E.1</code>：瓦尔拉斯需求对应 $x(p, w)$ 是<strong><em>零次齐次</em></strong>的，若对于任何 $p, w$ 和 $\alpha&gt;0,$ 都有$x(\alpha p, \alpha w)=x(p, w)$（零次齐次是说，如果所有商品的价格和消费者的财富都变动相同的比例，那么他的消费选择不会变动）</p>
+<p><code>定义 2.E.2</code>: 瓦尔拉斯需求对应 $x(p, w)$ 满足<strong><em>瓦尔拉斯法则</em></strong>，若对于每个 $p \gg 0$, 和 ，$w&gt;0$我们有 $p \cdot x=w$ 对所有 $x \in x(p, w)$ 成立。（瓦尔拉斯法则是说消费者花光了他的财富）</p>
+<p><code>定义 2.F.1</code>：瓦尔拉斯需求函数 $x(p, w)$ 满足<strong><em>显示偏好弱公理</em></strong>（weak axiom of revealedp reference, WA），如果对于任何两个价格财富状况 ( $p, w$ ) 和 $\left(p^{\prime}, w^{\prime}\right),$ 下列性质都成立:<br>$$<br>\text { 若 } p \cdot x\left(p^{\prime}, w^{\prime}\right) \leq w \text { 和 } x\left(p^{\prime}, w^{\prime}\right) \neq x(p, w), \text { 则 } p^{\prime} \cdot x(p, w)&gt;w^{\prime}<br>$$<br><strong>替代效应非正</strong>：<br><code>命题 2.F.2</code>：若可微的瓦尔拉斯需求函数 $x(p, w)$ 满足瓦尔拉斯法则、零次齐次性以及弱公理，则在任何 $(p, w)$ 处，斯勒茨基矩阵 $S(p, w)$ 对于任何 $v \in \mathbb{R}^{L}$ 都满足 $v \cdot S(p, w) v \leq 0$</p>
+<h1 id="经典需求理论"><a href="#经典需求理论" class="headerlink" title="经典需求理论"></a>经典需求理论</h1><p><code>定义 3.B.1</code>: $\quad X$ 上的偏好关系狀 如果具有下列两个性质，则该偏好关系是理性的:<br>(i) 完备性: 对于所有 $x, y \in X,$ 都有 $x \succsim y$ 或 $y \succsim x$ (或二者都成立)。<br>(ii) 传递性: 对于所有 $x, y, z \in X,$ 若 $x \succsim y$ 且 $y \succsim z,$ 则 $x \succsim z$</p>
+<p><code>定义 3.B.2</code>: 对于 X 上的偏好关系$\succsim$，若 $x \in X$ 和 $y \gg x$ 意味着 $y \succ x,$ 则称$\succsim$是是弱单调的（weakly monotone）或簡称单调的。若 $y \geq x$ 且 $y \neq x$ 意味着 $y \succ x,$ 则它是强单调的(strongly monotone) </p>
+<p><code>定义 3.B.3</code>: 对于 X 上的偏好关系来说，如果对于任何 $x \in X$ 和任何 $\varepsilon&gt;0$, 都存在 $y \in X$ 使得 $|y-x| \leq \varepsilon$ 且 $y \succ x,$ 则称该偏好关系是局部非饱和的（locally nonsatiated）</p>
+<p><strong>位似偏好</strong></p>
+<p><code>定义 3.B.6</code>: $\left.\quad X=\mathbb{R}_{+}^{L} \text { 上的偏好关系天 是位似的（homothetic }\right),$ 若所有无差异集都可以通过沿着任何射线等比例地扩展而联系在一起; 也就是说，若 $x \sim y$ 则 $\alpha x \sim \alpha y,$ 其中 $\alpha \geq 0$ 是任意的。</p>
+<p><strong>拟线性偏好</strong></p>
+<p><code>定义 3.B.7</code>: $\quad X=(-\infty, \infty) \times \mathbb{R}<em>{+}^{L-1}$ 上的偏好关系亚 关于商品 $1 （$ 在这种情形下商品 1 称为计价物商品（numeraire commodity））是拟线性的（quasilinear），如果：<br>（i）所有无差异集彼此之间可以通过沿着商品 1 的坐标轴平行位移而得到。也就是说， 若 $x \sim y,$ 则对于 $e</em>{1}=(1,0, \ldots, 0)$ 和任何 $\alpha \in \mathbb{R},$ 都有 $\left(x+\alpha e_{1}\right) \sim\left(y+\alpha e_{2}\right)$<br>（ii）商品 1 是<strong><em>合意的</em></strong>（消费者所想要的）; 也就是说，对于所有 $x$ 和 $\alpha&gt;0,$ 都有 $x+\alpha e_{1} \succ x$</p>
+<p><code>例 3.C.1</code>: <strong><em>字典序偏好关系</em></strong>。为简单起见，假设 $X=\mathbb{R}<em>{+}^{2}$ 。将 $x \succsim y$ 定义为: 要么“ $x</em>{1}&gt;y_{1} “$ 或要么“ $x_{1}=y_{1}$ 和 $x_{2} \geq y_{2} “$ 。这样的偏好关系称为字典序的偏好关系 ( lexicographic</p>
+<p><code>定义 3.C.1</code>: $X$ 上的偏好关系止 是<strong><em>连续的</em></strong>（continuous），若天在极限运算之下仍能保留。也就是说，对于任何数对序列 $\left{\left(x^{n}, y^{n}\right)\right}_{n=1}^{\infty},$ 若 $x^{n} \succsim y^{n}$ 对于所有的 $n$ 都成立， 且$x=\lim _{n \rightarrow \infty} x^{n}$ 和 $y=\lim _{n \rightarrow \infty} y^{n},$ 则 $x \succsim y$</p>
+<p><code>命题 3.D.2</code>：假设定义在消费集 $X=\mathbb{R}<em>{+}^{L}$ 上的局部非饱和的偏好关系$\succsim$，可用连续效用函数$u(\cdot)$ 表示。则瓦尔拉斯需求对应 $x(p, w)$ 具有下列性质:<br>（i）关于 $(p, w)$ 是<strong><em>零次齐次</em></strong>的: $\quad x(\alpha p, a w)=x(p, w)$ 对于任何 $p, w$ 和实数 $\alpha&gt;0$ 都成$\dot{\vec{N}}</em>{0}$<br>（ii）<strong><em>瓦尔拉斯法则</em></strong>： $\quad p \cdot x=w$ 对于所有 $x \in x(p, w)$ 都成立。<br>（iii）<strong><em>凸性/唯一性</em></strong>：若$\succsim$是凸的，从而 $u(\cdot)$ 是拟凹的，则 $x(p, w)$ 是个凸集。而且，若 $\succsim$为严格凸，从而 $u(\cdot)$ 是严格拟凹的，则 $x(p, w)$ 只有唯一一个元素。</p>
+<p><strong>间接效用函数</strong>：</p>
+<p><code>命题 3.D.3</code>：假设定义在消费集 $X=\mathbb{R}<em>{+}^{L}$ 上的偏好关系亚 是局部非饱和的，该偏好关系能用连续的效用函数 $u(\cdot)$ 表示。间接效用函数 $v(p, w):$<br>(i) 是零次齐次的。<br>（ii）关于 w严格递增和关于任何商品 $l$ 的价格 $p</em>{l}$ 非递增。<br>（iii）拟召的; 也就是说，集合 ${(p, w): v(p, w) \leq \bar{v}}$ 对于任何 $\bar{v}$ 都是句的 $^{(+\rightarrow)}$<br>（iv）关于 $p$ 和 $w$ 连续。</p>
+<p>斯勒茨基方程</p>
+<p>命题 3.G.3:（斯勒茨基方程）假设定义在消费集 $X=\mathbb{R}<em>{+}^{L}$ 上的局部非饱和且严格四的偏好关系$\succsim$，可用连续效用函数 $u(\cdot)$ 表示。那么对于所有 $(p, w)$ 和 $u=v(p, w),$ 我们有<br>$$<br>\frac{\partial h</em>{l}(p, u)}{\partial p_{k}}=\frac{\partial x_{l}(p, w)}{\partial p_{k}}+\frac{\partial x_{l}(p, w)}{\partial w} x_{k}(p, w) \quad 对于所有 l, k 成立<br>$$<br>以矩阵符号表示为，<br>$$<br>D_{p} h(p, u)=D_{p} x(p, w)+D_{w} x(p, w) x(p, w)^{\mathrm{T}}<br>$$</p>
+<h1 id="期望效用理论"><a href="#期望效用理论" class="headerlink" title="期望效用理论"></a>期望效用理论</h1><p><code>定义 6.B.5</code>：效用函数U：? $\rightarrow \mathbb{R}$ 具有期望效用形式，如果可以对 N 个结果指定一组数 $\left(u_{1}, \ldots, u_{N}\right)$ 使得对于每个简单彩票$L=\left(p_{1}, \ldots, p_{N}\right) \in \mathscr{E}$ 我们有<br>$$<br>U(L)=u_{1} p_{1}+\cdots+u_{N} p_{N}<br>$$</p>
+<p>具有期望效用形式的效用函数U：\mathscr $\rightarrow \mathbb{R}$ 称为社:诺依曼一摩根斯坦期望效用函数（von Neumann-Morgenstern expected utility function $)$</p>
+<p><code>定义6.C.1</code>:如果对于某个决策者来说,对于任何彩票 $F(\cdot),$ 他认为能确定产生金额 $\int x d F(x)$ 的退化彩票至少与彩票 $F(\cdot)$ 本身一样好，我们说该决策者是个风险厌恶者或者说他是风险厌恶的（risk aversion）。如果决策者在这两个彩票之间总是[即对于任何 F() J无差异的，我们说他是风险中性的（risk neutral）。最后，如果仅当这两个彩票是相同的[即当 $F(\cdot)$ 是退化 的时，决策者才认为这两个彩票无差异，那么我们说他是严格厌恶风险的（strictly risk averse）</p>
+<p><code>命题 6.C.1</code>: 假设某个决策者是期望效用最大化者，他在货币量上的效用函数是伯努利效用 函数 $u(\cdot) \bullet$ 那么下列性质是等价的:<br>（i）决策者是厌恶风险的。<br>(ii) $u(\cdot)$ 是凹的。<br>(iii) $c(F, u) \leq \int x d F(x)$ 对于所有 $F(\cdot)$ 都成立。<br>(iv) $\pi(x, \varepsilon, u) \geq 0$ 对于所有 $x$ 和 $\varepsilon&gt;0$ 都成立。</p>
+<h1 id="市场均衡"><a href="#市场均衡" class="headerlink" title="市场均衡"></a>市场均衡</h1><p><strong><em>第一基本福利定理</em></strong>。如果每种相关的商品在市场中以公开价格交易[即如果存在一组完全市场（complete markets）]，而且家庭和企业的行为是完全竞争 的（即都是价格接受者），那么市场结果是帕累托最优的。也就是说，当市场 是完全的，任何意争均衡必定是帕累托最优的。<br><strong><em>第二基本福利定理</em></strong>。如果家庭的偏好和企业的生产集都是兄的，而且存在着 一组完全市场（商品以公开价格交易，每个个体都是价格接受者），那么：如果可对财富进行定额转移（lump-sum transfers），任何帕累托最优结果都是竞争均衡。</p>
+<p><code>定义 10.B.1</code>: 一个经济配置（economic allocation） $\left(x_{1}, \ldots, x_{I}, y_{1}, \ldots, y_{J}\right)$ 对每个消费者<br>$i=1, \ldots, I$ 指定了一个消费向量 $x_{i} \in X_{i},$ 对每个企业 $j=1, \ldots, J$ 指定了一个生产向量 $y_{j} \in Y_{k} \circ$ 对于配置 $\left(x_{1}, \ldots, x_{I}, y_{1}, \ldots, y_{J}\right),$ 如果<br>$\sum_{i=1}^{I} x_{l i} \leq \omega_{l}+\sum_{j=1}^{J} y_{l j}$ 对于 $l=1, \ldots, L$ 都成立<br>那么我们说该配置是可行的（feasible）因此，在某个经济配置中，如果每种商品的总消费量不大于该商品的初始亭赋和生产量之和，那么该配置是可行的。</p>
+<p><code>定义 10.B.3</code>: 配置 $\left(x_{1}^{<em>}, \ldots, x_{I}^{</em>}, y_{1}^{<em>}, \ldots, y_{J}^{</em>}\right)$ 和价格向量 $p^{<em>} \in \mathbb{R}^{L}$ 构成了一个竟争均衡或称瓦尔拉<br>斯均衡，如果它们能满足下列条件:<br>(i) 利润最大化: 对于每个企业 $j, \quad y_{j}^{</em>}$ 是下列最大化问题的解<br>$$<br>\operatorname{Max}<em>{y</em>{j} \in Y_{j}} p^{*} \cdot y_{j}<br>$$</p>
+<p>（ii）效用最大化: 对于每个消费者 $i, \quad x_{i}^{<em>}$ 是下列最大化问题的解<br>$$<br>\begin{array}{l}<br>\underset{x_{i} \in X_{i}}{\operatorname{Max}} u_{i}\left(x_{i}\right) \<br>\quad \text { s.t. } \quad p^{</em>} \cdot x_{i} \leq p^{<em>} \cdot \omega_{i}+\sum_{j=1}^{J} \theta_{i j}\left(p^{</em>} \cdot y_{j}^{*}\right)<br>\end{array}<br>$$</p>
+<p>（iii）市场出清: 对于每种商品 $l=1, \ldots, L$<br>$$<br>\sum_{i=1}^{I} x_{l i}^{<em>}=\omega_{l}+\sum_{j=1}^{J} y_{l j}^{</em>}<br>$$<br>均衡配置和价格独立于禀赋和产权份额的分配。</p>
+<p><code>命题 10.D.1</code>:（福利经济学第一基本定理）如果价格 $p^{<em>}$ 和配置 $\left(x_{1}^{</em>}, \ldots, x_{I}^{<em>}, q_{1}^{</em>}, \ldots, q_{J}^{<em>}\right)$ 构成了一 个竞争均衡，那么 $\left(x_{1}^{</em>}, \ldots, x_{I}^{<em>}, q_{1}^{</em>}, \ldots, q_{J}^{*}\right)$ 这个配置是帕累托最优的。</p>
+<h1 id="外部性与公共物品"><a href="#外部性与公共物品" class="headerlink" title="外部性与公共物品"></a>外部性与公共物品</h1><p>一般来说，如果存在外部效应，竞争均衡不是帕累托最优的。</p>
+<h1 id="市场势力"><a href="#市场势力" class="headerlink" title="市场势力"></a>市场势力</h1>]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Mathemetical Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Notes on Contract Theory_5.2 incomplete contract theory</title>
+    <url>/posts/Notes%20on%20Contract%20Theory_5.2%20incomplete%20contract%20theory_url.html</url>
+    <content><![CDATA[<ul>
+<li>@Author: Miao Silin </li>
+<li>@Date: 2020-06-15 17:29:12 </li>
+<li>@Last Modified by:   Miao Silin </li>
+<li>@Last Modified time: 2020-06-15 17:29:12 </li>
+</ul>
+<h1 id="Notes-on-contract-theory-5-2-Property-right-theory"><a href="#Notes-on-contract-theory-5-2-Property-right-theory" class="headerlink" title="Notes on contract theory_5.2 Property right theory"></a>Notes on contract theory_5.2 Property right theory</h1><p>​        在这个时代总归还是进步的，有本事的人，总是有饭吃，虽然有饭吃的人不一定有本事。</p>
+<p>​        在某大学，你的工资决定于两种因素：1、你的级别 2、 你的部门。某大学的老师是看不起同行的，相互打压，没有合作精神，因此，国内学者做的学问很难做大，甚至无法坐在一起心平气和地讨论问题，中国缺乏基本的学术规范。某大学最多任通讯作者和第一作者，三个和尚没水喝。你做好了关我什么事？中国人有派无学。中国的体制也很难鼓励技术创新，因为报不了销。</p>
+<p>​        夸张地讲，自亚当斯密1776年国富论以来，经济学理论似乎在创新上走得不远，没有太大革命性变化，讽刺的是，经济学本身是强调创新的。《国富论》1、和平的国际环境 2、政府有足够的财政收入 3、教育水平/国家能力。做计量经济学的很难刻画成本和收益两个方面。因为其不关注数学模型，你无法明确判断经济学逻辑，没有一个一般均衡的思想和一致性理论。经济学的理论模型为了理论上的完美，很多时候也只能牺牲现实。整个经济学故意“装傻”，对权力视而不见。中国的经济学教育还是不健全的。真正意义上没有完美的文章。</p>
+<h2 id="TCE"><a href="#TCE" class="headerlink" title="TCE"></a>TCE</h2><p>​        不对称信息+专有性投资=敲竹杠问题，交易费用经济学建议两个参与人一体化，成为一个企业，而企业与市场的区别，在于企业可以通过命令、权威、等级等多种方式减少或缓和敲竹杠问题，使交易成本最小化。但合并也有成本，威廉姆森指出成本在于官僚主义。威廉姆森的缺陷是不关注数学模型，没法将官僚主义数学化，并且威廉姆森没考虑到一体化之后的人员矛盾问题。</p>
+<h2 id="Property-economics"><a href="#Property-economics" class="headerlink" title="Property economics"></a>Property economics</h2><p>​        产权理论与产权经济学不同。芝加哥学派创立了产权经济学（加州学派和芝加哥学派的区别就是加州学派只懂得价格理论。）。研究产权为什么会出现，基于价格理论。产权经济学认为，当界定产权的收益大于成本时，产权界定就是有必要的。比如跑得快的豹子没有必要界定产权，家禽就可以界定产权。总体而言是界定制度建立的成本和收益。 现实中很多都是不完全契约，因为许多契约都是格式化的合同。如果所有都是完全契约，就不会出现再谈判（双方通过改进契约实现帕累托最优）、谈判破裂。产权理论则研究不完全信息的情形下产权能如何起作用。</p>
+<h2 id="Complete-contract"><a href="#Complete-contract" class="headerlink" title="Complete contract"></a>Complete contract</h2><p>​        完全契约具有以下几个特点1、 太复杂2、长期契约 3、需要再谈判。并且，人是有限理性的，具有不可预见性、可能知道但写不出来（太多），或知道但是无法向第三方证实（碰瓷）（不可验证的条款写在合同里也没有意义）。</p>
+<p>​        完全契约的精确定义：一个完全契约规定了在所有可能情况下双方的责任。澄清几个误区：</p>
+<p>​        1，完全契约不是阿罗德布鲁意义下的或然契约。完全契约涉及到信息不对称，而不是信息不完全（自然首先行动）<br>​        2，不完全契约在法律意义上不缺合同的基本要件<br>​        3、完全契约一定是合法的，但合法的契约不一定是完全契约。</p>
+<p>​        在大多数情况下，我们也不需要完全契约，很多事情都是干中学的，并且很多交易是不需要完全契约的，很多时候契约不完全，但我们也不在乎。大多数契约在大多数时候是没问题的，只要契约的条款没有影响到契约的履行，就可以认为是完全契约。当确定完全或不完全契约时，要视情况而定。</p>
+<h2 id="Incomplete-contract-theory"><a href="#Incomplete-contract-theory" class="headerlink" title="Incomplete contract theory"></a>Incomplete contract theory</h2><p>​        不完全契约理论有以下几个观点：</p>
+<p>​        1、首先权力是重要的，氛围具体权力与剩余控制权。剩余控制权：当合同没说明的时候，所有者拥有权力做没要求做的事情（例子：体制内与体制外是不一样的，体制内的剩余控制权在国家，体制外的剩余控制权在个人。）（《权力与繁荣》olson。），如果之上而下存在一套晋升标准的话，领导的自由裁量权就没有了，这样当领导还要什么意义？</p>
+<p>​        2、应该设计一个制度，鼓励资产专用性投资，减少不确定性，因为资产专用性投资是提高社会福利的。 不确定性</p>
+<p>​        3,、设计最优产权，产权最重要。产权是目前解决不确定性的最佳手段，大部分情况下是最优的。无恒产者无恒心、但“无恒产者有恒心，士也“，只有无恒产而有恒心，才是国民表率社会栋梁。</p>
+<p>​        4、物质产权与人力资产（physical and human capital),如果人力资本足够重要，也应该吧物质资产匹配给他，但物质资产是粘结产权的关键（总得分配一个实体，股权，工资，位置。）物质资产分给人力资产是一个形式，但这个形式很重要。</p>
+<p>GHM模型——如何最大化事前的专业性投资，实现这点的产权结构就是最优产权结构。</p>
+<p>​        比如，设计师的产品是高度资产专用性的。很多设计师是设计之后再谈价格的，于是就有被敲竹杠的风险，设计师可能会被敲掉一部分利润。</p>
+<p>​        逻辑：不完全契约+资产专用型——敲竹杠——取决于谁拥有剩余控制权（这种情况谁说了算，设计师？公司？）——取决于物质资产的所有权（设计师设计的产品是否是他的）——有物质所有权就可以提升谈判力——就可以有剩余索取权——就可以提升事前专用性投资的动力——谁的投资更重要就把资产所有权配置给谁（在一开始的时候唯一可缔约的就是产权，可观察，可证实）。</p>
+<p>​        几种可能的产权结构：（假设只有卖方进行专用性资本投资）</p>
+<p>​        非一体化：设计师和公司相互独立：</p>
+<p>​        第一类一体化：买方兼并卖方：设计师开公司：</p>
+<p>​        第二类一体化：卖方兼并买方：公司招募设计师：</p>
+<p>​        联合所有权：所有决策双方一致同意：</p>
+<p>​        交叉所有权：交叉持股，日本有很多类似的公司：</p>
+<p>​        就专用性投资而言： 由于存在敲竹杠，所以达不到社会最优，资产专用性的投资总是无效率的（无效率指不是社会最优），导致当事人投资不足。</p>
+<p>​        在存在敲竹杠的情况下，最佳的是一类一体化（专用性投资的人资产最多，专用性投资的激励越强）。得到产权激励的增加大于失去产权带来的保护的减少。（人大与清华合并，人大的坏处大于清华的好处）</p>
+<p>​        若两个资产没有互补性，非一体化和第一类一体化是一样好的(只有卖方投资），若是双边投资模型，那么非一体化是最好的，如果有一体化，则失去资产所有权的一方失去了保护，是不好的。</p>
+<p>​        联合所有权与交叉所有权同等差，因为每一方都没有保护，任何人有一票否决的情况下，往往只能做一些基本的事情。</p>
+<p>​        资产互补性越强，越应该一体化。</p>
+<h2 id="应用（前提：有不可证实的专用性投资）："><a href="#应用（前提：有不可证实的专用性投资）：" class="headerlink" title="应用（前提：有不可证实的专用性投资）："></a>应用（前提：有不可证实的专用性投资）：</h2><p>1、公司金融：企业家可能过度乐观，资本家可以及时止损，但是太悲观、短视了。这里可以采用相机抉择的控制权。没问题——企业家控制，有问题——资本家控制——债权就是这种机制。<br>2、 集权与分权：下属可以放手去干，成本是可以用权力干私事，公私兼顾；取决于下属与老板的利益相关度是否一致——家族企业愿意传位于子女而不是经理人，子女不会乱来。<br>3、 监狱是否应该私有化？办监狱有不可证实的专用性投资：私人可以节约成本，但是可能不会提高品质。如果降低成本和提高品质严重冲突的，应该交给国有来办，如果降低成本和提高品质不冲突，能够降低成本的同时保证质量，应该交给企业来办。<br>医院，如果非常复杂的手术，有经验的医生多，还是去公立医院好，因为私立医院可能降成本而降品质。</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Contract theory</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Personnel Economics Peter Kuhn1</title>
+    <url>/posts/Personnel%20Economics%20Peter%20Kuhn1_url.html</url>
+    <content><![CDATA[<h1 id="Evidence-on-Employee-Motivation"><a href="#Evidence-on-Employee-Motivation" class="headerlink" title="Evidence on Employee Motivation"></a><strong>Evidence on Employee Motivation</strong></h1><p><strong>Reciprocity:</strong>（互惠）</p>
+<p>Bruhin, Adrian, Ernst Fehr, and Daniel Schunk. “<a href="https://doi.org/10.1093/jeea/jvy018" target="_blank" rel="noopener">The Many Faces of Human Sociality: Uncovering the Distribution and Stability of Social Preferences</a>” <em>Journal of the European Economic Association</em>, Volume 17, Issue 4, August 2019, Pages 1025–1069.  </p>
+<p>A detailed experimental study of Swiss university students shows that other-regarding preferences are the rule, not the exception. Three broad types of individuals are identified, all of whom value others’ payoffs more when they are ahead than when they are behind others. “Strong altruists” are moderately reciprocal and put positive value on others even when behind. “Moderate altruists” display no reciprocity and place positive, but less weight on others’ payoffs. “Behindness –averse” types put a large negative weight on others’ payoffs when behind and are selfish otherwise.  The purely selfish model of “rational economic man” does not emerge as a useful model of behavior for any group of subjects. 一项针对瑞士大学生的详细实验研究表明，<strong>“他人偏好”是普遍规律，而非例外</strong>。人们将个人分为三大类，<strong>领先的人比落后的人更关心他人的收入</strong>。强大的利他主义者是适度互惠的，即使在别人落后的时候也会给予别人积极的价值。适度的利他主义者不表现出互惠性，而且倾向于积极，但对他人的回报不那么重视。反对落后的人在落后的时候会给他人带来很大的负面影响，否则他们会很自私。纯粹自私的理性经济人模型并不能成为任何主体群体的有用行为模型。</p>
+<p><strong>Loss Aversion:</strong></p>
+<p>Bulte, Erwin, John A. List, and Daan Van Soest. 2019 <a href="http://papers.nber.org/papers/W26286?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg22" target="_blank" rel="noopener">Toward an Understanding of the Welfare Effects of Nudges: Evidence from a Field Experiment in Uganda</a> NBER working paper no. 26286</p>
+<p>Conducts a field experiment in Uganda that compares output levels across 1000 workers over similar tasks and incentives, framed as either losses or gains.  The authors find that loss aversion can be leveraged to increase the productivity of labor.  The estimated welfare costs of using the loss contract are quite modest, perhaps because workers view it as a (soft) commitment device. 在乌干达进行了一项实地实验，比较了1000名工人在类似任务和激励下的产出水平。作者发现，<strong>厌恶损失可以用来提高劳动生产率。使用损失合同的估计福利成本相当轻，或许是因为工人们将其视为一种(软)承诺手段。</strong></p>
+<p><strong>Fairness Between Workers:</strong></p>
+<p>Almås, Ingvild &amp; Cappelen, Alexander &amp; Tungodden, Bertil. (2019). “<a href="https://doi.org/10.1086/705551" target="_blank" rel="noopener">Cutthroat Capitalism versus Cuddly Socialism: Are Americans MoreMeritocratic and Efficiency-Seeking than Scandinavians?</a>” <em>Journal of Political Economy</em>, forthcoming. </p>
+<p>Spectators in the US and Norway had the opportunity to redistribute pay from high- to low-paid workers (on MTurk) when (a) the pay gap was randomly assigned, versus (b) the pay gap was due to a productivity difference. When the pay gap was due to luck, 80% of Norwegians chose to completely eliminate it; only 50% of Americans did this. When the pay gap was due to performance, 35% of Norwegians still chose to redistribute completely; only 10% of Americans did this. Thus, national culture seems to affect peoples’ perceptions of fairness in compensation: Americans are much less egalitarian, and much less averse to rewarding luck than Norwegians.  In a project called “Fairness Across the World” The authors are extending this study to 60 countries, with 65,000 spectator workers.</p>
+<p>在MTurk网站上，美国和挪威的观众有机会将收入从高收入工人重新分配给低收入工人，原因是:(a)收入差距是随机分配的，(b)收入差距是由于生产率差异造成的。当收入差距是运气造成的时候，<strong>80%的挪威人选择完全消除它;只有50%的美国人这样做。</strong>当收入差距是由工作表现造成的时候，35%的挪威人仍然选择完全重新分配;只有10%的美国人这样做。因此，<strong>民族文化似乎影响了人们对薪酬公平的看法:美国人不像挪威人那么平等，也不像挪威人那么讨厌奖励运气。</strong>在一个名为“世界公平”的项目中，作者将这项研究扩展到60个国家，有65000名观众工作人员。</p>
+<h1 id="Selection"><a href="#Selection" class="headerlink" title="Selection"></a><strong>Selection</strong></h1><p><strong>For “Choosing Qualifications”– An example of negative productivity interactions between workers</strong>:</p>
+<p>Miller, Conrad, Jennifer Peck, and Mehmet Seek. “<a href="https://econ.tamu.edu/wp-content/uploads/sites/2/2019/09/missing_women_aug2019.pdf" target="_blank" rel="noopener">Integration Costs and Missing Women in Firms</a>” unpublished paper, UC Berkeley. August 2019</p>
+<p>In Saudi Arabia and some other countries it is costly for a firm to employ both men and women because social norms prohibit interaction between unrelated men and women. (Employing both genders in the same location requires configuring the workspace to segregate the genders.) In this environment, only large firms will employ both genders, and many smaller firms will tend to be male-only. Social norms against between-group interaction like these are examples of (a) “antagonistic inputs” in the production process (Section 12.2) and (b) employee-based taste discrimination (Section 16.2). </p>
+<p>在沙特阿拉伯和其他一些国家，公司同时雇用男性和女性的成本很高，因为社会规范禁止不相关的男性和女性交往。(在同一位置使用这两个性别需要配置工作区来隔离性别。)在这种环境下，<strong>只有大公司会雇佣男女员工，而许多小公司往往只雇用男性员工</strong>。这些反对群体间互动的社会规范是(a)生产过程中的对抗性输入和(b)基于员工的味觉歧视的例子。</p>
+<p><strong>Referrals:</strong></p>
+<p>Barr, Tavis, Raicho Bojilov and Lalith Munasinghe, “<a href="https://doi.org/10.1086/703163" target="_blank" rel="noopener">Referrals and Search Efficiency: Who Learns What and When?</a>,” <em>Journal of Labor Economics</em> 37, no. 4 (October 2019): 1267-1300.</p>
+<p>Using data from a call center, the authors show that referrals help employers attract applicants of superior performance.  However, performance differences between referred and nonreferred workers diminish with tenure through selective turnover (less-productive workers are less likely to stay with the firm). Thus, the main advantage of referred applicants is that they have been pre-screened for performance-relevant characteristics before they start work. </p>
+<p>使用来自一个呼叫中心的数据，作者表明，<strong>推荐有助于雇主吸引优秀的申请者。然而，通过选择性离职，引荐员工和非引荐员工之间的绩效差异会随着任期的延长而缩小(低生产力的员工不太可能留在公司)。因此，被推荐的申请人的主要优势是，他们在开始工作之前已经被预先筛选了与表现相关的特征。</strong></p>
+<p><strong>Promotions from within:</strong></p>
+<p>Benson, Alan Danielle Li, and Kelly Shue. “<a href="https://doi.org/10.1093/qje/qjz022" target="_blank" rel="noopener">Promotions and the Peter Principle</a>” <em>The Quarterly Journal of Economics</em>, Volume 134, Issue 4, November 2019, Pages 2085–2134. </p>
+<p>The best worker is not always the best candidate for manager. In these cases, do firms promote the best potential manager or the best worker in their current job?  Using microdata on the performance of sales workers at 131 firms, the authors find evidence consistent with the Peter Principle, which proposes that firms prioritize current job performance in promotion decisions at the expense of indicators of managerial potential.  The authors estimate that this practice is quite costly to firms, and conclude that either (a) firms are making inefficient promotion decisions or (b) firms place a high priority on using promotions to as a financial reward for good work performance. 最好的员工并不总是经理的最佳人选。在这些情况下，公司会提拔目前工作中最优秀的潜在经理还是最优秀的员工?通过对131家公司销售人员表现的微观数据进行分析，作者发现了与彼得原则一致的证据。该原则提出，公司在做出晋升决定时，优先考虑当前的工作表现，而不是管理潜力指标。作者估计这种做法对公司来说代价很高，并得出结论:(a)公司的晋升决策效率低下，或者(b)公司高度重视将晋升作为对良好工作表现的经济奖励。</p>
+<p>Barfort, Sebastian, Nikolaj A. Harmon, Frederik Hjorth, and Asmus Leth Olsen. 2019. “Sustaining Honesty in Public Service: The Role of Selection.” <em>American Economic Journal: Economic Policy</em>, 11 (4): 96-123.</p>
+<p>Which types of workers self-select into work environments where financial performance incentives are weak? In countries like Denmark where corruption is low, people who are more honest are much more likely to self-select into public sector jobs. In Denmark, dishonest individuals care more about money and self-select out of public service into higher-paying private sector jobs.  This pattern differs sharply from existing findings from more corrupt settings. In Denmark, it suggests that raising public sector wages could actually backfire—by attracting more dishonest candidates into public service. 在财务绩效激励机制薄弱的工作环境中，哪些类型的员工会自我选择?在像丹麦这样腐败程度较低的国家，更诚实的人更有可能选择进入公共部门工作。在丹麦，不诚实的人更关心钱，他们自己选择离开公共部门，进入薪水更高的私营部门工作。此模式与现有的损坏设置的结果有很大不同。<strong>在丹麦，该研究表明，提高公共部门的工资实际上可能适得其反，因为这会吸引更多不诚实的候选人进入公共服务部门。</strong></p>
+<p><strong>Discrimination</strong></p>
+<p>Ajunwa, Ifeoma. “<a href="https://www.nytimes.com/2019/10/08/opinion/ai-hiring-discrimination.html?smid=nytcore-ios-share" target="_blank" rel="noopener">Beware of Automated Hiring</a>” <em>New York Times</em>, October 8. 2019. </p>
+<p>The author discusses a number of pitfalls associated with It algorithmically-based hiring, and argue that it could accentuate, rather than eliminate discrimination in the hiring process. 作者讨论了一些与基于It算法的招聘相关的陷阱，并认为它<strong>会加重而不是消除招聘过程中的歧视</strong>。</p>
+<p>Kessler, Judd B.,   Corinne Low and Colin D. Sullivan “<a href="https://doi.org/10.1257/aer.20181714" target="_blank" rel="noopener">Incentivized Resume Rating: Eliciting Employer   Preferences without Deception</a>” <em>American Economic Review</em>  2019, 109(11): 3713–3744   </p>
+<p>Like resume audit studies, incentivized resume  rating (IRR) is an experimental method for studying how employers choose  successful candidates from a pool of applicants. In this new approach,  experienced recruiters evaluate resumes they know are hypothetical;  recruiters are motivated to do this honestly and carefully because their ratings  will influence which <em>real</em> resumes  they will eventually receive. Key  benefits of IRR, relative to audit studies, are that (a) they do not require  deception of employers, and (b) they can elicit employers’ beliefs that the  applicant will accept the offer, which is a confounding factor in audit  studies.  </p>
+<p>和简历审计研究一样，激励简历评级(IRR)是一种实验方法，用于研究雇主如何从众多申请者中选择成功的候选人。在这种新方法中，有经验的招聘人员会评估他们知道是假设的简历;招聘人员这么做是出于诚实和谨慎的动机，因为他们的评级会影响他们最终收到哪份真正的简历。相对于审计研究而言，内部审计的主要好处是(a)它们不需要欺骗雇主，(b)它们可以诱使雇主相信申请人会接受录用，这是审计研究中的一个混淆因素。</p>
+<h1 id="Tournaments"><a href="#Tournaments" class="headerlink" title="Tournaments"></a><strong>Tournaments</strong></h1><p><strong>Career ladders inside firms</strong> </p>
+<p>Frederiksen, Anders, Lisa Blau Kahn, and Fabian Lange, “<a href="https://doi.org/10.1086/705715" target="_blank" rel="noopener">Supervisors and Performance Management Systems</a>,” forthcoming, <em>Journal of Political Economy</em> </p>
+<p>The authors show that supervisors vary widely in the performance ratings they assign to subordinates of similar quality, and that these supervisor ratings differences impact their subordinates’ subsequent careers. Supervisors’ average ratings differ for two reasons: a) some supervisors are more lenient than others; and (b) some supervisors are better managers than others. The authors’ estimate that firms are only partially aware of these differences in their managers’ rating practices. 两位作者指出，<strong>上司对质量相似的下属的评价差别很大，而这些上司的评价差异会影响其下属以后的职业生涯。</strong>监管者的平均评分不同有两个原因:一是一些监管者比另一些监管者更宽容;(b)有些主管比其他人更擅长管理。两位作者估计，企业在管理人员评级实践中只部分意识到这些差异。</p>
+<p><strong>Gender and competition</strong></p>
+<p>Alan, Sule and Seda Ertac. <a href="https://doi.org/10.1093/jeea/jvy036" target="_blank" rel="noopener">Mitigating the Gender Gap in the Willingness to Compete: Evidence From a Randomized Field Experiment</a>. <em>Journal of the European Economic Association</em>, Volume 17, Issue 4, August 2019, Pages 1147–1185. </p>
+<p>Using a randomized experiment, the authors demonstrate that an educational intervention in primary schools can eliminate the gender gap in the willingness to compete. The authors’ intervention aims to foster grit, a skill that is highly predictive of achievement.  The intervention promotes grit by exposing children to a worldview that emphasizes the role of effort in achievement and that encourages perseverance. 通过随机实验，作者论证了<strong>小学教育干预可以消除性别在竞争意愿上的差异</strong>。作者的干预旨在培养毅力，这是一种高度预测成就的技能。通过让孩子们接触一种世界观，这种世界观强调努力在成就中所起的作用，并鼓励他们坚持不懈，从而促进他们的勇气。</p>
+<p> <strong>（宣扬奋斗减少歧视）</strong></p>
+<h1 id="Teams"><a href="#Teams" class="headerlink" title="Teams"></a><strong>Teams</strong></h1><p><strong>Leadership:</strong></p>
+<p>Kosfeld, Michael, forthcoming “<a href="https://www.iza.org/publications/dp/12540/the-role-of-leaders-in-inducing-and-maintaining-cooperation-the-cc-strategy" target="_blank" rel="noopener">TheRole of Leaders in Inducing and Maintaining Cooperation: The CC Strategy</a>” <em>The Leadership Quarterly</em>. </p>
+<p>This paper summarizes recent findings from behavioral economics experiments in the lab and in the field on the role of leaders in human cooperation.  According to the author, successful leaders need to do three things.  First, they need to <em>trust</em> workers, in order not demotivate the motivated.  Second, leaders need to <em>punish</em>, in order to motivate the non-motivated.  Finally, leaders need to <em>attract</em> (and retain) motivated workers for their team. </p>
+<p> 根据作者的观点，成功的领导者需要做三件事。<strong>首先，他们需要“信任”员工，这样才不会挫伤积极性。第二，领导者需要“惩罚”，以激励那些不受激励的人。最后，领导者需要为他们的团队“吸引”(并留住)有积极性的员工</strong>。</p>
+<p><strong>The volunteer’s dilemma:</strong> </p>
+<p>Natanson, Hanna. “<a href="https://www.washingtonpost.com/lifestyle/2019/09/06/high-level-help-was-surprising-new-study-says-strangers-step-help-percent-time/" target="_blank" rel="noopener">Forget what you may have been told. New study says strangers step in to help 90 percent of the time</a>” <em>The Washington Post, September 6, 2019</em></p>
+<p>A recent <a href="https://psycnet.apa.org/record/2019-30180-001?doi=1" target="_blank" rel="noopener">psychological study</a> of surveillance camera footage from three countries shows that bystanders in actual public conflict aren’t apathetic after all. In 90 percent of these situations, strangers intervened to help victims.<br> 最近一项针对三个国家监控录像的心理学研究表明，在实际的公共冲突中，旁观者并非无动于衷。在这些情况中，<strong>有90%是陌生人介入帮助受害者</strong></p>
+<p><strong>Selection into Teams:</strong></p>
+<p>Cooper, David J., Krista Saral, and Marie Claire Villeval “<a href="https://www.iza.org/publications/dp/12587/why-join-a-team" target="_blank" rel="noopener">Why Join a Team?</a>” IZA discussion paper no. 12587, September 2019. </p>
+<p> The authors use lab experiments to study why high ability workers join revenue-sharing teams with less- able co-workers.  Is it because high-ability workers want to help their co-workers financially, or because they expect to realize some long-term financial gains from teaching their teammates?  When team members can communicate, the authors find that high ability workers’ decisions to join teams are driven by expected future financial gains from teaching, and not by their ‘pro-social’ preferences.  There are two main take-aways for managers: First, team-based pay causes strong adverse selection: talented workers tend to avoid team-based pay. Second, adverse selection into teams decreases when high ability workers can reap the gains of mutual learning, which can be facilitated by work environments allow for stable team membership and foster teaching within teams.</p>
+<p>两位作者通过实验室实验研究了能力强的员工为什么会加入与能力较差的同事组成的收入共享团队。是因为能力强的员工想要在经济上帮助同事，还是因为他们希望通过教导队友来实现一些长期的经济利益?当团队成员能够交流时，<strong>作者发现高能力员工加入团队的决定是由教学对未来经济收益的预期驱动的，而不是他们的社会偏好。</strong></p>
+<p><strong>首先，以团队为基础的薪酬会导致强烈的逆向选择:有才华的员工往往会避免以团队为基础的薪酬。第二，当高能力的员工能够收获相互学习的好处时，团队的逆向选择就会减少，而工作环境可以促进团队成员的稳定，并促进团队内部的教学。</strong></p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Psychology</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Personnel Economics Peter Kuhn2</title>
+    <url>/posts/Personnel%20Economics%20Peter%20Kuhn2_url.html</url>
+    <content><![CDATA[<h1 id="The-Principal-Agent-Problem"><a href="#The-Principal-Agent-Problem" class="headerlink" title="The Principal-Agent Problem"></a>The Principal-Agent Problem</h1><p><strong>Multi-tasking:</strong> </p>
+<p><strong>Athey, Susan, Kevin Bryan and Joshua Gans. “<a href="https://www.aeaweb.org/conference/2020/preliminary/1670?" target="_blank" rel="noopener">Designing Organizations and Incentives with Human and Artificial Intelligence Agents</a>”, paper presented at American Economic Association meetings, January 2020</strong>.  </p>
+<p>Building on Aghion-Tirole’s (1997) multi-task agency model, Athey et al. study principals who can use both human agents and algorithms to perform tasks. The authors study when the human or the AI should make the final decision, how incentives and tasks should be designed for both kinds of agents, what types of ‘preferences’ programmers should assign to algorithms. When humans and algorithms work together, it can be optimal to endow algorithms with task preferences that differ from the agent’s. </p>
+<p> 在Aghion-Tirole s(1997)多任务代理模型的基础上，Athey等人研究了能够使用人类代理和算法执行任务的主体。作者研究了人类或人工智能何时应该做出最终决定，激励机制和任务应该如何为这两种代理设计，程序员应该给算法分配什么样的偏好。<strong>当人类和算法一起工作时，赋予算法不同于代理的任务偏好是最优的</strong>。</p>
+<p><strong>Ratchet Effects:</strong> </p>
+<p><strong>Jeffrey C. Ely and Martin Szydlowski, “<a href="https://doi.org/10.1086/704387" target="_blank" rel="noopener">Moving the Goalposts</a>,” *Journal of Political Economy* 128, no. 2 (February 2020): 468-506.</strong></p>
+<p>This theory paper considers a situation where –in contrast to the standard ratchet effect model– the principal but not the worker knows the difficulty of the task. The optimal contract involves “moving the goalposts”:  the principal first gives the agent just enough information to suggest that the task may be  easy. If the task is indeed difficult, the agent is told this only after working long enough to put the difficult task within reach. The agent then completes the difficult task even though he never would have chosen to at the outset.</p>
+<p>这篇理论论文考虑了一种情况，与标准的棘轮效应模型相反——<strong>负责人而不是工人知道任务的困难。最理想的合同包括改变目标:委托人首先给代理人足够的信息来表明任务可能很简单。如果任务确实是困难的，则只有在工作足够长的时间，使任务触手可及之后，才会告知代理。然后代理完成了困难的任务，即使他在一开始不会选择这样做。</strong>（孔老师的套路）</p>
+<p><strong>Career Concerns:</strong> </p>
+<p><strong>Ytsma, Erina, and Jana Gallus. “<a href="https://ideas.repec.org/p/red/sed019/1141.html" target="_blank" rel="noopener">Recognition and Reputation as Drivers of Open Source Success</a>”. work in progress, Carnegie Mellon University, 2019.</strong> </p>
+<p>The authors conducted a field experiment on GitHub that varied the publicness of the aggregate feedback (thumbs up or down) that contributors got. The goal is to distinguish the effects of reputation-linked financial incentives (“career concerns”) from non-financial rewards on innovative effort, and how this differs across organizational settings (open source, closed source, inner-source).</p>
+<p>作者们在GitHub上进行了一项实地实验，改变贡献者获得的反馈(赞成或反对)的公开程度。目标是区分声誉相关的财务激励(“职业关注”)和对创新努力的非财务奖励的影响，以及这在组织环境(开源、封闭资源、内部资源)中有何不同。</p>
+<p>Evidence on Employee Motivation</p>
+<p><strong>Reference Points and Loss Aversion:</strong></p>
+<p><strong>Pierce, Lamar, Alex Rees-Jones and Charlotte Blank. [The Negative Consequences of Loss-Framed Performance Incentives](<a href="https://alexreesjones.github.io/papers/The" target="_blank" rel="noopener">https://alexreesjones.github.io/papers/The</a> Negative Consequences of Loss-Framed Performance Incentives.pdf) Unpublished paper, University of Washington, January 2020.</strong> </p>
+<p>The authors randomly introduced loss-framed financial incentives in a nationwide field experiment among 294 car dealers. Dealers randomized into loss-framed (but financially identical) contracts sold 5% <em>fewer</em> vehicles than control dealers, generating a revenue loss of $45 million over 4 months.  Interestingly, loss-framing did ‘work’ in the sense that it induced workers to take actions to reduce the chances of incurring a loss. However, this harmed the company because of a multi-tasking problem: dealers switched their efforts away from car models with lower bonuses attached to them.  </p>
+<p>在全国范围内对294名汽车经销商进行的实地实验中，作者随机引入了亏损框架的财政激励措施。随机分配到亏损框架(但财务相同)合同的经销商比控制组经销商少销售5%的车辆，在4个月内产生4500万美元的收入损失。有趣的是，“损失框架”确实在某种意义上起作用，即它诱导工人采取行动来减少遭受损失的机会。然而，这对公司造成了损害，<strong>因为它面临一个多任务问题:经销商把精力从奖金较低的车型上转移了。</strong></p>
+<p><strong>Agarwal, Sumit, Ximeng Fang, Lorenz Goette, Tien Foo Sing, Samuel Schoeb, Verena Tiefenbeck, Thorsten Staake, Davin Wang “<a href="https://www.iame.uni-bonn.de/people/lorenz-goette/goals-and-real-time-feedback" target="_blank" rel="noopener">The Role of Goals in Motivating Behavior: Evidence from a Large-Scale Field Experiment on Resource Conservation</a>” unpublished paper, University of Bonn, 2017.</strong> </p>
+<p>The authors randomly assigned feedback and goals for water use to consumers taking showers. No financial incentives are used, but users were (randomly) given real-time information on the amount of water used during a shower, and assigned random goals for consumption per shower. Both feedback and goals reduce water consumption substantially. Goals work best when they are neither too easy nor too hard. Other patterns in the data suggest that users get direct utility from satisfying the goal that has been assigned to them. </p>
+<p> 作者随机分配了消费者淋浴用水的反馈和目标。不使用金钱奖励，但用户(随机)得到了淋浴时用水量的实时信息，并随机分配了每次淋浴的用水量。<strong>反馈和目标都大大减少了水的消耗。当目标不太容易也不太困难时，效果最好。数据中的其他模式表明，用户从满足分配给他们的目标中获得直接的效用。</strong>（买一个秤是有利于持续改进的。）</p>
+<p><strong>Wage Fairness among Employees:</strong></p>
+<p><strong>Hjort, Jonas, Xuan Li and Heather Sarsons. “<a href="https://www.nber.org/papers/w26788" target="_blank" rel="noopener">Across-Country Wage Compression in Multinationals</a>” NBER Working Paper No. 26788, February 2020.</strong> </p>
+<p>Many employers link wages at the firm’s establishments outside of the home region to the level at headquarters.  This is hard to explain without reference to employees’ concerns with horizontal equity. This paper shows that these concerns have real effects: When minimum wage increases in another country cause the company to raise its local wage, the company fires more low-skill workers and hires fewer new workers.  </p>
+<p>许多雇主将公司总部以外机构的工资水平与总部的工资水平挂钩。如果不考虑员工对横向公平的关注，这很难解释。本文表明，这些担忧是有实际效果的:当另一个国家的最低工资提高时，公司会提高当地的工资，公司会解雇更多的低技能工人，雇佣更少的新工人。 </p>
+<p><strong><a href="https://www.nber.org/people/arindrajit_dube" target="_blank" rel="noopener">Dube</a>, Arindrajit, <a href="https://www.nber.org/people/laura_giuliano" target="_blank" rel="noopener">Laura Giuliano</a>, and <a href="https://www.nber.org/people/jonathan_leonard" target="_blank" rel="noopener">Jonathan Leonard</a>. <a href="https://www.nber.org/papers/w24906" target="_blank" rel="noopener">Fairness and Frictions: The Impact of Unequal Raises on Quit Behavior</a> NBER Working Paper No. 24906, August 2018.</strong></p>
+<p>This paper analyzes how separations responded to arbitrary differences in own and peer wages at a large U.S. retailer. Regression-discontinuity estimates imply large causal effects of peer wages on separations, mostly driven by comparisons with higher-paid peers. </p>
+<p>本文分析了在美国一家大型零售商中，员工离职是如何对自己和同事工资的任意差异做出反应的。回归不连续估计表明，<strong>同事的工资对离职有很大的因果影响，主要是由与收入更高的同事的比较驱动的。</strong></p>
+<p><strong>Income Effects:</strong></p>
+<p><strong>Boppart, Timo and Per Krusell, “<a href="https://doi.org/10.1086/704071" target="_blank" rel="noopener">Labor Supply in the Past, Present, and Future: A Balanced-Growth Perspective</a>,” *Journal of Political Economy* 128, no. 1 (January 2020): 118-157.</strong></p>
+<p>Across countries and over a span of 170 years, this paper shows that average hours worked per worker have been falling steadily by a little below 0.5% per year.  It argues that the best explanation of this trend is a negative income effect of real wages on labor supply, which is large enough to more than counterbalance the positive incentive effects of growing real wages. </p>
+<p>这篇论文显示，在170多年的时间里，各个国家的工人平均工作时间一直在稳步下降，每年下降幅度略低于0.5%。本文认为，对这一趋势的最佳解释是实际工资对劳动力供给的负收入效应，这一效应大到足以抵消实际工资增长的正激励效应。</p>
+<h1 id="Selection-and-Training"><a href="#Selection-and-Training" class="headerlink" title="Selection and Training"></a>Selection and Training</h1><p><strong>Formal vs Informal Recruiting:</strong> </p>
+<p><strong>Friebel, Guido Matthias Heinz, Mitchell Hoffman, and Nick Zubanov. 2020 <a href="https://drive.google.com/file/d/1u9fmYSPzRNw2yQLqtexJ9n_I1zonRNZ8/view" target="_blank" rel="noopener">What Do Employee Referral Programs Do? A Firm-level Randomized Controlled Trial</a>. NBER Working Paper 25920</strong></p>
+<p>Employee referral programs (ERPs) are randomly introduced in a grocery chain. Overall, ERPs reduce attrition by roughly 15% and reduce labor costs by almost 3%. This is mainly because <em>all</em> workers (not just the referred ones) stay longer in treated than control stores, even in stores where no referrals are made. The most promising explanation of these indirect effects is that workers value being involved in hiring.</p>
+<p> 员工推荐计划(ERPs)是随机引入的。总的来说，erp减少了大约15%的人员流失率，减少了近3%的劳动力成本。这主要是因为<em>所有</em>工人(不仅仅是转诊的工人)在治疗商店呆的时间比对照组商店长，即使在没有转诊的商店也是如此。对于这些间接影响，最有希望的解释是，员工重视参与招聘。</p>
+<p><strong>Avoiding Bias–</strong> <strong>Blind hiring procedures</strong></p>
+<p><strong>Neumark, David. 2020. <a href="http://papers.nber.org/papers/W26623?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg22" target="_blank" rel="noopener">Age Discrimination in Hiring: Evidence from Age-Blind vs. Non-Age-Blind Hiring Procedures</a>  NBER working paper no. 26623</strong></p>
+<p>Hiding older worker’s ages in job applications raises their chances of their getting an interview, but these workers then encounter much lower job offer rates after their interviews (which reveal their age). The author interprets this evidence as strongly consistent with age discrimination.</p>
+<p> 在求职申请中<strong>隐瞒年长员工的年龄会提高他们获得面试机会的几率，但这些员工在面试后会得到更低的工作机会</strong>(因为他们的年龄暴露了出来)。作者认为这一证据与年龄歧视有强烈的一致性。</p>
+<p><strong>Monopsony Wage-Setting:</strong></p>
+<p><strong>Dube, Arindrajit, Jeff Jacobs, Suresh Naidu, and Siddharth Suri. 2020. “<a href="https://www.aeaweb.org/atypon.php?return_path=/doi/pdfplus/10.1257/aeri.20180150&etoc=1" target="_blank" rel="noopener">Monopsony in Online Labor Markets</a>.” *American Economic Review: Insights*, 2 (1): 33-46.</strong></p>
+<p>The authors estimate labor supply elasticities to MTurk employers of about 0.1. These low values are surprising in view of the seemingly low switching and search costs of on-demand labor markets. </p>
+<p> 作者估计劳动力供给对MTurk雇主的弹性约为0.1。考虑到<strong>按需劳动力市场的低转换和搜索成本，这些低价值令人惊讶</strong>。</p>
+<p><strong><a href="https://www.nber.org/people/arindrajit_dube" target="_blank" rel="noopener">Dube</a>, Arindrajit, <a href="https://www.nber.org/people/laura_giuliano" target="_blank" rel="noopener">Laura Giuliano</a>, and <a href="https://www.nber.org/people/jonathan_leonard" target="_blank" rel="noopener">Jonathan Leonard</a>. <a href="https://www.nber.org/papers/w24906" target="_blank" rel="noopener">Fairness and Frictions: The Impact of Unequal Raises on Quit Behavior</a> NBER Working Paper No. 24906, August 2018.</strong></p>
+<p>This paper analyzes how separations responded to arbitrary differences in own and peer wages at a large U.S. retailer. When raises are similar across peers within the workplace –this eliminating peer effects– separations are quite insensitive to wages, suggesting that search frictions and monopsony are relevant in this low-wage sector.</p>
+<p> 本文分析了在美国一家大型零售商中，员工离职是如何对自己和同事工资的任意差异做出反应的。当同事间的加薪幅度相似时(这消除了同事效应)，离职就对薪资相当不敏感，这表明在这个<strong>低工资行业，搜索摩擦和垄断</strong>是相关的。</p>
+<p><strong>Training:</strong></p>
+<p><strong>Garicano, Luis, and Luis Rayo. 2017. “<a href="https://www.aeaweb.org/articles?id=10.1257/aer.20160194" target="_blank" rel="noopener">Relational Knowledge Transfers</a>.” *American Economic Review*, 107 (9): 2695-2730.</strong></p>
+<p>This theoretical paper shows that long apprenticeship periods with low pay can allow profit-maximizing firms to provide general-skills training to workers. The employer rationally delays the transfer of knowledge to prevent the apprentice from leaving before the employer has recouped its training costs. As a result, training periods are excessively long, relative to a world in which employers and workers can write binding training contracts. </p>
+<p>这篇理论论文表明，长时间低工资的学徒期可以使利润最大化的公司为工人提供通用技能培训。雇主合理地推迟知识的传授，以防止学徒在雇主收回培训成本之前离开。因此，<strong>与雇主和工人可以签订有约束力的培训合同的当今世界相比，培训的时间过长</strong>。</p>
+<p><strong>John P. Papay, Eric S. Taylor, John H. Tyler and Mary E. Laski. “<a href="https://pubs.aeaweb.org/doi/pdfplus/10.1257/pol.20170709" target="_blank" rel="noopener">Learning Job Skills from Colleagues at Work: Evidence from a Field Experiment Using Teacher Performance Data</a>” *American Economic Journal: Economic Policy* 2020, 12(1): 359–388.</strong> </p>
+<p>Asking teachers with high and low levels of a particular skill to work together on skill improvement improves student by 0.12 standard deviations in the low-skilled teachers’ classrooms. This field experiment shows that information exchange between workers is an important component of the job training process. </p>
+<p> 要求具有某一特定技能高低水平的教师共同努力提高技能，在低技能教师的课堂上提高学生0.12个标准差。现场试验表明，<strong>工人之间的信息交流是职业培训过程的重要组成部分。</strong></p>
+<h1 id="Tournaments"><a href="#Tournaments" class="headerlink" title="Tournaments"></a>Tournaments</h1><p><strong>Prize Structure:</strong> </p>
+<p><strong>Joshua Graff Zivin and Elizabeth Lyons <a href="http://papers.nber.org/papers/W26737?utm_campaign=ntwh&utm_medium=email&utm_source=ntwg22" target="_blank" rel="noopener">The Effects of Prize Structures on Innovative Performance</a> NBER working paper no. 26737, February 2020.</strong>  </p>
+<p>When the object is to produce successful innovations, this field experiment in a large life sciences company shows that a winner-takes-all prize is more effective than the same amount of prize money shared across the ten best innovations. </p>
+<p> <strong>当目标是产生成功的创新时，在一家大型生命科学公司进行的现场实验表明，赢者通吃的奖金比10项最佳创新分享相同数量的奖金更有效。</strong></p>
+<h1 id="Teams"><a href="#Teams" class="headerlink" title="Teams"></a>Teams</h1><p><strong>Battiston, Diego, Jordi Blanes i Vidal, and Thomas Kirchmaier, Thomas (2017) <a href="http://eprints.lse.ac.uk/83603/1/dp1473.pdf" target="_blank" rel="noopener">Is distance dead? Face-to-face communication and productivity in teams</a>*.* CEP Discussion Papers, number 1473.</strong> </p>
+<p>The Birmingham police department’s call response center eliminated face-to-face communication between handlers and dispatchers.  In contrast to the results from Bloom et al.’s (2015) CTrip study, Battiston et al. found that eliminating face-to-face interaction between workers substantially reduced productivity. The effect is stronger for urgent and complex tasks, and in high pressure conditions. </p>
+<p>伯明翰警察局的呼叫响应中心取消了处理人员和调度员之间的面对面交流。与Bloom等人(2015)的携程研究结果相反，Battiston等人发现，<strong>消除员工之间的面对面交流大大降低了生产率。对于紧急、复杂的任务，以及高压条件下，效果更强</strong>。</p>
+]]></content>
+      <categories>
+        <category>Notes</category>
+      </categories>
+      <tags>
+        <tag>Psychology</tag>
+      </tags>
+  </entry>
+</search>

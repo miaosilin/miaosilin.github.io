@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/config/favicon-32x32-next.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/config/favicon-16x16-next.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Consolas:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"miaosilin.github.io","root":"/","scheme":"Muse","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="PBE贝叶斯扩展博弈Definition 231.1: A Bayesian extensive game with observable actions is a tuple $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ where(贝叶斯扩展型博弈)">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PBE">
+<meta property="og:url" content="http://miaosilin.github.io/posts/PBE_url.html">
+<meta property="og:site_name" content="Miao Silin">
+<meta property="og:description" content="PBE贝叶斯扩展博弈Definition 231.1: A Bayesian extensive game with observable actions is a tuple $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ where(贝叶斯扩展型博弈)">
+<meta property="article:published_time" content="2020-06-17T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-06-29T14:34:09.675Z">
+<meta property="article:author" content="Miao Silin">
+<meta property="article:tag" content="Game Theory">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://miaosilin.github.io/posts/PBE_url.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
+
+  <title>PBE | Miao Silin</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/rss.xml" title="Miao Silin" type="application/rss+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Miao Silin</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <h1 class="site-subtitle" itemprop="description">Open, Find, Understand</h1>
+      
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags<span class="badge">12</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories<span class="badge">6</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives<span class="badge">23</span></a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/miaosilin" class="github-corner" title="我的Github" aria-label="我的Github" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="default">
+    <link itemprop="mainEntityOfPage" href="http://miaosilin.github.io/posts/PBE_url.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/config/avatar.jpg">
+      <meta itemprop="name" content="Miao Silin">
+      <meta itemprop="description" content="miaosilin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Miao Silin">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          PBE<a href="https://github.com/miaosilin/miaosilin.github.io/blob/source/source/_posts/_posts/posts/Book%20Reviews/PBE.md" class="post-edit-link" title="Edit this post" rel="noopener" target="_blank"><i class="fa fa-pencil"></i></a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-06-18 00:00:00" itemprop="dateCreated datePublished" datetime="2020-06-18T00:00:00+08:00">2020-06-18</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Book-Reviews/" itemprop="url" rel="index"><span itemprop="name">Book Reviews</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>4.8k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>10 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="PBE"><a href="#PBE" class="headerlink" title="PBE"></a>PBE</h1><h2 id="贝叶斯扩展博弈"><a href="#贝叶斯扩展博弈" class="headerlink" title="贝叶斯扩展博弈"></a>贝叶斯扩展博弈</h2><p>Definition 231.1: A Bayesian extensive game with observable actions is a tuple $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ where(<strong><em>贝叶斯扩展型博弈</em></strong>)</p>
+<ul>
+<li>$\Gamma=\langle N, H, P\rangle$ is an extensive game form with perfect information and simultaneous moves and for each player $i \in N$ （<strong><em>贝叶斯扩展型博弈由若干个完美信息博弈组合而成</em></strong>）</li>
+<li>$\Theta_{i}$ is a finite set (the set of possible types of player $i$ ); we write $\Theta=x_{i \in N} \Theta_{i}$（类型空间）</li>
+<li>$p_{i}$ is a probability measure on $\Theta_{i}$ for which $p_{i}\left(\theta_{i}\right)&gt;0$ for all $\theta_{i} \in \Theta_{i},$ and the measures $p_{i}$ are stochastically independent $\left(p_{i}\left(\theta_{i}\right) \text { is the prob. that player } i \text { is selected to be of type } \theta_{i}\right)$ （类型空间对应的概率空间）</li>
+<li>$u_{i}: \Theta \times Z \rightarrow \mathbb{R}$ is a von Neumann-Morgenstern utility function （效用空间组合）</li>
+</ul>
+<h2 id="PBE-1"><a href="#PBE-1" class="headerlink" title="PBE"></a>PBE</h2><p>Definition 232.1: Let $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ be a Bayesian extensive game <strong><em>with observable actions</em></strong>（PBE针对可观测行动博弈）, where $\Gamma=\langle N, H, P\rangle .$ A pair $\left(\left(\sigma_{i}\right),\left(\mu_{i}\right)\right)=\left(\left(\sigma_{i}\left(\theta_{i}\right)\right)<em>{i \in N, \theta</em>{i} \in \Theta_{i}},\left(\mu_{i}(h)\right)<em>{i \in N, h \in H \backslash Z}\right)$where $\sigma</em>{i}\left(\theta_{i}\right)$ is a behavioral strategy of player $i$ in $\Gamma$ and $\mu_{i}(h)$ is a prob. measure on $\Theta_{i}$ is a perfect Bayesian equilibrium of the game if the following conditions are satisfied:</p>
+<p>（PBE的条件）</p>
+<ul>
+<li><strong><em>Sequential rationality</em></strong>(序贯理性）: For every nonterminal history $h \in H/Z$,every player $i \in P(h),$ and every $\theta_{i} \in \Theta_{i}$ the prob. measure $O\left(\sigma_{-i}, \sigma_{i}\left(\theta_{i}\right), \mu_{-i} \mid h\right)$ is at least as good for type $\theta_{i}$ as $O\left(\sigma_{-i}, s_{i}\right.\left.\mu_{-i} \mid h\right)$ for any strategy $s_{i}$ of player $i$ in $\Gamma$；（<em>序贯理性</em>是指每个参与人在其每一个行动时点上都将重新优化自己的选择，并且会把自己将来会重新优化其选择这一点也纳入当前的优化选择当中。）</li>
+<li><strong><em>Correct initial beliefs</em></strong>: $\mu_{i}(\emptyset)=p_{i}$ for each $i \in N$ （最开始时，后验概率分布与先验概率分布相同）</li>
+<li><strong><em>Action-determined beliefs</em></strong>: If $i \in P(h)$ and $a \in A(h)$ then</li>
+</ul>
+<p>$$<br>\mu_{i}(h, a)=\mu_{i}(h) ; \text { if } i \in P(h), a \in A(h), a^{\prime} \in A(h), \text { and } a_{i}=a_{i}^{\prime}<br>$$</p>
+<p>​        then $\mu_{i}(h, a)=\mu_{i}\left(h, a_{i}^{\prime}\right)$</p>
+<ul>
+<li><strong><em>Bayesian updating</em></strong>: If $i \in P(h)$ and $a_{i}$ is in the support of $\sigma_{i}\left(\theta_{i}\right)(h)$ for some $\theta_{i}$ in the support of $\mu_{i}(h)$ then for any $\theta_{i}^{\prime} \in$ $\Theta_{i}$ we have（根据新信息不停地修正原来的概率分布，在结点h根据行动a猜测是类型i的概率——贝叶斯公式）</li>
+</ul>
+<p>$$<br>\mu_{i}(h, a)\left(\theta_{i}^{\prime}\right)=\frac{\sigma_{i}\left(\theta_{i}^{\prime}\right)(h)\left(a_{i}\right) \cdot \mu_{i}(h)\left(\theta_{i}^{\prime}\right)（在这个类型采取行动a_i的概率）}{\Sigma_{\theta_{i} \in \Theta_{i}} \sigma_{i}\left(\theta_{i}\right)(h)\left(a_{i}\right) \cdot \mu_{i}(h)\left(\theta_{i}\right)（所有类型采取行动a_i的概率）}<br>$$</p>
+<h2 id="Signaling-Game"><a href="#Signaling-Game" class="headerlink" title="Signaling Game"></a>Signaling Game</h2><ul>
+<li>$A$ <strong>signaling game</strong> is a Bayesian extensive game with observable actions with two players, a “sender” and a “receiver”. The sender is informed of the value of an uncertain parameter $\theta_{1}$ and then chooses an action $m$ (referred to as a <strong>message</strong>, though it may be payoff-relevant). The receiver observes the message (but not the value of $\theta_{1}$ ) and takes an action $a$. Each Player’s payoffs depends upon the value of $\theta_{1}$, the message $m$ sent by the sender, and the action $a$ taken by the receiver.</li>
+<li>Formally, a signaling game is a Bayesian extensive game with observable actions $\left\langle\Gamma,\left(\Theta_{i}\right),\left(p_{i}\right),\left(u_{i}\right)\right\rangle$ in which $\Gamma$ is a two-player game form in which first player 1 takes an action then player 2 takes an action, and $\Theta_{2}$ is a <strong>singleton</strong>(不关心参与人2的类型）. </li>
+<li>The tension in such a game arises from the fact that the receiver controls the action while the sender controls the information. The receiver has an incentive to try to deduce the sender’s type from the sender’s message, and the sender may have an incentive to mislead the receiver.</li>
+</ul>
+<p><strong>(Spence’s model of education):</strong> A worker (the sender) knows her talent $\theta_{1}$ while her employer (the receiver) does not. The value of the worker to the employer is the expectation of $\theta_{1} ;$ we assume that the employer pays the worker a wage $w$ that is equal to this expectation. (The economic story that underlies this assumption is that there are many employers who compete for the worker, so that her wage is driven up to the expectation of $\theta_{1}$.) To model this behavioral assumption we assume that the payoff of the employer is $-(w-$ $\left.\theta_{1}\right)^{2}\left(\text { the expectation of which is maximized when } w=\mathrm{E}\left(\theta_{1}\right)\right)$ The worker’s message is the amount $e$ of education that she obtains and her payoff is $w-e / \theta$ (reflecting the assumption that the larger is $\theta$ the easier it is for a worker to acquire education). Assume that the worker’s talent is either $\theta_{1}^{L}$ or $\theta_{1}^{H}$ $&gt;\theta_{1}^{L},$ and denote the prob.’s of these values by $p^{L}$ and $p^{H}=1-p^{L} .$Restrict attention to pure strategy equilibria and denote the choices (messages) of the two types by $e^{L}$ and $e^{H}$</p>
+<h2 id="Modelling-Reputation"><a href="#Modelling-Reputation" class="headerlink" title="Modelling Reputation"></a>Modelling Reputation</h2><p>道德高尚不是天生的，而是其想建立自己的声誉。有时对名声一点也不在乎也是一种对自己有利的策略选择</p>
+<p>博弈论中不存在性格，只存在策略——只关心你表现出怎么样的形象，什么声誉。</p>
+<p>所以影响先天的心理学是重要的，但是工业心理学就不一定了。</p>
+<p>如果你从来没有采取某行动，每个人对你类型的猜测应该是不变的。</p>
+
+    </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">Related Posts</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/posts/Game theory_url.html" rel="bookmark">Game Theory</a></div>
+    </li>
+  </ul>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>Miao Silin
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://miaosilin.github.io/posts/PBE_url.html" title="PBE">http://miaosilin.github.io/posts/PBE_url.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Game-Theory/" rel="tag"># Game Theory</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/Optimization_url.html" rel="prev" title="Optimization">
+      <i class="fa fa-chevron-left"></i> Optimization
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/The%20Theory%20of%20Corporate%20Finance_url.html" rel="next" title="The Theory of Corporate Finance">
+      The Theory of Corporate Finance <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#PBE"><span class="nav-number">1.</span> <span class="nav-text">PBE</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#贝叶斯扩展博弈"><span class="nav-number">1.1.</span> <span class="nav-text">贝叶斯扩展博弈</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PBE-1"><span class="nav-number">1.2.</span> <span class="nav-text">PBE</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Signaling-Game"><span class="nav-number">1.3.</span> <span class="nav-text">Signaling Game</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Modelling-Reputation"><span class="nav-number">1.4.</span> <span class="nav-text">Modelling Reputation</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Miao Silin"
+      src="/images/config/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Miao Silin</p>
+  <div class="site-description" itemprop="description">miaosilin</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/miaosilin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;miaosilin" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/miaosilin@ruc.edu.cn" title="E-Mail → miaosilin@ruc.edu.cn"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://www.obhrm.net/index.php/%E9%A6%96%E9%A1%B5" title="http:&#x2F;www.obhrm.net&#x2F;index.php&#x2F;首页" rel="noopener" target="_blank">OBHRM</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.nber.org/papers.html" title="https:&#x2F;&#x2F;www.nber.org&#x2F;papers.html" rel="noopener" target="_blank">NBER</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.aeaweb.org/journals/aer" title="https:&#x2F;&#x2F;www.aeaweb.org&#x2F;journals&#x2F;aer" rel="noopener" target="_blank">AER</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://scholar.google.com/" title="https:&#x2F;&#x2F;scholar.google.com&#x2F;" rel="noopener" target="_blank">Google Scholar</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://books.google.com/bkshp?hl=zh-CN&tab=pp0" title="https:&#x2F;&#x2F;books.google.com&#x2F;bkshp?hl&#x3D;zh-CN&amp;tab&#x3D;pp0" rel="noopener" target="_blank">Google Books</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://drive.google.com/drive/my-drive" title="https:&#x2F;&#x2F;drive.google.com&#x2F;drive&#x2F;my-drive" rel="noopener" target="_blank">Google Drive</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.sci-hub.ren/" title="http:&#x2F;&#x2F;www.sci-hub.ren&#x2F;" rel="noopener" target="_blank">Sci-Hub</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.researchgate.net/" title="https:&#x2F;&#x2F;www.researchgate.net&#x2F;" rel="noopener" target="_blank">Research Gate</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://ielts-simon.com/" title="https:&#x2F;&#x2F;ielts-simon.com&#x2F;" rel="noopener" target="_blank">Simon</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.ruixuejia.com/" title="https:&#x2F;&#x2F;www.ruixuejia.com&#x2F;" rel="noopener" target="_blank">Jia RX</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.niehuihua.com/" title="http:&#x2F;&#x2F;www.niehuihua.com&#x2F;" rel="noopener" target="_blank">NIE HH</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Miao Silin</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    <span title="Symbols count total">55k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    <span title="Reading time total">1:51</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.1
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.7.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('div.pdf').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js', () => {
+    document.querySelectorAll('div.pdf').forEach(element => {
+      PDFObject.embed(element.getAttribute('target'), element, {
+        pdfOpenParams: {
+          navpanes : 0,
+          toolbar  : 0,
+          statusbar: 0,
+          pagemode : 'thumbs',
+          view     : 'FitH'
+        },
+        PDFJS_URL: '/lib/pdf/web/viewer.html',
+        height   : element.getAttribute('height') || '500px'
+      });
+    });
+  }, window.PDFObject);
+}
+</script>
+
+
+
+
+  
+
+  
+
+  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri == 'http://miaosilin.github.io/posts/PBE_url.html',]
+      });
+      });
+  </script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1.2,"jsonPath":"https://cdn.jsdelivr.net/npm/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"react":{"opacity":0.7},"log":false});</script></body>
+</html>

@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/config/favicon-32x32-next.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/config/favicon-16x16-next.jpg">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic|Consolas:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"miaosilin.github.io","root":"/","scheme":"Muse","version":"7.7.2","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":true,"mediumzoom":false,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":true,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="概念界定一般意义上的博弈：$$\Gamma&#x3D;\left(N, V, E, x^{0},\left(V_{i}\right){i \in N \cup{0}},\left(p{x}\right){x \in V{0}},\left(U_{i}^{J}\right){i \in N}^{j&#x3D;1, \ldots, k{i}}, O, u\right)$$N：参与人；  V：节点；  E：边； $x^0$">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Game Theory">
+<meta property="og:url" content="http://miaosilin.github.io/posts/Game%20theory_url.html">
+<meta property="og:site_name" content="Miao Silin">
+<meta property="og:description" content="概念界定一般意义上的博弈：$$\Gamma&#x3D;\left(N, V, E, x^{0},\left(V_{i}\right){i \in N \cup{0}},\left(p{x}\right){x \in V{0}},\left(U_{i}^{J}\right){i \in N}^{j&#x3D;1, \ldots, k{i}}, O, u\right)$$N：参与人；  V：节点；  E：边； $x^0$">
+<meta property="article:published_time" content="2020-06-17T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-06-29T14:34:09.675Z">
+<meta property="article:author" content="Miao Silin">
+<meta property="article:tag" content="Game Theory">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://miaosilin.github.io/posts/Game%20theory_url.html">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true
+  };
+</script>
+
+  <title>Game Theory | Miao Silin</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/rss.xml" title="Miao Silin" type="application/rss+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Miao Silin</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <h1 class="site-subtitle" itemprop="description">Open, Find, Understand</h1>
+      
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags<span class="badge">12</span></a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories<span class="badge">6</span></a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives<span class="badge">23</span></a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
+  </ul>
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  <a href="https://github.com/miaosilin" class="github-corner" title="我的Github" aria-label="我的Github" rel="noopener" target="_blank"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="default">
+    <link itemprop="mainEntityOfPage" href="http://miaosilin.github.io/posts/Game%20theory_url.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/config/avatar.jpg">
+      <meta itemprop="name" content="Miao Silin">
+      <meta itemprop="description" content="miaosilin">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Miao Silin">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          Game Theory<a href="https://github.com/miaosilin/miaosilin.github.io/blob/source/source/_posts/_posts/posts/Book%20Reviews/Game%20Theory.md" class="post-edit-link" title="Edit this post" rel="noopener" target="_blank"><i class="fa fa-pencil"></i></a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-06-18 00:00:00" itemprop="dateCreated datePublished" datetime="2020-06-18T00:00:00+08:00">2020-06-18</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Game-Theory/" itemprop="url" rel="index"><span itemprop="name">Game Theory</span></a>
+                </span>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>4.5k</span>
+            </span>
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              <span>9 mins.</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="概念界定"><a href="#概念界定" class="headerlink" title="概念界定"></a>概念界定</h2><p>一般意义上的博弈：<br>$$<br>\Gamma=\left(N, V, E, x^{0},\left(V_{i}\right)<em>{i \in N \cup{0}},\left(p</em>{x}\right)<em>{x \in V</em>{0}},\left(U_{i}^{J}\right)<em>{i \in N}^{j=1, \ldots, k</em>{i}}, O, u\right)<br>$$<br>N：参与人；  V：节点；  E：边； $x^0$初始节点； V：决策点； p：概率分布； U信息集； O:结果； u：效用函数</p>
+<h4 id="信息结构"><a href="#信息结构" class="headerlink" title="信息结构"></a>信息结构</h4><p>完美信息博弈（下棋）不完美（打牌）：每一个信息集都是单点集；确定信息：自然不参与行动；不完全信息：自然首先参与行动；</p>
+<p>完美记忆：行动人记得自己的行为；</p>
+<p>完美信息一定是完美记忆，完美记忆不一定是完美信息。</p>
+<h4 id="博弈、均衡分类"><a href="#博弈、均衡分类" class="headerlink" title="博弈、均衡分类"></a>博弈、均衡分类</h4><p>动态博弈的核心问题：可信任性</p>
+<p>完全信息静态博弈；不完全信息静态博弈； 完全信息动态博弈； 不完全信息动态博弈。</p>
+<p>子博弈的起点信息集是单点集；并且不能拆分任何一个信息集；静态博弈是特殊的动态博弈；合作博弈是特殊的非合作博弈；</p>
+<p>每一个信息集对应一个行动选择：$s_{i}: \mathcal{U}<em>{i} \rightarrow \bigcup</em>{j=1}^{k_{i}} A\left(U_{i}^{j}\right)$</p>
+<p>纯策略纳什均衡：$u_{i}\left(s^{<em>}\right) \geq u_{i}\left(s_{i}, s_{-i}^{</em>}\right)$（每个人的选择都是针对其他人的选择的最优反应。）</p>
+<p>混合策略：有限个参与人随机选择某个行动</p>
+<p>行为策略：参与者的行为策略是一个函数，它将他的每个信息集映射为在该信息集上可能采取的一系列行动的概率分布。</p>
+<p>均衡的精炼：把均衡变得更加完美</p>
+<p>逆向归纳法：looking forward， reasoning backward</p>
+<p>序贯理性：每个人在每一步中都追求条件期望效用最大化，并且是动态理性：不是一开始就想好的。</p>
+<p>共同知识：$\omega \in K_{i_{1}} K_{i_{2}} \ldots K_{i_{l-1}} K_{i_{l}} A$ 我知道你知道我知道你知道我知道我知道……</p>
+<p>同时博弈：一个信息集有多个参与人或者参与人不知道别的参与人的行动，也可看做同时博弈。</p>
+<h2 id="主要命题"><a href="#主要命题" class="headerlink" title="主要命题"></a>主要命题</h2><p>零和博弈中，每个人的极大极小值=极小极大值=纳什均衡。（鞍点：对于策略s1是极大值，对于策略s2是极小值）<br>$$<br>\underline{v}:=\max <em>{s</em>{1} \in S_{\mathrm{I}}} \min <em>{s</em>{\mathrm{I}} \in S_{\mathrm{II}}} u\left(s_{\mathrm{I}}, s_{\mathrm{II}}\right) \<br>\bar{v}:=\min <em>{s</em>{\mathrm{II}} \in S_{\mathrm{II}}} \max <em>{s</em>{\mathrm{I}} \in S_{\mathrm{I}}} u\left(s_{\mathrm{I}}, s_{\mathrm{II}}\right)<br>$$<br>库恩定理：完美记忆使得行为策略等价于混合策略</p>
+<p><strong><em>均衡的精炼： 纳什均衡——子博弈完美均衡——完美贝叶斯均衡——序贯均衡——完美（颤抖手）均衡——正恰均衡</em></strong></p>
+<p>子博弈完美均衡（SPE)：<strong><em>排除不可置信威胁</em></strong>，在子博弈中不愿偏离，在<strong><em>子博弈中也是纳什均衡</em></strong>：子博弈完美均衡的存在不需要完美信息，只需要完美记忆<br>$$<br>u_{i}\left(\sigma^{<em>} \mid x\right) \geq u_{i}\left(\sigma_{i}, \sigma_{-i}^{</em>} \mid x\right)<br>$$<br>但有些时候，子博弈完美均衡也是纳什均衡，会得到很荒唐的结果，因此需要再精炼。</p>
+<p><strong><em>完美贝叶斯均衡</em></strong>：只适用于可观测行动的博弈（不完全信息，但行动可观测，同时行动则不可观测），完美贝叶斯均衡可作为可观测行动的不完美信息动态博弈的标准解。</p>
+<p><strong><em>序贯均衡***</em></strong>：<strong>*（每一步，每一个人条件期望效用最大化）1.序贯理性；2. 信念与行为一致（行为是通过信念的</strong>贝叶斯法则**导出来的）</p>
+<p><strong><em>完美均衡：</em></strong> 任何有限博弈都存在一个<strong><em>完美（颤抖手）均衡</em></strong>，完美均衡一定不会被若占优。</p>
+<p><strong><em>奥曼-海萨尼教条</em></strong>：1共同先验信念假设：人的先验信念一致； 2后验信念通过贝叶斯修正先验信念；（批判：先验信念异质性：基因）</p>
+<p>（每个人都用后验概率利用贝叶斯修正先验概率，因为不完全信息，每个人都会过高估计世界的真实概率）</p>
+<p><strong><em>奥曼定理</em></strong>：people can not agree to disagree：不停地修正先验概率，后验概率一定会收敛。</p>
+<h2 id="合作博弈"><a href="#合作博弈" class="headerlink" title="合作博弈"></a>合作博弈</h2><p>在合作博弈中允许参与者互相协调，结盟以提高自身利益。合作博弈与非合作博弈的区别在于非合作博弈强调个体理性，而合作博弈强调集体理性。从另一个方面理解：存在具有约束力的合作协议的博弈就是合作博弈。</p>
+<p>合作博弈形成条件：</p>
+<p>1.联盟的整体收益大于每个个体单独经营收益之和</p>
+<p>2.每个参与者都能获得比不加入联盟更高的收益</p>
+<p>合作博弈的一般表示：<br>$[I, V]$ 是一个n人合作博亦， $I$ 表示n个参与者的集合, $\quad S$ 是 $I$ 的任意子集, 表示一个联盟,$V(S)$ 是这个n人合作博将的特征函数，描述了联盟的效益。</p>
+<p><code>定义 18.AA.3</code>：对于一个特征形博变 $(I, V)$ 和任何不相交的两个联盟 $S \subset I$ 和 $T \subset I$ (即,<br>$S \cap T=\varnothing$ )，如果我们有:<br>$$<br>\text { 若 } u^{S} \in V(S) \text { 和 } u^{T} \in V(T), \text { 则 }\left(u^{S}, u^{T}\right) \in V(S \cup T)<br>$$<br>那么，我们说这个特征形博变 (I,V) 是超可加的（superadditive）。<br>超可加性意味着，联盟 S 和 T 联合行动的结果至少与它们各自行动时的结果一样好。如果两个不相交联盟约定它们貌似仍然单独行动，那么超可加性成立。</p>
+<p><code>定义 18.AA.4</code>：一个可用特征形表示的效用可转移的（transferable utility）博奕（或称为 TU博亦）可用 $(I, v)$ 定义，其中: $I$ 是选手集 $; \quad v(\cdot)$ 是特征函数，该函数对每个非空联盟 $S \subset I$ 指定了一个数 $v(S), \quad v(S)$ 称为联盟 $S$ 的价值worth）。</p>
+<h3 id="大联盟合作博弈"><a href="#大联盟合作博弈" class="headerlink" title="大联盟合作博弈"></a>大联盟合作博弈</h3><p>大联盟结构是指合作博将的所有参与者在一个联盟内。n人合作博将 [I,V] 中，参与者i从n人大联盟 合作博亦所获得的收益 $\varphi_{i} \quad(V) \quad$ 应当满足三条基本原则：<br>(1) 对称性原则：参与者所获得的分配与其在集合中的排序位置无关。<br>(2) 有效性原则：若参与者对他所参与的任一合作都无贡献，则其分配应当为0; 所有的联盟收 入完全分配给其中的参与者。<br>(3) 可加性原则：n个人同时进行两项互不影响的合作，则两项合作的分配也应互不影响。</p>
+<h3 id="核"><a href="#核" class="headerlink" title="核"></a>核</h3><p>核试图描述的是，博弈的可能结果如何被联盟的竞争力量塑造出的</p>
+<p>所谓核，是指具有下列性质的可行效用结果集：任何联盟依靠自身力量都不可能改进它的所有成员的收益。空的核意味着我们模拟的环境是竞争性不稳定的。如果核非空而且较小，那么我们可以说，联盟自身的竞争就能导致一个夏普利确定结果。如果核非空但较大，那么联盟竞争本身不可能大幅度缩小可能的结果范围。</p>
+<p>定义 18.AA.5: 对于给定的特征形博卒 $(I, V)$ 和联盟 $S \subset I,$ 如果存在 $u^{\prime S} \in V(S)$ 使得对于 所有 $i \in S$ 都有 $u_{i}^{S}&lt;u_{i}^{\prime S},$ 那么我们说，联盟 $S$ 阻止了（或能够改进）效用结果 $u \in \mathbb{R}^{I}$。如果博将是 TU 博亦 $(I, v)$ 那么结果 $u=\left(u_{1}, \ldots, u_{I}\right)$ 被 $S$ 阻止当且仅当 </p>
+<p>$\sum_{i \in S} u_{i}&lt;v(S)$</p>
+<p>定义 18.AA.6：对于对最大联盟（全体参与人组成的联盟）可行的一个效用结果 $u=\left(u_{1}, \ldots, u_{I}\right)$ [即， $u \in V(I)$ ]来说，如果不存在能阻止 $u$ 的联盟，那么效用结果 $u$ 位于特征形博奕 $(I, V)$ 的核之中。</p>
+<h3 id="夏普利值"><a href="#夏普利值" class="headerlink" title="夏普利值"></a>夏普利值</h3><p>给定特征形博弈表示的策略性现实，如何划分合作收益才是合理的或“公平的”。</p>
+<p>对于 $S h_{i}(I, v),$ 有一种直接而有趣的计算方法。介绍如下。对于任何 $S \subset I$ 和 $i \notin S$, 令 $m(S, i)=v(S \cup{i})-v(S)$ 为个人 $i$ 对联盟 $S$ 的边际贡献。 $^{ \text {(三十- } )}$ 对于 $I$ 中选手的任何次序$\pi$ (在数学上， $\pi$ 是个从 $I$ 到 $I$ 的一对一的函数)，以 $S(\pi, i) \subset I$ 表示在次序 $\pi$ 中位于选手 $i$ 之前的选手集[在数学上， $S(\pi, i)={h: \pi(h)&lt;\pi(i)}$ 。注意到，对于任何给定的次序 $\pi,$ 如果我们考虑每个选手 $i$ 对于次序 $\pi$ 中位于 $i$ 之前的选手集的边际贡献, 那么这些边际贡献的和 必定正好等于 $v(I) ;$ 也就是 $, \sum_{i \in I} m(S(\pi, i), i)=v(I)$ 。于是 $, \operatorname{Sh}<em>{i}(I, v)$ 是选手 $i$ 对于位于 $i$ 之前的选手集的平均边际贡献（average marginal contribution），注意这里是对所有次序进行平均（而且每个次序的权重相等）。由于总次序数为 I!，选手 $i$ 平均边际贡献的表达式为<br>$$<br>\operatorname{Sh}</em>{i}(I, v)=\frac{1}{I !} \sum_{\pi} m(S(\pi, i), i)<br>$$</p>
+<p>其中，总和 $\sum_{\pi} m(S(\pi, i), i)$ 是加遍 $I$ 中选手的所有次序 $\pi$ 而得到的。</p>
+<p>夏普利价值的一些基本性质。<br>（a）效率性。 $\sum_{i} S h_{i}(I, v)=v(I) ;$ 也就是说，不存在效用被浪费的现象。<br>（b）对称性。如果博将 $(I, v)$ 和 $\left(I, v^{\prime}\right)$ 相同，唯一不同是选手 $i$ 和 $h$ 的角色置换了 $,$ (三那么 $\operatorname{Sh}<em>{i}(I, v)=\operatorname{Sh}</em>{h}\left(I, v^{\prime}\right)$ 。用文字表达: 夏普利价值不取决于我们如何标记选手 $;$ 真正要紧的是特征函数描述的选手在博将中的位置。<br>（c）线性。从（18.AA.3）或（18.AA.4）可知，夏普利价值线性地取决于数据，也就是说，取决于定义博将的系数 $v(S)$<br>（d）显公理（dummy axiom）。假设选手 $i$ 对博亦没有任何贡献; 也就是说，对于所有 $S \subset I$ 都有 $v(S \cup{i})-v(S)=0$ 。于是 $\operatorname{Sh}_{i}(I, v)=0$ 。这个重要性质可从（18.AA.3）式直接得到：选手 $i$ 对任何联盟的边际贡献都为零; 因此，它的平均边际贡献也为零。</p>
+
+    </div>
+
+    
+    
+    
+      
+  <div class="popular-posts-header">Related Posts</div>
+  <ul class="popular-posts">
+    <li class="popular-posts-item">
+      <div class="popular-posts-title"><a href="/posts/PBE_url.html" rel="bookmark">PBE</a></div>
+    </li>
+  </ul>
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>Miao Silin
+  </li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="http://miaosilin.github.io/posts/Game%20theory_url.html" title="Game Theory">http://miaosilin.github.io/posts/Game theory_url.html</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Game-Theory/" rel="tag"># Game Theory</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/posts/MWG_url.html" rel="prev" title="MWG">
+      <i class="fa fa-chevron-left"></i> MWG
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/posts/Notes%20on%20Contract%20Theory_3.3%20signaling_url.html" rel="next" title="Notes on Contract Theory_3.3 signaling">
+      Notes on Contract Theory_3.3 signaling <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#概念界定"><span class="nav-number">1.</span> <span class="nav-text">概念界定</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#信息结构"><span class="nav-number">1.0.1.</span> <span class="nav-text">信息结构</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#博弈、均衡分类"><span class="nav-number">1.0.2.</span> <span class="nav-text">博弈、均衡分类</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主要命题"><span class="nav-number">2.</span> <span class="nav-text">主要命题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#合作博弈"><span class="nav-number">3.</span> <span class="nav-text">合作博弈</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#大联盟合作博弈"><span class="nav-number">3.1.</span> <span class="nav-text">大联盟合作博弈</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#核"><span class="nav-number">3.2.</span> <span class="nav-text">核</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#夏普利值"><span class="nav-number">3.3.</span> <span class="nav-text">夏普利值</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Miao Silin"
+      src="/images/config/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Miao Silin</p>
+  <div class="site-description" itemprop="description">miaosilin</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">12</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/miaosilin" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;miaosilin" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/miaosilin@ruc.edu.cn" title="E-Mail → miaosilin@ruc.edu.cn"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="http://www.obhrm.net/index.php/%E9%A6%96%E9%A1%B5" title="http:&#x2F;www.obhrm.net&#x2F;index.php&#x2F;首页" rel="noopener" target="_blank">OBHRM</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.nber.org/papers.html" title="https:&#x2F;&#x2F;www.nber.org&#x2F;papers.html" rel="noopener" target="_blank">NBER</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.aeaweb.org/journals/aer" title="https:&#x2F;&#x2F;www.aeaweb.org&#x2F;journals&#x2F;aer" rel="noopener" target="_blank">AER</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://scholar.google.com/" title="https:&#x2F;&#x2F;scholar.google.com&#x2F;" rel="noopener" target="_blank">Google Scholar</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://books.google.com/bkshp?hl=zh-CN&tab=pp0" title="https:&#x2F;&#x2F;books.google.com&#x2F;bkshp?hl&#x3D;zh-CN&amp;tab&#x3D;pp0" rel="noopener" target="_blank">Google Books</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://drive.google.com/drive/my-drive" title="https:&#x2F;&#x2F;drive.google.com&#x2F;drive&#x2F;my-drive" rel="noopener" target="_blank">Google Drive</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.sci-hub.ren/" title="http:&#x2F;&#x2F;www.sci-hub.ren&#x2F;" rel="noopener" target="_blank">Sci-Hub</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.researchgate.net/" title="https:&#x2F;&#x2F;www.researchgate.net&#x2F;" rel="noopener" target="_blank">Research Gate</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://ielts-simon.com/" title="https:&#x2F;&#x2F;ielts-simon.com&#x2F;" rel="noopener" target="_blank">Simon</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.ruixuejia.com/" title="https:&#x2F;&#x2F;www.ruixuejia.com&#x2F;" rel="noopener" target="_blank">Jia RX</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://www.niehuihua.com/" title="http:&#x2F;&#x2F;www.niehuihua.com&#x2F;" rel="noopener" target="_blank">NIE HH</a>
+        </li>
+    </ul>
+  </div>
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Miao Silin</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    <span title="Symbols count total">55k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    <span title="Reading time total">1:51</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.1
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.7.2
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+  <script>
+    (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      bp.src = (curProtocol === 'https') ? 'https://zz.bdstatic.com/linksubmit/push.js' : 'http://push.zhanzhang.baidu.com/push.js';
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+    })();
+  </script>
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+<script>
+if (document.querySelectorAll('div.pdf').length) {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/pdfobject@2/pdfobject.min.js', () => {
+    document.querySelectorAll('div.pdf').forEach(element => {
+      PDFObject.embed(element.getAttribute('target'), element, {
+        pdfOpenParams: {
+          navpanes : 0,
+          toolbar  : 0,
+          statusbar: 0,
+          pagemode : 'thumbs',
+          view     : 'FitH'
+        },
+        PDFJS_URL: '/lib/pdf/web/viewer.html',
+        height   : element.getAttribute('height') || '500px'
+      });
+    });
+  }, window.PDFObject);
+}
+</script>
+
+
+
+
+  
+
+  
+
+  
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri == 'http://miaosilin.github.io/posts/Game%20theory_url.html',]
+      });
+      });
+  </script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"scale":1.2,"jsonPath":"https://cdn.jsdelivr.net/npm/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"react":{"opacity":0.7},"log":false});</script></body>
+</html>
